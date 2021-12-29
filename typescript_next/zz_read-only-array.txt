@@ -1,0 +1,20 @@
+ReadonlyArray Type
+
+(A) 
+values: ReadonlyArray<string>
+const newValues = values.slice()        // allowed...
+values.push()                           // ERROR... Property push doesnt exist on readonly string[]
+
+(B) 
+Unlike Array, there isn’t a ReadonlyArray constructor that we can use.
+
+new ReadonlyArray("red", "green", "blue");
+// ERROR... 'ReadonlyArray' only refers to a type, but is being used as a value here.
+
+const array23: ReadonlyArray<string> = ["red", "green", "blue"];
+// ALRIGHT
+
+(C) 
+values: ReadonlyArray<string>           is same as
+values: readonly string[]
+

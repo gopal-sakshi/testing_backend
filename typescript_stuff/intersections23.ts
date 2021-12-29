@@ -3,6 +3,20 @@ type Animal = {
     withBackbone: boolean,
     foodType: 'veg' | 'nonVeg',
     domesticated?: boolean | undefined
+
+
+    //domesticated?: boolean | undefined = false
+
+    /*
+        You cannot provide default values for interfaces or type aliases 
+        Because, they are compile time only and default values need runtime support
+
+        Values that are not specified, they default to undefined in JavaScript runtimes
+        so, you can mark them as optional...
+        
+    */
+
+
 }
 
 let tiger:Animal = {
