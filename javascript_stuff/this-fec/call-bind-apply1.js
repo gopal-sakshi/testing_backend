@@ -1,4 +1,4 @@
-var pokemon = {
+var pokemon44 = {
     firstname: 'Pika',
     lastname: 'Chu ',
     getPokeName: function() {
@@ -7,9 +7,9 @@ var pokemon = {
     }
 };
 
-var pokemonName = function() {
+var printeyyy = function() {
     console.log(this.getPokeName() + 'I choose you!');
 };
 
-var logPokemon = pokemonName.bind(pokemon);
-logPokemon();
+var copyFunction = printeyyy.bind(pokemon44);
+copyFunction()

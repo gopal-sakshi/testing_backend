@@ -19,10 +19,16 @@ const Person = {
             console.log(this.firstName);                    // using arrow function         METHOD 2
         }, 1000);
 
-        setTimeout(function() {
+        setTimeout(
+            
+            
+            function() {
             console.log('this is 3rd this ', this);
             console.log(this.firstName);
-        }.bind(this), 1000);                                // using bind()                 METHOD 3
+        }.bind(this), 
+        
+        
+        1000);                                // using bind()                 METHOD 3
         return 'sayName() func return value';
     }
 }
