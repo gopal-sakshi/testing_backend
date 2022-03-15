@@ -8,7 +8,7 @@ Object.getPrototypeOf(B); // B
 a.prototype; // C
 B.prototype; // C
 
-
+// something
 // lines A =  will evaluate to the types of a and B. Both are functions so the typeof operator will return function for both.
 // lines B = evaluating the prototypes of function. 
     // Both are functions and they are linked to Function.prototype. So the value of Function.prototype will be returned for each.
