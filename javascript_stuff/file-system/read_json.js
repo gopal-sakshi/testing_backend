@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { freemem } = require('os');
+
 
 
 const data23 = require('./smallObject2.json');            // Option A
