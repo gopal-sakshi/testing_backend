@@ -6,8 +6,12 @@ const data23 = require('./smallObject2.json');            // Option A
 console.log(data23);
 
 let rawdata23 = fs.readFileSync('./smallObject1.json');          // Option B
+console.log(rawdata23);
 let student23 = JSON.parse(rawdata23);
 console.log(student23);
+// see the difference between rawdata23 & student23
+    // rawdata23 = JSON object (which is basically string)  ---> but its printed as buffer ?????
+    // student23 = Javascript object
 
 /* 
     Both Option A & Option B work great with small or even moderate size files
