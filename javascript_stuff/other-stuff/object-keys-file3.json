@@ -1,0 +1,6 @@
+[
+    {"name":"Karim Benzema", "club":"Real Madrid", "country": "France", "age": 34},
+    {"name":"Lionel Messi", "club":"PSG", "country": "Argentina", "age": 34},
+    {"name":"CR7", "club":"Man u", "country": "Portugal", "age": 36},
+    {"name":"Sergio Ramos", "club":"PSG", "country": "Spain", "age": 35}
+]

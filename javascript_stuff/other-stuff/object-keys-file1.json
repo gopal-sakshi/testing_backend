@@ -1,0 +1,1227 @@
+{
+    "LUT": "2022-02-28T09:55:04.772Z",
+    "aka": [
+        {
+            "name": "स्प्रेयर ",
+            "language": "HINDI"
+        },
+        {
+            "name": "स्प्रेअर ",
+            "language": "MARATHI"
+        },
+        {
+            "name": "స్ప్రేయర్ ",
+            "language": "TELUGU"
+        },
+        {
+            "name": "ಸ್ಪ್ರಾಯೆರ್ ",
+            "language": "KANNADA"
+        },
+        {
+            "name": "ஸ்பிரேயர் ",
+            "language": "TAMIL"
+        },
+        {
+            "name": "സ്പ്രൈറ്റ് ",
+            "language": "MALAYALAM"
+        },
+        {
+            "name": "સ્પ્રયેર ",
+            "language": "GUJRATHI"
+        },
+        {
+            "name": "ਸਪ੍ਰਯੇਰ ",
+            "language": "PUNJABI"
+        },
+        {
+            "name": "ସ୍ପ୍ରେଏର ",
+            "language": "ORIYA"
+        },
+        {
+            "name": "سپریر ",
+            "language": "URDU"
+        }
+    ],
+    "crop": [],
+    "form": null,
+    "tags": "sprayers, knapsack sprayers, power sprayers, Battery & electric sprayer, foot sprayer, hi-tech sprayer, rocker sprayer, honda engine sprayer, agriculture sprayer,  Battery sprayer RALLI21, Rallis",
+    "uses": "1. It is used for spraying insecticide and pesticides for plant protection.\n2. It is used for spraying weedicides to control the growth of weeds.\n3. It is used for spraying micro-nutrients for plant vegetation.",
+    "usage": "",
+    "UNSPSC": "Sprayers",
+    "dosage": [],
+    "madeOf": null,
+    "s3Path": "data/storeProducts/farmer/4c6i",
+    "season": null,
+    "caution": null,
+    "UNSPSCID": "21101801",
+    "category": "Farm Machinery",
+    "keywords": "sprayers, knapsack sprayers, power sprayers, Battery & electric sprayer, foot sprayer, hi-tech sprayer, rocker sprayer, honda engine sprayer, agriculture sprayer,  Battery sprayer RALLI21, Rallis",
+    "createdBy": {
+        "businessKey": "O01l5771PRFBIZ2019030624710335UNH001",
+        "businessName": "",
+        "businessTypeName": "",
+        "firstName": "Teja sri. Sunkara",
+        "latLong": "",
+        "location": "",
+        "profileKey": "M01l5770PRFREG2019030624710202UNH001",
+        "profilePicURL": "https://connectx.kalgudi.com/data/profilepics/M01l5770PRFREG2019030624710202UNH001.png?1583987394600"
+    },
+    "createdTS": "2021-11-18T06:11:12.327Z",
+    "nutrients": [],
+    "otherInfo": null,
+    "shelflife": "",
+    "storeType": "FARM_STORE",
+    "subModule": "storeProduct",
+    "updatedBy": {
+        "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+        "businessName": "",
+        "businessTypeName": "",
+        "firstName": "Asim",
+        "latLong": "",
+        "location": "",
+        "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+        "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+    },
+    "categories": [
+        {
+            "mainCategory": {
+                "id": "FARM_MACHINERY",
+                "value": "Farm Machinery"
+            },
+            "subCategory1": {
+                "id": "SPRAYERS",
+                "value": "Sprayers"
+            },
+            "subCategory2": {},
+            "subCategory3": {}
+        }
+    ],
+    "languageId": "1",
+    "sellerType": "RESELLER",
+    "shortTitle": "RALLI21",
+    "videoLinks": [],
+    "attachments": [],
+    "baseProduct": {
+        "productId": "O00k4jn0CTLGVPRODUCT2019052949679002UNH001",
+        "productName": "Sprayers"
+    },
+    "description": "RALLI-21  2 IN 1 Battery Sprayer is provided with an 18 ltr capacity High-Density Polyethylene tank. It is suitable for large spraying operations in orchards, coffee & plantation. The same Sprayer we can use as Battery operated Sprayer and Manual Sprayer. A Big Pressure chamber retains maximum pressure at the time of spraying and has an Adjustable shoulder strap, Convenient battery housing with charger point Made from HDPE Tank. More safety for the Operator & Environment. Reduction for effective spraying time cost-efficient. Suitable for spraying in Paddy, Vegetables, Orchards, and Plantations Light Weight. S.S. Telescopic lance with plastic cut-off & plastic Nozzle. Auto Cut-Off & Pressure regulator switch.",
+    "disclaimers": "1. The information provided on this website is for reference only.\n2. Always refer to the product labels and accompanying leaflet for complete details and directions for use.\n3. All information is given to the best of our knowledge and is believed to be accurate.\n4. Your conditions of use and application of the suggested products and recommendations are beyond our control. There is no warranty regarding the accuracy of any given date or statement.\n5. we specifically disclaims any responsibility or liability relating to the use of the suggested products and recommendations and shall under no circumstances whatsoever, be liable for any special, incidental, or consequential damages which may arise from such use.",
+    "isFarmStore": true,
+    "isForReview": false,
+    "isPublished": true,
+    "precautions": "1. Follow the instructions written on the manual before use.\n2. Take a bath and wash your clothes after spraying.\n3. Don’t smell, taste, or touch the chemical.\n4. Keep away from Children's reach.",
+    "productType": "PRODUCT_LEVEL_2",
+    "selectedSKU": [
+        "weight"
+    ],
+    "baseCategory": {
+        "id": "FARM_MACHINERY",
+        "value": "Farm Machinery"
+    },
+    "languageName": "English",
+    "productTitle": "12/12 RALLI-21 Manual & Electrical Sprayer",
+    "qualityCheck": [
+        {
+            "type": "Fulfilment Center",
+            "value": "1.Check if the product received matches to the order placed"
+        },
+        {
+            "type": "Fulfilment Center",
+            "value": "2.Check if the product is in working condition without any damages"
+        },
+        {
+            "type": "Packaging",
+            "value": "1.Double wrap the product and place in a carton box with filling material to avoid damages"
+        },
+        {
+            "type": "Packaging",
+            "value": "2.Seal and label the package"
+        },
+        {
+            "type": "Consumer",
+            "value": "1.Check if the product received matches to the order placed"
+        },
+        {
+            "type": "Consumer",
+            "value": "2.Check if the product is in working condition without any damages"
+        }
+    ],
+    "applicability": null,
+    "makingProcess": "",
+    "specification": "1. The Same Sprayer we can use as Battery operated Sprayer and Manual Sprayer\n2. Big Pressure chamber retain maximum pressure at the time of spraying\n3. Adjustable shoulder strap\n4. Convenient battery housing with charger point Made from HDPE Tank\n5. More safety for the Operator & Environment.\n6. Reduction for effective spraying time cost-efficient.\n7. Suitable for spraying in Paddy, Vegetables, Orchards and Plantations Light Weight\n8. S.S. Telescopic lance with plastic cut off & plastic Nozzle\n9. Auto Cut-Off & Pressure regulator switch",
+    "actionPerformed": "UPDATE",
+    "productLevel1Id": "0li1",
+    "productLevel2Id": "4c6i",
+    "isReviewAccepted": true,
+    "packagingDetails": "As per the company standards.",
+    "baseSmartElements": {
+        "color": {
+            "type": "text",
+            "units": [],
+            "enabled": false
+        },
+        "shape": {
+            "type": "text",
+            "units": [],
+            "enabled": false
+        },
+        "weight": {
+            "type": "text_option",
+            "units": [
+                "pieces"
+            ],
+            "enabled": true
+        },
+        "diameter": {
+            "type": "text_option",
+            "units": [],
+            "enabled": false
+        },
+        "setCount": {
+            "type": "text",
+            "units": [],
+            "enabled": false
+        },
+        "dimensions": {
+            "type": "text_option",
+            "units": [],
+            "width": {
+                "enabled": false
+            },
+            "height": {
+                "enabled": false
+            },
+            "length": {
+                "enabled": false
+            },
+            "enabled": false,
+            "diameter": {
+                "enabled": false
+            },
+            "circumference": {
+                "enabled": false
+            }
+        },
+        "sizeByName": {
+            "type": "text",
+            "units": [],
+            "enabled": false
+        },
+        "smartLabel": {
+            "type": "text",
+            "enabled": false
+        },
+        "sizeByNumber": {
+            "type": "text",
+            "units": [],
+            "enabled": false
+        },
+        "checkedColor": null
+    },
+    "approxDeliveryTime": null,
+    "isReviewInProgress": false,
+    "level3ProductsList": [
+        {
+            "LUT": "2021-11-18T06:14:59.117Z",
+            "mrp": "0",
+            "shipping": false,
+            "createdBy": {
+                "latLong": "",
+                "location": "",
+                "firstName": "Rajitha.Devabhaktuni",
+                "profileKey": "M01lp6d0PRFREG2019031522458700UNH001",
+                "businessKey": "O01lp6d1PRFBIZ2019031522459190UNH001",
+                "businessName": "",
+                "profilePicURL": "https://kalgudi.com/data/profilepics/M01lp6d0PRFREG2019031522458700UNH001.png",
+                "businessTypeName": ""
+            },
+            "createdTS": "2021-11-18T06:11:12.435Z",
+            "orderType": "Buy Now",
+            "languageId": "1",
+            "sellerType": "MANUFACTURER",
+            "taxDetails": {
+                "cgst": 9,
+                "sgst": 9,
+                "igst": 18
+            },
+            "attachments": {
+                "attachments": [
+                    {
+                        "url": "/data/p_images/1572437517863.jpeg",
+                        "context": "",
+                        "msgType": "IMAGE"
+                    }
+                ]
+            },
+            "isBulkOrder": false,
+            "isForReview": false,
+            "isPublished": true,
+            "productType": "PRODUCT",
+            "selectedSKU": [
+                "weight"
+            ],
+            "customOrders": [
+                {}
+            ],
+            "languageName": "English",
+            "pricePerUnit": "0",
+            "smartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "type": "text_option",
+                    "units": [
+                        "pieces"
+                    ],
+                    "value": 1,
+                    "unit": "pieces"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "unit": "",
+                    "type": "text",
+                    "units": [],
+                    "value": 1
+                },
+                "dimensions": {
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": [],
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "smartLabel": {
+                    "value": "RALLI 21 2 IN 1 Battery Sprayer",
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                }
+            },
+            "handlingDetails": {
+                "cost": 0
+            },
+            "productLevel1Id": "0li1",
+            "productLevel2Id": "4c6i",
+            "productLevel3Id": "4c6k",
+            "shippingDetails": {
+                "weight": {
+                    "value": 7,
+                    "unit": "kgs"
+                },
+                "dimension": {
+                    "units": "default"
+                },
+                "cost": 0
+            },
+            "isReviewAccepted": true,
+            "packagingDetails": {
+                "cost": 0
+            },
+            "skuSpecifications": "",
+            "isReviewInProgress": false,
+            "productLevel1Title": "Sprayers",
+            "productLevel2Title": "RALLI-21 Manual & Electrical Sprayer",
+            "productLevel3Title": "12/12 RALLI-21 Manual & Electrical Sprayer",
+            "freeShippingEligible": false,
+            "productLevel3ShortTitle": "Sprayer",
+            "updatedBy": {
+                "businessKey": "O01l5771PRFBIZ2019030624710335UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Teja sri. Sunkara",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01l5770PRFREG2019030624710202UNH001",
+                "profilePicURL": "https://connectx.kalgudi.com/data/profilepics/M01l5770PRFREG2019030624710202UNH001.png?1583987394600"
+            },
+            "actionPerformed": "REVIEW_ACCEPT",
+            "reviewedBy": {
+                "businessKey": "O01l5771PRFBIZ2019030624710335UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Teja sri. Sunkara",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01l5770PRFREG2019030624710202UNH001",
+                "profilePicURL": "https://connectx.kalgudi.com/data/profilepics/M01l5770PRFREG2019030624710202UNH001.png?1583987394600"
+            },
+            "reviewedOn": "2021-11-18T06:14:59.117Z",
+            "additionalCharges": [],
+            "videoLinks": [],
+            "fruitDetails": {
+                "fruitSize": {}
+            },
+            "expectedHarvestingDate": {
+                "from": null,
+                "to": null
+            },
+            "availableStock": {},
+            "isBasket": false,
+            "basketItems": [],
+            "pricingList": [],
+            "productRules": {},
+            "masterLevel1Id": "0li1",
+            "masterLevel2Id": "0lik",
+            "masterLevel3Id": "0lin",
+            "masterLUT": "2021-09-20T15:46:36.708Z"
+        },
+        {
+            "LUT": "2021-11-18T09:49:08.701Z",
+            "mrp": "279000",
+            "shipping": false,
+            "createdBy": {
+                "businessKey": "O01q65a1PRFBIZ2021040330965970UNH001",
+                "businessName": "Sowmya",
+                "businessTypeName": "",
+                "firstName": "Sowmya",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q65a0PRFREG2021040330965718UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q65a0PRFREG2021040330965718UNH001.png?1618492588522"
+            },
+            "createdTS": "2021-11-18T07:13:56.697Z",
+            "orderType": "Bulk Order",
+            "languageId": "1",
+            "sellerType": "MANUFACTURER",
+            "taxDetails": {
+                "cgst": 6,
+                "sgst": 6,
+                "igst": 12
+            },
+            "attachments": {
+                "attachments": [
+                    {
+                        "url": "/data/p_images/1572437517863.jpeg",
+                        "context": "",
+                        "msgType": "IMAGE"
+                    }
+                ]
+            },
+            "isBulkOrder": true,
+            "isForReview": false,
+            "isPublished": true,
+            "productType": "PRODUCT",
+            "selectedSKU": [
+                "weight"
+            ],
+            "customOrders": [
+                {}
+            ],
+            "languageName": "English",
+            "pricePerUnit": 158381,
+            "smartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "type": "text_option",
+                    "units": [
+                        "pieces"
+                    ],
+                    "value": 60,
+                    "unit": "pieces"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "unit": "",
+                    "type": "text",
+                    "units": [],
+                    "value": 1
+                },
+                "dimensions": {
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": [],
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "smartLabel": {
+                    "value": "RALLI 21 2 IN 1 Battery Sprayer",
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                }
+            },
+            "handlingDetails": {
+                "cost": 0
+            },
+            "productLevel1Id": "0li1",
+            "productLevel2Id": "4c6i",
+            "productLevel3Id": "4c7c",
+            "shippingDetails": {
+                "weight": {
+                    "value": null,
+                    "unit": "kgs"
+                },
+                "dimension": {
+                    "units": "default"
+                },
+                "cost": 0
+            },
+            "isReviewAccepted": true,
+            "packagingDetails": {
+                "cost": 0
+            },
+            "skuSpecifications": "",
+            "isReviewInProgress": false,
+            "productLevel1Title": "Sprayers",
+            "productLevel2Title": "RALLI-21 Manual & Electrical Sprayer",
+            "productLevel3Title": "12/12 RALLI-21 Manual & Electrical Sprayer - 60 Pieces",
+            "freeShippingEligible": false,
+            "productLevel3ShortTitle": "12/12 RALLI-21 Manual & Electrical Sprayer - 60 Pieces",
+            "updatedBy": {
+                "businessKey": "O01l5771PRFBIZ2019030624710335UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Teja sri. Sunkara",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01l5770PRFREG2019030624710202UNH001",
+                "profilePicURL": "https://connectx.kalgudi.com/data/profilepics/M01l5770PRFREG2019030624710202UNH001.png?1583987394600"
+            },
+            "actionPerformed": "REVIEW_ACCEPT",
+            "reviewedBy": {
+                "businessKey": "O01l5771PRFBIZ2019030624710335UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Teja sri. Sunkara",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01l5770PRFREG2019030624710202UNH001",
+                "profilePicURL": "https://connectx.kalgudi.com/data/profilepics/M01l5770PRFREG2019030624710202UNH001.png?1583987394600"
+            },
+            "reviewedOn": "2021-11-18T09:49:08.701Z",
+            "additionalCharges": [],
+            "videoLinks": [],
+            "fruitDetails": {
+                "fruitSize": {}
+            },
+            "expectedHarvestingDate": {
+                "from": null,
+                "to": null
+            },
+            "availableStock": {},
+            "isBasket": false,
+            "basketItems": [],
+            "pricingList": [],
+            "productRules": {},
+            "masterLevel1Id": "0li1",
+            "masterLevel2Id": "0lik",
+            "masterLevel3Id": "0lin",
+            "masterLUT": "2021-09-20T15:46:36.708Z",
+            "requirementId": "RFQ217210874713F1",
+            "quotationId": "QUOT217210937615F",
+            "termsAndConditions": "Without Transportation",
+            "aggregatedPrice": "158.381"
+        },
+        {
+            "LUT": "2022-02-28T09:41:32.910Z",
+            "mrp": "64687.2",
+            "shipping": false,
+            "createdBy": {
+                "businessKey": "O01q65a1PRFBIZ2021040330965970UNH001",
+                "businessName": "Sowmya",
+                "businessTypeName": "",
+                "firstName": "Sowmya",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q65a0PRFREG2021040330965718UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q65a0PRFREG2021040330965718UNH001.png?1618492588522"
+            },
+            "createdTS": "2022-02-28T06:06:32.215Z",
+            "orderType": "Bulk Order",
+            "languageId": "1",
+            "sellerType": "MANUFACTURER",
+            "taxDetails": {
+                "cgst": 9,
+                "sgst": 9,
+                "igst": 18
+            },
+            "attachments": {
+                "attachments": [
+                    {
+                        "url": "/data/p_images/1572437517863.jpeg",
+                        "context": "",
+                        "msgType": "IMAGE"
+                    }
+                ]
+            },
+            "isBulkOrder": true,
+            "isForReview": false,
+            "isPublished": true,
+            "productType": "PRODUCT",
+            "selectedSKU": [
+                "weight"
+            ],
+            "customOrders": [
+                {}
+            ],
+            "languageName": "English",
+            "pricePerUnit": 53906,
+            "smartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "type": "text_option",
+                    "units": [
+                        "pieces"
+                    ],
+                    "value": 16,
+                    "unit": "pieces"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "unit": "",
+                    "type": "text",
+                    "units": [],
+                    "value": 1
+                },
+                "dimensions": {
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": [],
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "smartLabel": {
+                    "value": "RALLI 21 2 IN 1 Battery Sprayer",
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                }
+            },
+            "handlingDetails": {
+                "cost": 0
+            },
+            "productLevel1Id": "0li1",
+            "productLevel2Id": "4c6i",
+            "productLevel3Id": "4z19",
+            "shippingDetails": {
+                "weight": {
+                    "value": null,
+                    "unit": "kgs"
+                },
+                "dimension": {
+                    "units": "default"
+                },
+                "cost": 0
+            },
+            "isReviewAccepted": true,
+            "packagingDetails": {
+                "cost": 0
+            },
+            "skuSpecifications": "",
+            "isReviewInProgress": false,
+            "productLevel1Title": "Sprayers",
+            "productLevel2Title": "RALLI-21 Manual & Electrical Sprayer",
+            "productLevel3Title": "Sprayers - 16 Pieces",
+            "freeShippingEligible": false,
+            "productLevel3ShortTitle": "Sprayers - 16 Pieces",
+            "updatedBy": {
+                "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Asim",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+            },
+            "actionPerformed": "REVIEW_ACCEPT",
+            "reviewedBy": {
+                "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Asim",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+            },
+            "reviewedOn": "2022-02-28T09:41:32.910Z",
+            "additionalCharges": [],
+            "videoLinks": [],
+            "fruitDetails": {
+                "fruitSize": {}
+            },
+            "expectedHarvestingDate": {
+                "from": null,
+                "to": null
+            },
+            "availableStock": {},
+            "isBasket": false,
+            "basketItems": [],
+            "pricingList": [],
+            "productRules": {},
+            "masterLevel1Id": "0li1",
+            "masterLevel2Id": "0lik",
+            "masterLevel3Id": "0lin",
+            "masterLUT": "2021-09-20T15:46:36.708Z",
+            "requirementId": "RFQ226023809240F1",
+            "quotationId": "QUOT226023876346F",
+            "termsAndConditions": "Without Transportation",
+            "aggregatedPrice": "53.9",
+            "hsnCode": "8424",
+            "selectedTradeSpecifications": [],
+            "selectedTrSpecsQuery": {}
+        },
+        {
+            "LUT": "2022-02-28T09:48:20.832Z",
+            "mrp": "205021.2",
+            "shipping": false,
+            "createdBy": {
+                "businessKey": "O01q65a1PRFBIZ2021040330965970UNH001",
+                "businessName": "Sowmya",
+                "businessTypeName": "",
+                "firstName": "Sowmya",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q65a0PRFREG2021040330965718UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q65a0PRFREG2021040330965718UNH001.png?1618492588522"
+            },
+            "createdTS": "2022-02-28T06:14:29.975Z",
+            "orderType": "Bulk Order",
+            "languageId": "1",
+            "sellerType": "MANUFACTURER",
+            "taxDetails": {
+                "cgst": 9,
+                "sgst": 9,
+                "igst": 18
+            },
+            "attachments": {
+                "attachments": [
+                    {
+                        "url": "/data/p_images/1572437517863.jpeg",
+                        "context": "",
+                        "msgType": "IMAGE"
+                    }
+                ]
+            },
+            "isBulkOrder": true,
+            "isForReview": false,
+            "isPublished": true,
+            "productType": "PRODUCT",
+            "selectedSKU": [
+                "weight"
+            ],
+            "customOrders": [
+                {}
+            ],
+            "languageName": "English",
+            "pricePerUnit": 170851,
+            "smartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "type": "text_option",
+                    "units": [
+                        "pieces"
+                    ],
+                    "value": 23,
+                    "unit": "pieces"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "unit": "",
+                    "type": "text",
+                    "units": [],
+                    "value": 1
+                },
+                "dimensions": {
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": [],
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "smartLabel": {
+                    "value": "RALLI 21 2 IN 1 Battery Sprayer",
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                }
+            },
+            "handlingDetails": {
+                "cost": 0
+            },
+            "productLevel1Id": "0li1",
+            "productLevel2Id": "4c6i",
+            "productLevel3Id": "4z1m",
+            "shippingDetails": {
+                "weight": {
+                    "value": null,
+                    "unit": "kgs"
+                },
+                "dimension": {
+                    "units": "default"
+                },
+                "cost": 0
+            },
+            "isReviewAccepted": true,
+            "packagingDetails": {
+                "cost": 0
+            },
+            "skuSpecifications": "",
+            "isReviewInProgress": false,
+            "productLevel1Title": "Sprayers",
+            "productLevel2Title": "RALLI-21 Manual & Electrical Sprayer",
+            "productLevel3Title": "Sprayers - 23 Pieces",
+            "freeShippingEligible": false,
+            "productLevel3ShortTitle": "Sprayers - 23 Pieces",
+            "updatedBy": {
+                "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Asim",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+            },
+            "actionPerformed": "REVIEW_ACCEPT",
+            "reviewedBy": {
+                "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Asim",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+            },
+            "reviewedOn": "2022-02-28T09:48:20.832Z",
+            "additionalCharges": [],
+            "videoLinks": [],
+            "fruitDetails": {
+                "fruitSize": {}
+            },
+            "expectedHarvestingDate": {
+                "from": null,
+                "to": null
+            },
+            "availableStock": {},
+            "isBasket": false,
+            "basketItems": [],
+            "pricingList": [],
+            "productRules": {},
+            "masterLevel1Id": "0li1",
+            "masterLevel2Id": "0lik",
+            "masterLevel3Id": "0lin",
+            "masterLUT": "2021-09-20T15:46:36.708Z",
+            "requirementId": "RFQ226028160289F1",
+            "quotationId": "QUOT226028433240F",
+            "termsAndConditions": "Without Transportation",
+            "aggregatedPrice": "170.8",
+            "hsnCode": "8424",
+            "selectedTradeSpecifications": [],
+            "selectedTrSpecsQuery": {}
+        },
+        {
+            "LUT": "2022-02-28T09:55:04.771Z",
+            "mrp": "75708",
+            "shipping": false,
+            "createdBy": {
+                "businessKey": "O01q65a1PRFBIZ2021040330965970UNH001",
+                "businessName": "Sowmya",
+                "businessTypeName": "",
+                "firstName": "Sowmya",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q65a0PRFREG2021040330965718UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q65a0PRFREG2021040330965718UNH001.png?1618492588522"
+            },
+            "createdTS": "2022-02-28T06:29:28.325Z",
+            "orderType": "Bulk Order",
+            "languageId": "1",
+            "sellerType": "MANUFACTURER",
+            "taxDetails": {
+                "cgst": 9,
+                "sgst": 9,
+                "igst": 18
+            },
+            "attachments": {
+                "attachments": [
+                    {
+                        "url": "/data/p_images/1572437517863.jpeg",
+                        "context": "",
+                        "msgType": "IMAGE"
+                    }
+                ]
+            },
+            "isBulkOrder": true,
+            "isForReview": false,
+            "isPublished": true,
+            "productType": "PRODUCT",
+            "selectedSKU": [
+                "weight"
+            ],
+            "customOrders": [
+                {}
+            ],
+            "languageName": "English",
+            "pricePerUnit": 63090,
+            "smartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "type": "text_option",
+                    "units": [
+                        "pieces"
+                    ],
+                    "value": 9,
+                    "unit": "pieces"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "unit": "",
+                    "type": "text",
+                    "units": [],
+                    "value": 1
+                },
+                "dimensions": {
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": [],
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "smartLabel": {
+                    "value": "RALLI 21 2 IN 1 Battery Sprayer",
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                }
+            },
+            "handlingDetails": {
+                "cost": 0
+            },
+            "productLevel1Id": "0li1",
+            "productLevel2Id": "4c6i",
+            "productLevel3Id": "4z26",
+            "shippingDetails": {
+                "weight": {
+                    "value": null,
+                    "unit": "kgs"
+                },
+                "dimension": {
+                    "units": "default"
+                },
+                "cost": 0
+            },
+            "isReviewAccepted": true,
+            "packagingDetails": {
+                "cost": 0
+            },
+            "skuSpecifications": "",
+            "isReviewInProgress": false,
+            "productLevel1Title": "Sprayers",
+            "productLevel2Title": "RALLI-21 Manual & Electrical Sprayer",
+            "productLevel3Title": "Sprayers - 9 Pieces",
+            "freeShippingEligible": false,
+            "productLevel3ShortTitle": "Sprayers - 9 Pieces",
+            "updatedBy": {
+                "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Asim",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+            },
+            "actionPerformed": "REVIEW_ACCEPT",
+            "reviewedBy": {
+                "businessKey": "O01q5zr1PRFBIZ2021032413477282UNH001",
+                "businessName": "",
+                "businessTypeName": "",
+                "firstName": "Asim",
+                "latLong": "",
+                "location": "",
+                "profileKey": "M01q5zr0PRFREG2021032413477028UNH001",
+                "profilePicURL": "https://core.kalgudi.com/data/profilepics/M01q5zr0PRFREG2021032413477028UNH001.png?1628251945375"
+            },
+            "reviewedOn": "2022-02-28T09:55:04.771Z",
+            "additionalCharges": [],
+            "videoLinks": [],
+            "fruitDetails": {
+                "fruitSize": {}
+            },
+            "expectedHarvestingDate": {
+                "from": null,
+                "to": null
+            },
+            "availableStock": {},
+            "isBasket": false,
+            "basketItems": [],
+            "pricingList": [],
+            "productRules": {},
+            "masterLevel1Id": "0li1",
+            "masterLevel2Id": "0lik",
+            "masterLevel3Id": "0lin",
+            "masterLUT": "2021-09-20T15:46:36.708Z",
+            "requirementId": "RFQ226029179560F1",
+            "quotationId": "QUOT226029365435F",
+            "termsAndConditions": "Without Transportation",
+            "aggregatedPrice": "63.09",
+            "hsnCode": "8424",
+            "selectedTradeSpecifications": [],
+            "selectedTrSpecsQuery": {}
+        }
+    ],
+    "productLevel1Title": "Sprayers",
+    "productLevel2Title": "12/12 RALLI-21 Manual & Electrical Sprayer",
+    "manufacturerDetails": {
+        "latLong": "16.5061740875244141,80.6480178833007812",
+        "location": "Krishna, Andhra Pradesh IND",
+        "firstName": "Ralli Agrotech Limited",
+        "profileKey": "M01mmpc0PRFREG2019072428325692UNH001",
+        "businessKey": "O01mmpc1PRFBIZ2019072428325813UNH001",
+        "profilePicURL": "https://kalgudi.com/data/profilepics/M01mmpc0PRFREG2019072428325692UNH001.png",
+        "businessTypeName": "A business in manufacturing",
+        "sourceFrom": "",
+        "memberOf": []
+    },
+    "nameInOtherLanguage": "",
+    "packagingDimensions": [],
+    "farmMachineryDetails": {},
+    "minimumOrderQuantity": {},
+    "reviewedBy": {
+        "businessKey": "O01l5771PRFBIZ2019030624710335UNH001",
+        "businessName": "",
+        "businessTypeName": "",
+        "firstName": "Teja sri. Sunkara",
+        "latLong": "",
+        "location": "",
+        "profileKey": "M01l5770PRFREG2019030624710202UNH001",
+        "profilePicURL": "https://connectx.kalgudi.com/data/profilepics/M01l5770PRFREG2019030624710202UNH001.png?1583987394600"
+    },
+    "reviewedOn": "2021-11-18T06:13:33.065Z",
+    "prodTracePageId": "03yo",
+    "detailedSpecification": [
+        {
+            "label": "CHEMICAL TANK CAPACITY\t",
+            "value": "18 Litres"
+        },
+        {
+            "label": "WORKING PRESSURE",
+            "value": "80 Psi"
+        },
+        {
+            "label": "BATTERY",
+            "value": "12V 8.0 AMP"
+        },
+        {
+            "label": "WEIGHT",
+            "value": "6.2 kg"
+        }
+    ],
+    "procurementTags": [],
+    "processingTags": [],
+    "cropStages": [],
+    "productTestimonials": [],
+    "stores": [],
+    "isUnifiedStoreProduct": false,
+    "variety": {
+        "VProductId": "39j6",
+        "VProductName": "Manual Cum Battery Sprayers"
+    },
+    "associationWith": {
+        "masterAppName": "INPUTS",
+        "level1Id": "0li1",
+        "level2Id": "4c6i"
+    },
+    "resellerDetails": {
+        "profileKey": "M01rcvk0PRFREG2021050420571819UNH001",
+        "firstName": "Samunnati Agro Solutions Pvt Ltd.",
+        "profilePicURL": "https://kalgudi.com/data/profilepics/M01rcvk0PRFREG2021050420571819UNH001.png",
+        "location": "Hyderabad, Telangana IND",
+        "businessTypeName": "I run a business",
+        "businessKey": "O01rcvk1PRFBIZ2021050420572037UNH001",
+        "latLong": "17.385044E0, 78.486671E0",
+        "sourceFrom": "",
+        "memberOf": []
+    },
+    "masterLevel1Id": "0li1",
+    "masterLevel2Id": "0lik",
+    "masterLUT": "2021-11-12T12:25:50.206Z"
+}

@@ -9,7 +9,7 @@ var payload23 = {
 }
 const string44 = JSON.stringify(payload23)
 const encoded33 = btoa(string44);
-console.log(encoded33);
+// console.log(encoded33);
 decoded33 = atob(encoded33);
-console.log(JSON.parse(decoded33));
+// console.log(JSON.parse(decoded33));
 // console.log(`decoded = ${atob(encoded33)}`);
