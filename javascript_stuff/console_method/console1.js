@@ -23,8 +23,9 @@ console.log('%s', msg);             // %s is default
 console.log('%o', msg);
 
 console.log('My age is %i', age23);
-console.log('%f', );
-console.log('%d', msg);
+console.log('My age is ', age23);
+console.log('float thingy is %f',floatThingy );
+console.log('object-json is %j', obj34);
 
 
 
