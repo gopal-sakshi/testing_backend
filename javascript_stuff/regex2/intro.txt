@@ -1,0 +1,27 @@
+create Regex
+    const re = /ab+c/;
+        this is generally used
+    const re = new RegExp('ab+c');
+        Use the constructor function when you know the regular expression pattern will be changing, or
+        you don't know the pattern and are getting it from another source, such as user input.
+        MEANING = using constructor function provides runtime compilation of the regular expression
+
+methods of RegExp
+    exec()
+    test() 
+methods of String
+    match()
+    matchAll()
+    replace()
+    replaceAll()
+    search()
+    split() 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+- simple pattern
+    characters for which you want to find a direct match
+- special characters
+    finding one or more b's
+    finding white space
+    /ab*c/ ---------------> single "a" followed by zero or more "b"s followed by "c"
+

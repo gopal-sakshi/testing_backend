@@ -1,0 +1,23 @@
+/*
+    REGEX GROUPS
+        [^0-9] expression is used to find any character that is NOT a digit.
+        [0-9] expression is used to find any character between the brackets.
+
+        [^abc]	Not any of the characters a, b, or c
+        [^A-Z]	Not any character from uppercase A to uppercase Z
+        [^a-z]	Not any character from lowercase a to lowercase z
+        [^A-z]	Not any character from uppercase A to lowercase z
+
+        (x|y) expression is used to find any of the alternatives specified.
+
+        [abc]	Any of the characters a, b, or c
+        [A-Z]	Any character from uppercase A to uppercase Z
+        [a-z]	Any character from lowercase a to lowercase z
+        [A-z]	Any character from uppercase A to lowercase z
+
+    REGEX SEARCH METHODS
+        text.match(pattern)
+        text.search(pattern)
+        pattern.exec(text)
+        pattern.test(text)
+*/

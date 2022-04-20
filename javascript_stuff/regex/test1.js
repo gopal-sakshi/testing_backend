@@ -1,8 +1,12 @@
-var str33 = 'gopal@kalgudi.com';
-var str34 = 'sanket@gmail.com'
+var regex22 = /a*/;
+var line23 = 'Real Madrid is a football club in the city of Madrid';
+var response22 = regex22.exec(line23);
+var response23 = line23.match(regex22);
+console.log(response22);
+console.log(response23);
 
-var str35 = 'a@@kalgudi.com'
+// If you want to know if an entire string matches a pattern
+    // define the pattern with ^ and $, or with \A and \Z
 
-var regex23 = /^[a-z][0-9]@kalgudi.com$/
-const res = regex23.test(str35);
-console.log(res);
+
+    
