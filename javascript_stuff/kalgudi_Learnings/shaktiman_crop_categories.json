@@ -1,0 +1,1149 @@
+{
+    "id": "CROP_PROTECTION",
+    "value": "Crop Protection",
+    "level3Count": 0,
+    "listOfLevel2Cards": [
+        {
+            "createdTS": "2022-02-08T22:02:23.368Z",
+            "LUT": "2022-02-08T22:02:23.368Z",
+            "description": "Birla Shaktiman Prospo-GR is a granular insecticide used in the control of Stem Borer, Early Shoot Borer, Termite Control, and Thrips. Prospo-GR not only controls insect pests effectively but also shows plant growth enhancement effects like enhanced root growth, more number of productive tillers, etc., which results in higher yields.",
+            "subCategories": "Chemicals, Insecticides",
+            "productId_level2": "336s",
+            "productName_level2": "Prospo-GR",
+            "approxDeliveryTime": null,
+            "baseProductName": "Insecticides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "33am",
+            "productName_level3": "Prospo Gr.",
+            "mrp": "600",
+            "pricePerSKU": "407",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 5,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "quintal",
+                        "ton"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594025798139.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "INSECTICIDES",
+                        "value": "Insecticides"
+                    },
+                    "subCategory2": {
+                        "id": "GRANULAR_INSECTICIDES",
+                        "value": "Granular Insecticides"
+                    },
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:02:29.603Z",
+            "LUT": "2022-02-08T22:02:29.603Z",
+            "description": "Birla Shaktiman C-Tap is a systemic insecticide with stomach and contact action which is useful in the control of Stem borer, Leaf folder, and Whorl Maggot. When applied, the insects immediately stop feeding on crops, get paralyzed, and finally die due to starvation. It has a long persistent efficacy. It can control almost all stages of insects.",
+            "subCategories": "Chemicals, Insecticides",
+            "productId_level2": "3370",
+            "productName_level2": "C-Tap",
+            "approxDeliveryTime": null,
+            "baseProductName": "Insecticides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "33az",
+            "productName_level3": "C-TAP",
+            "mrp": "800",
+            "pricePerSKU": "665",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 5,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "ton",
+                        "quintal"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594027616273.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "INSECTICIDES",
+                        "value": "Insecticides"
+                    },
+                    "subCategory2": {
+                        "id": "GRANULAR_INSECTICIDES",
+                        "value": "Granular Insecticides"
+                    },
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:02:41.059Z",
+            "LUT": "2022-02-08T22:02:41.059Z",
+            "description": "Birla Shaktiman Indsulf is a fungicide powder that is used for the control of powdery mildew, scab, and leaf spots. Non-systemic, broad-spectrum contact, and protective fungicide. It also provides sulfur which is an essential plant nutrient. It has sustained action for longer effect.",
+            "subCategories": "Chemicals, pesticides",
+            "productId_level2": "3376",
+            "productName_level2": "Indsulf",
+            "reviewsAndRatingsTo": {
+                "avgRating": 5,
+                "totalReviews": 1,
+                "totalRatings": 1
+            },
+            "approxDeliveryTime": null,
+            "baseProductName": "Fungicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "33ah",
+            "productName_level3": "Indsulf",
+            "mrp": "150",
+            "pricePerSKU": "104",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 1,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "ton",
+                        "quintal"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594024699394.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "FUNGICIDES",
+                        "value": "Fungicides"
+                    },
+                    "subCategory2": {
+                        "id": "POWDER",
+                        "value": "Powder"
+                    },
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:02:47.385Z",
+            "LUT": "2022-02-08T22:02:47.385Z",
+            "description": "Birla Shaktiman Mender is a Systemic and Contact Fungicide which is useful for the treatment of Sheath Blights, Bakani, Blast, Leaf Spots, Alternaria, Powdery Mildew Yellow Rust. Successfully controls Leaf Spot and Rust disease of Groundnut and Blast disease of paddy crop.",
+            "subCategories": "Chemicals, pesticides",
+            "productId_level2": "337d",
+            "productName_level2": "Mender",
+            "approxDeliveryTime": null,
+            "baseProductName": "Fungicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "33ac",
+            "productName_level3": "Mender",
+            "mrp": "570",
+            "pricePerSKU": "494",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 1,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "ton",
+                        "quintal"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594023289260.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "FUNGICIDES",
+                        "value": "Fungicides"
+                    },
+                    "subCategory2": {
+                        "id": "POWDER",
+                        "value": "Powder"
+                    },
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:03:58.563Z",
+            "LUT": "2022-02-08T22:03:58.563Z",
+            "description": "D-Sal is a herbicide from Indo Gulf Fertilisers. Application on Annual/perennial broadleaved weeds, edges, aquatic weeds & germinating grass seedlings. ",
+            "subCategories": "Plant Protection",
+            "productId_level2": "33b4",
+            "productName_level2": "D-Sal",
+            "approxDeliveryTime": null,
+            "baseProductName": "Herbicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "33b7",
+            "productName_level3": "D-Sal",
+            "mrp": "500",
+            "pricePerSKU": "362",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 1,
+                    "unit": "liters",
+                    "type": "text_option",
+                    "units": [
+                        "milliliters",
+                        "liters"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594028985043.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "HERBICIDES",
+                        "value": "Herbicides"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:07:21.991Z",
+            "LUT": "2022-02-08T22:07:21.991Z",
+            "description": "Birla Shaktiman Cortem is a Fungicide.",
+            "subCategories": "Chemicals, pesticides",
+            "productId_level2": "37e8",
+            "productName_level2": "CORTEM M-45",
+            "approxDeliveryTime": null,
+            "baseProductName": "Fungicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052953369726UNH001_1559141369726.jpg",
+            "productId_level3": "37ea",
+            "productName_level3": "CORTEM M-45",
+            "mrp": "375",
+            "pricePerSKU": "300",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 1,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1603082685063.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "FUNGICIDES",
+                        "value": "Fungicides"
+                    },
+                    "subCategory2": {
+                        "id": "POWDER",
+                        "value": "Powder"
+                    },
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:07:28.538Z",
+            "LUT": "2022-02-08T22:07:28.538Z",
+            "description": "Birla Shaktiman DINOPAR is a wheat herbicide. ",
+            "subCategories": "Plant Protection",
+            "productId_level2": "37e4",
+            "productName_level2": "DINOPAR",
+            "approxDeliveryTime": null,
+            "baseProductName": "Herbicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052954652752UNH001_1559142652752.jpg",
+            "productId_level3": "37e5",
+            "productName_level3": "DINOPAR",
+            "mrp": "400",
+            "pricePerSKU": "260",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 160,
+                    "unit": "grams",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1603080668685.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "HERBICIDES",
+                        "value": "Herbicides"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:07:35.045Z",
+            "LUT": "2022-02-08T22:07:35.045Z",
+            "description": "Birla Shaktiman VERTIMAN-C is a wheat herbicide.",
+            "subCategories": "Plant Protection",
+            "productId_level2": "37e6",
+            "productName_level2": "VERTIMAN-C",
+            "approxDeliveryTime": null,
+            "baseProductName": "Herbicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052954652752UNH001_1559142652752.jpg",
+            "productId_level3": "37e7",
+            "productName_level3": "VERTIMAN-C",
+            "mrp": "120",
+            "pricePerSKU": "64",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 8,
+                    "unit": "grams",
+                    "type": "text_option",
+                    "units": [
+                        "grams"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1603081585006.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "HERBICIDES",
+                        "value": "Herbicides"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:07:40.949Z",
+            "LUT": "2022-02-08T22:07:40.949Z",
+            "description": "Birla Shaktiman M-PYR is a wheat herbicide. Post-emergence, systemic herbicides work by inhibiting cell growth in roots and shoots of weeds and thereby killing them from the root so they do not crop up again.",
+            "subCategories": "Plant Protection",
+            "productId_level2": "37e2",
+            "productName_level2": "M-PYR",
+            "approxDeliveryTime": null,
+            "baseProductName": "Herbicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052954652752UNH001_1559142652752.jpg",
+            "productId_level3": "37e3",
+            "productName_level3": "M-PYR",
+            "mrp": "800",
+            "pricePerSKU": "550",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 16,
+                    "unit": "grams",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1603079555557.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "HERBICIDES",
+                        "value": "Herbicides"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:07:47.183Z",
+            "LUT": "2022-02-08T22:07:47.183Z",
+            "description": "Birla Shaktiman HERBURON is a wheat herbicide. ",
+            "subCategories": "Plant Protection",
+            "productId_level2": "37eb",
+            "productName_level2": "HERBURON",
+            "approxDeliveryTime": null,
+            "baseProductName": "Herbicides",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052954652752UNH001_1559142652752.jpg",
+            "productId_level3": "37ec",
+            "productName_level3": "HERBURON",
+            "mrp": "400",
+            "pricePerSKU": "300",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 13.5,
+                    "unit": "grams",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1603083404732.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "CROP_PROTECTION",
+                "value": "Crop Protection"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "CROP_PROTECTION",
+                        "value": "Crop Protection"
+                    },
+                    "subCategory1": {
+                        "id": "HERBICIDES",
+                        "value": "Herbicides"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        }
+    ]
+}

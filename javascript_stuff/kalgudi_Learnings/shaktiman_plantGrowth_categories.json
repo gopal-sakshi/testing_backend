@@ -1,0 +1,107 @@
+{
+    "id": "PLANT_GROWTH_REGULATOR",
+    "value": "Plant Growth Regulator",
+    "level3Count": 0,
+    "listOfLevel2Cards": [
+        {
+            "createdTS": "2022-02-08T22:02:56.514Z",
+            "LUT": "2022-02-08T22:02:56.514Z",
+            "description": "Birla Shaktiman Cafura is a plant growth regulator. After spraying on the leaves, the nutrient hormones and other enzymes available in the product get absorbed in the leaf cells.",
+            "productId_level2": "337m",
+            "productName_level2": "Cafura",
+            "approxDeliveryTime": null,
+            "baseProductName": "Plant Growth Promoters",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "339u",
+            "productName_level3": "Cafura",
+            "mrp": "140",
+            "pricePerSKU": "89",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 100,
+                    "unit": "milliliters",
+                    "type": "text_option",
+                    "units": [
+                        "milliliters",
+                        "liters"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text"
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text"
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594017381777.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "PLANT_GROWTH_REGULATOR",
+                "value": "Plant Growth Regulator"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "PLANT_GROWTH_REGULATOR",
+                        "value": "Plant Growth Regulator"
+                    },
+                    "subCategory1": {},
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        }
+    ]
+}

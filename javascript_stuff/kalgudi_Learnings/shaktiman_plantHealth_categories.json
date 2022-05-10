@@ -1,0 +1,568 @@
+{
+    "id": "PLANT_HEALTH_PRODUCT",
+    "value": "Plant Health Product",
+    "level3Count": 0,
+    "listOfLevel2Cards": [
+        {
+            "createdTS": "2022-02-08T22:03:16.485Z",
+            "LUT": "2022-02-08T22:03:16.485Z",
+            "description": "N-19%, P-19%, K-19%, is 100 % water-soluble fertilizers which provide Nitrogen, Phosphorus & Potash in the balanced form to the plants through foliar spray which helps in developing resistance in crops against hot, cold and unfavorable weather conditions. It also helps in preventing flowers and fruit from dropping in crops and vegetables.",
+            "subCategories": "Plant Nutrition",
+            "productId_level2": "338e",
+            "productName_level2": "Boond NPK 19:19:19",
+            "approxDeliveryTime": "",
+            "baseProductName": "Fertilizers",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052950078629UNH001_1559138078629.jpg",
+            "productId_level3": "338f",
+            "productName_level3": "Boond NPK 19:19:19",
+            "mrp": "150",
+            "pricePerSKU": "150",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 1,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "kg",
+                        "grams",
+                        "quintal",
+                        "ton"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1593497913426.jpeg",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": true,
+            "freeShippingEligible": "isShippingIncluded",
+            "stores": [],
+            "baseCategory": {
+                "id": "PLANT_HEALTH_PRODUCT",
+                "value": "Plant Health Product"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "PLANT_HEALTH_PRODUCT",
+                        "value": "Plant Health Product"
+                    },
+                    "subCategory1": {
+                        "id": "SOLUBLE_FERTILIZERS",
+                        "value": "Water Soluble Fertilizers"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:03:22.928Z",
+            "LUT": "2022-02-08T22:03:22.928Z",
+            "description": "Znka Liquid+ provides more Zinc (39.5% Zn) which helps in the growth and development of plants by providing Zinc in balanced form. It helps in protecting the plant from yellowing, crinkling, and various spots by forming a protective layer above the leaf surface which enhances the fungicide and insecticide efficacy. This also helps in avoiding dependency on pH & mixed with Crop protection except for copper molecules. It is applicable for a wide range of crops ie cereals, vegetables, fruits & ornamental crops.",
+            "subCategories": "Plant Nutrition",
+            "productId_level2": "338g",
+            "productName_level2": "Znka Liquid+",
+            "approxDeliveryTime": null,
+            "baseProductName": "Fertilizers",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019052950078629UNH001_1559138078629.jpg",
+            "productId_level3": "3392",
+            "productName_level3": "Znka Liquid+ (Zn 39.5%)",
+            "mrp": "425",
+            "pricePerSKU": "337",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 250,
+                    "unit": "milliliters",
+                    "type": "text_option",
+                    "units": [
+                        "liters",
+                        "milliliters"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1593497056285.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "PLANT_HEALTH_PRODUCT",
+                "value": "Plant Health Product"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "PLANT_HEALTH_PRODUCT",
+                        "value": "Plant Health Product"
+                    },
+                    "subCategory1": {
+                        "id": "MICRONUTRIENT",
+                        "value": "Micronutrient"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:03:29.345Z",
+            "LUT": "2022-02-08T22:03:29.345Z",
+            "description": "Riddhi is a biostimulant with ferrous mobilizing bacteria. It helps for better soil texture. The recommended dosage is 4-8kg/acre for all crops and the best time to apply is between 10-15 days after sowing.",
+            "productId_level2": "338x",
+            "productName_level2": "Riddhi",
+            "approxDeliveryTime": null,
+            "baseProductName": "Plant Growth Promoters",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "338y",
+            "productName_level3": "Riddhi",
+            "mrp": "300",
+            "pricePerSKU": "205.27",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "kg",
+                    "units": [
+                        "kg",
+                        "grams",
+                        "quintal",
+                        "ton"
+                    ],
+                    "value": 1,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text",
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text",
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1593492320539.png",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "isBasket": false,
+            "basketItems": [],
+            "stores": [],
+            "baseCategory": {
+                "id": "PLANT_HEALTH_PRODUCT",
+                "value": "Plant Health Product"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "PLANT_HEALTH_PRODUCT",
+                        "value": "Plant Health Product"
+                    },
+                    "subCategory1": {
+                        "id": "BIO_FERTILIZERS_BIO_STIMULANT",
+                        "value": "Bio Fertilizers/Bio Stimulant"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ],
+            "productRules": {}
+        },
+        {
+            "createdTS": "2022-02-08T22:03:41.605Z",
+            "LUT": "2022-02-08T22:03:41.605Z",
+            "description": "Micronutrients are a group of nutrients, essential for the growth and nourishment of plants and crops. They also improve the immunity of plants to fight against bacteria and pests. Birla Shaktiman Zn 33% (with Chelates) is a product of Indo Gulf Fertilisers, which provides zinc to all types of crops and plants. The presence of Chelate helps the plants to absorb the important nutrients through roots.",
+            "subCategories": "",
+            "productId_level2": "3399",
+            "productName_level2": "Zn 33% (with Chelates)",
+            "approxDeliveryTime": null,
+            "baseProductName": "Micronutrients",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "339c",
+            "productName_level3": "Zn 33% (with Chelates)",
+            "mrp": "36",
+            "pricePerSKU": "22",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "grams",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "ton",
+                        "quintal"
+                    ],
+                    "value": 100,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text_option",
+                    "units": [],
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "type": "text",
+                    "units": [],
+                    "value": " ",
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1593509142427.jpeg",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "PLANT_HEALTH_PRODUCT",
+                "value": "Plant Health Product"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "PLANT_HEALTH_PRODUCT",
+                        "value": "Plant Health Product"
+                    },
+                    "subCategory1": {
+                        "id": "MICRONUTRIENT",
+                        "value": "Micronutrient"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        },
+        {
+            "createdTS": "2022-02-08T22:05:41.618Z",
+            "LUT": "2022-02-08T22:05:41.618Z",
+            "description": "It provides Zinc to plants that provide help to fight from Khaira Disease (Pale Orange leaf color).",
+            "subCategories": "",
+            "productId_level2": "34pb",
+            "productName_level2": "BS Zinc Mono Hydrate (Zn 33%)",
+            "approxDeliveryTime": null,
+            "baseProductName": "Micronutrients",
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productId_level3": "34pf",
+            "productName_level3": "Zinc Mono Hydrate (Zn 33%)",
+            "mrp": "550",
+            "pricePerSKU": "476.56",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 5,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "ton",
+                        "quintal"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1596774171431.jpeg",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "freeShippingEligible": false,
+            "stores": [],
+            "baseCategory": {
+                "id": "PLANT_HEALTH_PRODUCT",
+                "value": "Plant Health Product"
+            },
+            "categories": [
+                {
+                    "mainCategory": {
+                        "id": "PLANT_HEALTH_PRODUCT",
+                        "value": "Plant Health Product"
+                    },
+                    "subCategory1": {
+                        "id": "MICRONUTRIENT",
+                        "value": "Micronutrient"
+                    },
+                    "subCategory2": {},
+                    "subCategory3": {}
+                }
+            ]
+        }
+    ]
+}
