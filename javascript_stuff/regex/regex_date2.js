@@ -6,3 +6,4 @@ var dateArray23 = [
 
 var date_pattern = /(\\d{2}).(\\d{2}).(\\d{4})/
 
+
