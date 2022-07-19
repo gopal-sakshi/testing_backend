@@ -16,6 +16,9 @@ var someBool = true
 console.log(someObject, someString, someNumber, someBool);
 changeTitle(someObject, someString, someNumber, someBool);
 console.log(someObject, someString, someNumber, someBool);       // pass-by-reference
+                                                                    // only someObject value is updated bcoz pass-by-reference
+                                                                // someString, someNumber, someBool --> pass-by-value (not updated)
+
 function changeTitle(object23, string23, someNumber, someBool) {
     object23.title = 'new title';
     string23 = 'new name';
@@ -26,4 +29,5 @@ function changeTitle(object23, string23, someNumber, someBool) {
 (function add_IIF(num1, num2) {
     console.log(num1+num2)
     return num1+num2;
-})(5,9)         // enclosing the function declaration in curved brackets ---> creates a new scope... necessary for Immediately invoke the function
+})(5,9)         // enclosing the function declaration in curved brackets ---> 
+                    // creates a new scope... necessary for Immediately invoke the function
