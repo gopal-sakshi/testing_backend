@@ -10,8 +10,14 @@ var players2 = [
     { name: 'Ceballos', position: 'CM', nationality: 'Spain' }
 ];
 
+// filter returns an array...
 const filter1 = players1.filter(player => player.includes('b'));
 const filter2 = players2.filter(player => player.name.includes('b'));
-
 console.log(filter1);
 console.log(filter2);
+
+// find ---> returns an object... first matching object is returned... rest are ignored
+const find1 = players1.find(player => player.includes('b'));
+const find2 = players2.find(player => player.name.includes('b'));
+console.log(find1);
+console.log(find2);
