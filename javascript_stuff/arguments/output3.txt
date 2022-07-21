@@ -1,0 +1,8 @@
+data reading finishedeey
+this is input hello23  [
+  'hello doctor heart miss aaye',
+  'pulse chooste',
+  'tarvaatha aa song lyrics naaku raaavu'
+]
+hello: hello doctor heart miss aaye
+hello: pulse chooste
