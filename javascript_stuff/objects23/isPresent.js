@@ -5,7 +5,9 @@ var playerIds = {
     id4: { name: "Barca", stadium: 'Camp Nou' },
 }
 
-console.log(playerIds);
-console.log(Object.keys(playerIds));
+// console.log(playerIds);
+// console.log(Object.keys(playerIds));
 var blah23 = Object.keys(playerIds).includes('id26');
+var blah24 = playerIds['id2'];
 console.log(blah23);
+console.log(blah24);
