@@ -19,13 +19,16 @@ const msg = `Using the console class`;
 var age23 = 23;
 var floatThingy = 25.9;
 var obj34 = { name: "Benzema", club:"Real Madrid" };
+/******************************************************************* */
 console.log('%s', msg);             // %s is default
 console.log('%o', msg);
 
 console.log('My age is %i', age23);
 console.log('My age is ', age23);
 console.log('float thingy is %f',floatThingy );
+console.log('float thingy is ',floatThingy );
 console.log('object-json is %j', obj34);
+console.log('object-json is ', obj34);
 
 
 

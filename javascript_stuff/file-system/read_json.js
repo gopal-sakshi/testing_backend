@@ -2,10 +2,10 @@ const fs = require('fs');
 
 
 
-const data23 = require('./smallObject2.json');            // Option A
+const data23 = require('./__smallObject2.json');            // Option A
 console.log(data23);
 
-let rawdata23 = fs.readFileSync('./smallObject1.json');          // Option B
+let rawdata23 = fs.readFileSync('./__smallObject1.json');          // Option B
 console.log(rawdata23);
 let student23 = JSON.parse(rawdata23);
 console.log(student23);
