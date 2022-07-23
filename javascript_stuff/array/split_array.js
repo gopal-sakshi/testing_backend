@@ -1,6 +1,6 @@
 var str44 = 'QUOT_ENQUIRED'
 
-var blah = str44.split('_');
+var blah = str44.split('_');    // returns subArray... each element separated from another by '_'
 console.log(blah);
 console.log(blah[0]);
 var result444 = blah[0] + blah[1] + ' ' + (blah[2] ? blah[2] : '');
