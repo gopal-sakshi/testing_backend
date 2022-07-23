@@ -7,8 +7,8 @@ function getUserInfo() {
 function getUserDetails() {
     console.log('user details function');           // this gets printed first, even though getUserInfo() is called 1st...
 }
-getUserInfo();                          
-getUserDetails();
+// getUserInfo();                          
+// getUserDetails();
 
 /*
     Async methods
@@ -33,13 +33,17 @@ getUserDetails();
 
 */
 
-try {
-    console.log('get user info');
-} catch (e) {
-    console.log('error getting user info '+e);
-} finally {
-    console.log('return user');
-}
+// try {
+//     console.log('get user info - of TRY block ------------------->');
+//     setTimeout(() => {
+//         console.log('just now got user info from backend after 3 seconds');
+//         console.log('hopefully, catch (or) finally block isnt printed yet');
+//     }, 3000);
+// } catch (e) {
+//     console.log('error getting user info '+e);
+// } finally {
+//     console.log('return user - FINALLLYYYYYYYY');
+// }
 
 // getUserDetails();
 

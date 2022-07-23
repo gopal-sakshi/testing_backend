@@ -29,7 +29,8 @@ function iterateThousandTimes() {
         count--;
     } 
     setTimeout(() => {console.log("wasting time again")}, 1000);
-    return count;
+    // return count;
+    return 44;
 }
 
 async function test2() {
@@ -37,7 +38,7 @@ async function test2() {
     const response1 = await iterateThousandTimes();
 
     console.log('world');
-    console.log(response1);
+    console.log('res = ', response1);
     console.log("gonzalo higuain");
 }
 
