@@ -7,7 +7,7 @@ const fs = require('fs').promises;
 
 async function doStuff44() {
         // notice, here we use fs.promises() & not fs
-    const fileContents = await fs.readFile('notes.txt', 'utf-8', function(err, data) {
+    const fileContents = /* await */ fs.readFile('fs_notes.txt', 'utf-8', function(err, data) {
         
         // why the control didnt come here in this block ??????????????????????????????????????????????????????????
         if(err) {
@@ -21,7 +21,7 @@ async function doStuff44() {
     });
 
     //console.log('result is ',fileContents);
-    console.log('I got printed even before callback function of fs.readFile()');
+    console.log('I got printed even before callback function... contents = ', fileContents);
     return new Promise((resolve, reject) => {
         if(fileContents) {
             resolve(fileContents)

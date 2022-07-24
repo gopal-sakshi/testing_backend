@@ -4,7 +4,7 @@ const readFile23 = util.promisify(fs.readFile);
 
 async function doStuff44() {
     // notice, here we use fs.readFile() and not readFile23
-    const result = await fs.readFile('notes.txt', 'utf-8', function(err, data) {
+    const result = await fs.readFile('fs_notes.txt', 'utf-8', function(err, data) {
         if(err) {
             console.log(err);
             console.log('phattu, badu, I got printed now...');            
