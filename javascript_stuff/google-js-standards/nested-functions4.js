@@ -1,6 +1,6 @@
 // Inner & Outer function with Variable Scope
     // child() function can access all values like global, local, parent values. 
-        // Whereas, parent() function can able to access its own values and global values
+        // Whereas, parent() function is able to access its own values and global values
 
 var global1 = 'g_1';                  //global value
 
@@ -16,6 +16,6 @@ function parent(parent_arg1, parent_arg2) {             // p,q parent values
         console.log(parent_arg2);
     }
     child(parent_local1);
-    // console.log(child_local);           // throws ERROR -----> parent cant access child variable
+    console.log(child_local);           // throws ReferenceError (child_local not defined) -----> parent cant access child variable
 }
 parent('p_a1', 'p_a2');

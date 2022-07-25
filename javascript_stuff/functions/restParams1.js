@@ -19,5 +19,9 @@ console.log(sum23(1, 2, 3, 4));     // 10
 
 /************************************************************************************************* */  
 function sum24(...jingChak34) {
+  console.log(jingChak34);
   return jingChak34.length;
 }
+
+console.log(sum24(1,4,9));
+console.log(sum24(1,8,27,64));

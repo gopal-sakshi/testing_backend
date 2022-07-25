@@ -1,3 +1,6 @@
+
+// Understand the difference between ---------> ceil vs floor       (ceiling = top; floor = bottom)
+
 function doStuff23() {
         
     var num2 = 4.6;
@@ -8,7 +11,7 @@ function doStuff23() {
     console.log(Math.round(num3));
     console.log(Math.round(num4));
     console.log('-----------------------------------------');
-    console.log(Math.ceil(num2));       // Understand the difference between ---------> ceil vs floor       (ceiling = top; floor = bottom)
+    console.log(Math.ceil(num2));       
     console.log(Math.ceil(num3));
     console.log(Math.ceil(num4));
     console.log('-----------------------------------------');

@@ -29,8 +29,16 @@ function ruleOne() {
 function anotherRuleOne() {
     const a = 1
     const b = 2
-    const c = a + b
-    (a + b).toString()      // interpreted as ----------> const c = a + b(a + b).toString()
+
+    // APPROACH I ----> interpreted as ----------> const c = a + b(a + b).toString();
+        // and throws error... b() is not a function
+    // const c = a + b
+    // (a + b).toString()
+
+    // APPROACH II ----> works
+    const d = a+b;
+    d.toString();
+    console.log(d);
 }
 
 function anotherRuleOneWorking() {
@@ -42,4 +50,4 @@ function anotherRuleOneWorking() {
 
 // ruleOne();
 anotherRuleOneWorking();        // doesnt throw error
-// anotherRuleOne();            // throws ERROR
+anotherRuleOne();            // throws ERROR
