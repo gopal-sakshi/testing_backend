@@ -1,10 +1,8 @@
 var obj32 = {};
 
+// TRADITIONAL METHOD of checking if object is empty ----> fails
 if(obj32) {
     console.log('not empty');
 } else {
     console.log('hammayya');
 }
-
-// if(obj32) ---> will not work
-// use Object.keys(obj32).length != 0
