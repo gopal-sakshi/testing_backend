@@ -18,8 +18,13 @@ function jingChak(name) {
     console.log('name is ',name);
     return name + ' ' +name;
 }
-
-jingChak('gopal');
+var obj23 = {
+    arguments: 'hello doctor',
+    jingChakRef: jingChak
+}
+obj23.jingChakRef('gopal');
+// jingChak('gopal');
+// console.log(typeof jingChak);
 // console.log(jingChak.arguments);
 // console.log(jingChak.length);
 // console.log(jingChak.name);

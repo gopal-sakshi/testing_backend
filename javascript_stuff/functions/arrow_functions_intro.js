@@ -1,17 +1,21 @@
-// parameters passed in small bracket
-var add11 = (num1, num2)=> num1+num2; 
+// LESSON I ---------> parameters passed in small bracket... 
+    // ('return' keyword and curly brackets) = optional if function is only one line
+var add11 = (num1, num2) => num1+num2;
+// var add12 = (num1, num2) => { return num1+num2 };            // USE either add11 (or) add12 both of them are same...
 let res11 = add11(5,2);
 console.log(res11); // 7 
 
 
-// If there is only one parameter, then the bracket is optional
+// LESSON II --------------> If there is only one parameter, then the bracket is optional
 var squared23 = num1 => num1*num1
 let res23 = squared23(4);
 console.log(res23);
 
-// empty brackets if there are no parameters
+// LESSON III -------------> If there are no parameters, then use empty paranthesis
 var sayingHello = () => console.log('hello said');
 
+
+// LESSON IV --------------> ('return' keyword & curly brackets) = needed.... if function() has more than 1 line
 var doSomeStuff = () => {
     console.log('start stuff');
     console.log('doing stuff');
@@ -27,26 +31,3 @@ doSomeStuff();
 // If there is only a single expression in the function body, then using the return statement is optional
     // in add11 & squared23 ---> as there is only single line, there is no return keyword
 
-var cantUseAsConstructor = (Title,Price)=>{
-
-    return {
-        Title:Title,
-        Price: Price
-    }
-}
-// let p1 = new cantUseAsConstructor('Pen',200); 
-    // Error ===> is not a constructor 
-
-
-let newReturnForm1 = (title, price) => ({
-    title: title,
-    price : price
-});
-let p2 = newReturnForm1('pen',100);
-console.log(p2);
-
-let newReturnForm2 = (title, price) => {
-    return {title:title, price:price}
-}
-let p3 = newReturnForm2('pencil', 5);
-console.log(p3);
