@@ -2,6 +2,7 @@ let canWeReassignLetVariables23 = `ss`;
 console.log(canWeReassignLetVariables23);
 canWeReassignLetVariables23 = `it seems we can again`;
 console.log(canWeReassignLetVariables23);
+console.log('----------------------------------------------------------');
 /** ************************************************************************************* */
 let can_We_Redeclare_Variables_With_Let = 'let 1st time';
 //let can_We_Redeclare_Variables_With_Let = 'let 2nd time';         //this throws error...
@@ -10,7 +11,13 @@ var can_We_Redeclare_Variables_With_var = 'var 1st time';
 console.log(can_We_Redeclare_Variables_With_var);
 var can_We_Redeclare_Variables_With_var = 'var 2nd time';
 console.log(can_We_Redeclare_Variables_With_var);
-
+console.log('----------------------------------------------------------');
+/** ************************************************************************************* */
+let canWeRedeclareLetVariables = `23`;
+console.log(canWeRedeclareLetVariables);
+canWeRedeclareLetVariables = `it seems we can`;
+console.log(canWeRedeclareLetVariables);
+console.log('----------------------------------------------------------');
 /** ************************************************************************************* */
 var name55='agastyaraju';
 function letScope1() {
@@ -27,7 +34,7 @@ function varScope1() {
     name55 = 'priya';
     console.log(name55);
 }
-console.log(name55);
+// console.log(name55);
 // console.log(name44);
 letScope1();
 letScope2();

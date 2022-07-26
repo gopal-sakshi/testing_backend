@@ -5,15 +5,21 @@ var params = {
     limit: 2000,
     appStoreType: 'FARM_STORE',
     appName: 'INPUTS',
-    appStoreDomain: 'https://inputs.kalgudi.com'
+    appStoreDomain: 'https://inputs.kalgudi.com',
+    someObject: {
+        name: 'Kalgudi',
+        employees: 50,
+        location: ['hyd', 'karnataka']
+    }
 }
 
-const {reportType, offset = 0, limit = 3000} = {...params};
+// APPROACH I ---------> destructure & take only some individual properties
+const {reportType, offset = 0, limit = 3000, someObject} = {...params};
 console.log(reportType);
 console.log(offset);
 console.log(limit);
+console.log(someObject);
 
-let canWeRedeclareLetVariables = ``;
-console.log(canWeRedeclareLetVariables);
-canWeRedeclareLetVariables = `it seems we can`;
-console.log(canWeRedeclareLetVariables);
+// APPROACH II --------> destructure whole object (basically shallow copy)
+var copyObject = { ...params };
+console.log(copyObject);
