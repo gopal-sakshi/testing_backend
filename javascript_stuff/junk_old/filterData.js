@@ -256,5 +256,5 @@ filter.forEach(f => {
 });
 
 if(list) {
-    console.log(list[0].results);
+    console.log(list);
 }

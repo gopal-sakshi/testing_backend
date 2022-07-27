@@ -6,3 +6,4 @@ console.log(newString);
 
 var lowerCase = endTime.toLowerCase();
 console.log(lowerCase);
+/*********************************************************************************** */

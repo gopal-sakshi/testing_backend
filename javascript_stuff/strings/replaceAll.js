@@ -10,4 +10,11 @@ let newStr3 = str44.replace(/_/g, ' ');
 console.log(newStr3);
     // since replaceAll isnt supported, we use regex expression.... 
     // g flag -----> global... replace all occurences
+    
+/*********************************************************************************** */
+var name434 = "is_that_okay_for_you"
 
+var blah = name434.replace(/_/g," ");
+console.log(name434)
+console.log(blah);
+/*********************************************************************************** */

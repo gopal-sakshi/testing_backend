@@ -21,13 +21,8 @@ var filter23 = [
       }
 ]
 
-var blah = function somefunc(key) {
-    const feature = filter23.filter((feature) => {
-        return feature.key === key;
-    });
-    console.log(feature);
-    return 'hello doctor' ;
-}
-console.log(blah('testing5'));
+var res1 = filter23.filter((feature) => {
+  return feature.key === 'testing5';
+});
 
-
+console.log(res1);
