@@ -1,0 +1,12 @@
+As per Harsh
+
+JS has 
+a) micro task queue
+b) callback queue
+c) Call Stack
+
+Whenever callstack is empty 
+---> JS engine looks for microtask queue (always high priority that callback queue)
+---> only after all promises/pending things in microtask queue are over ---> JS engine goes to callback queue
+---> If stack is not empty
+    first, JS engine executes stuff in stack

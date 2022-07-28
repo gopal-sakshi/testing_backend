@@ -18,8 +18,8 @@
  */
 
 var p23 = new Promise((resolve24, reject) => {    
-    resolve24();
-    // reject();
+    // resolve24();
+    reject();
 })
 
 
@@ -29,6 +29,8 @@ p23.then(() => {
     () => {
         console.log("promise failed");
     }).catch(() => {
+    // the code will NEVER come in catch() block because then() block itself handles - both resolve & reject cases.
+        // then() block has 2 parameters - 1st param for success case, 2nd param for failure case
     console.log("promise failed in catch")
 }).finally(() => {
     console.log("I will get executed no matter what...");

@@ -43,7 +43,7 @@ const p1 = new Promise((resolve, reject) => {
 
         // FOR SOME REASON - I GET UNHANDLED PROMISE REJECTION ERROR... dont know why       
         }
-    })
+    }, 5000)
 })
 
 const onFulfil = () => {
@@ -51,7 +51,7 @@ const onFulfil = () => {
 }
 
 const onReject = () => {
-    console.log('food truck !found, cook pasta');
+    console.log('food truck NOT found, cook pasta');
 }
 
 /*          DONT USE THIS
