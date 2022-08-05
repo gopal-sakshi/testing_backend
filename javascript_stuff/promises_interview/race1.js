@@ -1,12 +1,13 @@
 const firstPromise = new Promise((res, rej) => {
-    setTimeout(res, 500, 'one');
+    setTimeout(res, 6000, 'one');
 });
 
 const secondPromise = new Promise((res, rej) => {
-    setTimeout(res, 100, 'two');
+    setTimeout(res, 1000, 'harsh didnt have breakfast');
 });
 
-Promise.race([firstPromise, secondPromise]).then(res => console.log(res));
+const res = Promise.race([firstPromise, secondPromise]).then(res => {console.log(res); return res});
+console.log(res);
 
 /*
     A: "one"
