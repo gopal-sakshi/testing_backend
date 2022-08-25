@@ -1,10 +1,10 @@
-var reg23_single = /ac+2/;
-var reg23_multiple = /ac+2/g;
+var reg23_single = /pq+2/;
+var reg23_multiple = /pq+2/g;
 
-// since we use c+   it is 1 or more 'c' occurences...
-    // it would NOT match a2.... as c is absent
-    // it would match ====> ac2, acc2, accc2 only
-var line44 = 'ascea2flac2kskld;jacc2fweior/acccc2z,ckl;sdjweilvkl;aiw;ifaj;welkfnf;lkm;ef/;bao;jiopui wqesdf 33';
+// since we use q+   it is 1 or more 'q' occurences...
+    // it would NOT match p2.... as q is absent
+    // it would match ====> pq2, pqq2, pqqq2 only
+var line44 = 'ascep2flpq2kskld;jpqq2fweior/pqqqq2z,ckl;sdjweilvkl;aiw;ifaj;welkfnf;lkm;ef/;bao;jiopui wqesdf 33';
 
 console.log(line44.match(reg23_single));
 console.log(line44.match(reg23_multiple));
