@@ -1,11 +1,25 @@
+var regex_char1 = /^\d+/
+var regex_char1_global = /\d/g
 var regex_char1_d = /\D/
-const str_char1_d = 'abc4';                          // must not contain digit at all
-
+var regex_char1_d_global = /\D/g
 var regex_char2_d = /^\D/
-const str_char2_d = 'ab4c';                         // must not contain digit at first place... can occur elsewhere
 
-console.log(regex_char1_d.test(str_char1_d));
-console.log(regex_char2_d.test(str_char2_d));
+console.log(regex_char1.test('abc'));
+console.log(regex_char1.test('abc4'));
+console.log(regex_char1_global.test('54'));
+
+console.log('--------->','23abc4'.match(regex_char1));
+console.log('abc4'.match(regex_char1));
+console.log('54'.match(regex_char1_global));
+console.log(' --------------------------------------------- X26 ----------------------------------------');
+console.log(regex_char1_d.test('abc4'));
+console.log(regex_char1_d.test('54'));
+console.log(' --------------------------------------------- X26 ----------------------------------------');
+console.log(regex_char1_d_global.test('abc4'));
+console.log(regex_char1_d_global.test('54'));
+console.log(' --------------------------------------------- X26 ----------------------------------------');
+console.log(regex_char2_d.test('ab4c'));
+
 
 /* 
     g (global) does not return after the first match, restarting the subsequent searches from the end of the previous match
@@ -13,3 +27,5 @@ console.log(regex_char2_d.test(str_char2_d));
     i (insensitive) makes the whole expression case-insensitive (for instance /aBc/i would match AbC)
 
 */
+
+
