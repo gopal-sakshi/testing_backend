@@ -7,8 +7,8 @@ const str_char1 = 'er3';
 
 var regex_char2 = /^\w/             
 const str_char2 = ' 1_23 4';
-    // true values = er3, abc, _23, _12, 12, 1sed           // must start with alphanumeric (or) underscore... not start with space
-    // false values = ' abc', ' 1_23'
+    // true values = er3, abc, _23, _12, 12, 1sed           // must start with alphanumeric (or) underscore... 
+    // false values = ' abc', ' 1_23', ',34'                       // not start with space, comma
 
 var regex_char3 = /^\s/
 const str_char3 = '_ 12';

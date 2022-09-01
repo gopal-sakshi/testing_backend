@@ -2,8 +2,8 @@ async function getData() {
     return await Promise.resolve('I made it!');
 }
 
-const data = getData();
-console.log(data);
+// const data = getData();
+// console.log(data);
 
 /*
     A: "I made it!"
@@ -12,3 +12,10 @@ console.log(data);
     D: undefined
 
 */
+
+
+console.log('*');
+console.log('**');
+console.log('***');
+console.log('****');
+console.log('*****');

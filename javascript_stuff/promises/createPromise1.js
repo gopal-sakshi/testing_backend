@@ -1,12 +1,12 @@
 // EXPLANATION -----> Promise accepts only one single function as a parameter... 
     // that function may or may not have resolve/reject params
 
-// APPROACH I --------------> using function expression         ERROR
-// var p23 = new Promise(jingChak44);
-// var jingChak44 = function(resolve, reject) {
-//     setTimeout(() => { console.log('resolving promise - p23'); resolve('23'); }, 3000);
-// }
-// p23.then(data => {console.log(data)}).catch(err => {console.log(err)});
+// APPROACH I --------------> using function expression
+var jingChak44 = function(resolve, reject) {
+    setTimeout(() => { console.log('resolving promise - p23'); resolve('23'); }, 3000);
+};
+var p23 = new Promise(jingChak44);
+p23.then(data => {console.log(data)}).catch(err => {console.log(err)});
 
 
 // APPROACH II --------------> using function & not arrow function

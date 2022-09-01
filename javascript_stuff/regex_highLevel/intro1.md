@@ -18,7 +18,7 @@ Then your expression is delimited by / before and after. So here you say
 
 # Characters
     Escape character:               \
-    Any character:                  .
+    Any character:                  . (DOT)
     Digit:                          \d   ---------->        meaning [0-9], meaning [0,1,2,3,4,5,6,7,8,9]
     Not a digit:                    \D
     Word character:                 \w   ---------->        single letter, number, underscore... meaning [a-zA-Z0-9_]              

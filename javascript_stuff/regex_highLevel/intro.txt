@@ -10,7 +10,18 @@ methods of RegExp
     exec()
     test() 
 methods of String
-    match()
+    match(regex_exp23)
+        if regex_exp23 = not used global flag
+            return value = array... 
+            elements of array
+                1st, 2nd, 3rd elements of the array = results of matching pattern in the input string
+                4th elemnt = index of 1st occurence
+                5th element = input string
+                6th element = groups (if capture groups is used)
+        if regex_exp23 = used global flag
+            return value = array
+            elements of array = results of matching pattern in the input string
+            index & groups wont occur it seems ??
     matchAll()
     replace()
     replaceAll()

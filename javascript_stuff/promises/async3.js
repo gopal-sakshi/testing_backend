@@ -40,12 +40,13 @@ async function jingChak23(num1,num2) {
 }
 
 doStuff();
-
+// console.log('singamalai');
 /*
     EXPLANATION:
     (A) JS engine will execute doStuff() function
     (B) it encounters await jingChak(3,5) ---> it puts this code in event-queue and goes to next statement in callStack()
     (C) But there is nothing in callstack... then, it goes to see event-queue and waits till jingChak(3,5) is resolved
+        if console.log(singamalai) is there in the callstack... JS engine prints singamalai
     (D) Once, jingChak(3,5) is resolved... it goes to next line ---> setTimeout() 
         ---> but JS engine will not await here... it puts this setTimeout() in event-queue and goes to next line
     (E) It encounters jingChak(5,8) and awaits there...
