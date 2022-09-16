@@ -15,7 +15,7 @@ MyObject2.prototype = new MyObject1( 8 );
     
 */
 
-console.log(MyObject2)                                  
+console.log('MyObject2 ====> ', MyObject2)                                  
     /*
         prints an object... 
         - this object's prototype points to MyObject1
@@ -29,7 +29,7 @@ console.log(MyObject2)
     */
 
 
-console.log(MyObject2.testNumber);
+console.log('testNumber ====> ', MyObject2.testNumber);
 // prints undefined
 // Because, at this point MyObject2 is still not created... 
 
@@ -40,9 +40,9 @@ var objectRef = new MyObject2( "String_Value" );
         testString
         testNumber
 */
-console.log(objectRef);
+console.log('objectRef =====> ', objectRef);
 // console.log(objectRef.MyObject1.testNumber);
-console.log(objectRef.testNumber);
+console.log('objectRef.testNum ==> ', objectRef.testNumber);
 
 /*
     The instance of MyObject2 referred to by the "objectRef variable" has a prototype chain

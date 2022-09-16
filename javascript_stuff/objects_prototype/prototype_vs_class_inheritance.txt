@@ -1,0 +1,40 @@
+prototype-based inheritance (Javascript)
+- a prototype is itself an object instance.
+
+class based inheritance (C++, Java)
+- a class defines a type which can be instantiated at runtime
+
+
+A child of an ES6 class 
+- is another type definition which extends the parent with new properties & methods
+- which in turn can be instantiated at runtime. 
+
+A child of a prototype
+- is another object instance 
+- which delegates to the parent any properties that aren’t implemented on the child.
+
+A class constructor 
+- creates an instance of the class. 
+
+A constructor in JavaScript
+- just a plain old function that returns an object.
+- The only thing special about a JavaScript constructor is that, 
+    when invoked with the new keyword, it assigns its prototype as the prototype of the returned object
+
+A child of a prototype
+- isn’t a copy of its prototype
+- nor is it an object with the same shape as its prototype. 
+- The child has a living reference to the prototype
+    and any prototype property that doesn’t exist on the child is a one-way reference to a property of the same name on the prototype.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
+
+
+// https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up#:~:text=The%20most%20important%20difference%20between,is%20itself%20an%20object%20instance.
+
+https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+
+https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.khem2m91q
+---------------------------------------------------------------------------------------------------------------------------------------

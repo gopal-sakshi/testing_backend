@@ -23,7 +23,7 @@ console.log('--------------------- X24 -------------- ');
 
 
 // OTHER METHODS_PROPERTIES of 'Generic Object'
-arr24.name = 'real madrid players';
+// arr24.name = 'real madrid players';
 arr24.description = 'technically skilled & smooth real madrid players'
 
 // HOW ARRAY OBJECT looks like
@@ -33,7 +33,12 @@ console.log('--------------------- X25 -------------- ');
     arr24 is an array...
     It inherited from generic object...
     So, it will have two properties
-    - generic object properties ------------> name, description, etc
-    - array object properties/methods ------> length, indexOf, push(), pop(), filter(), find()
+    - generic object properties/methods 
+            Object.keys(), Object.assign()                                      // Static methods
+            Object.__proto__                                                    // properties
+            Object.toString(), Object.hasOwnProperty()                           // generic object's method
+    - array object properties/methods 
+        length
+        push(), pop(), filter(), find(), indexOf()
     
 */

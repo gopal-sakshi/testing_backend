@@ -7,7 +7,11 @@ const myObject = {
       console.log(`Greetings from ${this.city}`);
     }
 }
+// paste these in google chrome dev tools...
+console.log(myObject.__proto__);
+console.log(myObject.__proto__.__proto__);
 
+console.log(myObject.toString());
 myObject.greet(); // Greetings from Madrid
 
 // What is the prototype for myObject? To find out, we can use the function Object.getPrototypeOf():
@@ -28,3 +32,4 @@ console.log(Object.getPrototypeOf(myObject));
     - can't find it there, so looks in the prototype object of myObject for toString
     - finds it there, and calls it.
 */
+
