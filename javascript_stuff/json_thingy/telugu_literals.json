@@ -1,0 +1,181 @@
+{
+    "...................................... auth ........................" : " ........................................",    
+    "Welcome To" : "స్వాగతం",
+    "Login": "",
+    "Signup":"",
+    "RESET PASSWORD": "",
+    "Registered Mobile Number": "",
+    "Get OTP": "",
+    "Please enter valid OTP!": "",
+    "submit": "సమర్పించండి",
+    "New Password": "",
+    "Confirm New Password": "",
+    "Password Should match!": "",
+    "BACK": "",
+    "Login with password": "",
+    "Login with OTP": "",    
+    "The OTP sent your registered mobile number": "",
+    "SUBMIT": "సమర్పించండి",
+    "LOGIN": "",
+    "Forgot password?": "",
+    "Don’t have an a account ?" : "",
+    "Register now": "",
+
+
+    ".................................. game play .................." : "....................................................",
+    "Running": "జరుగుచున్నవి",
+    "Upcoming": "జరగబోయేవి",
+    "Completed": "జరిగిపొయినవి",
+    "games": "ఆటలు",
+    "Game Rooms": "ఆట గదులు",
+    "Player(s)": "ఆటగాళ్ళు",
+    "Admin": "అడ్మిన్",
+    "Language": "భాష",
+    "No Players joined yet": "0 ఆటగాళ్ళు",
+    "Levels": "రౌండ్లు",
+    "Real Madrid": "రియల్ మడ్రిడ్",
+    "irrigation": "సాగు",
+    "COTTON":"పత్తి",
+    "MILLET":"మిల్లెట్",
+    "SORGHUM":"జొన్న",
+    "MAIZE":"మొక్కజొన్న",
+    "PIGEONPEA":"కందులు",
+    "CHICKPEA":"చోలేసెనగలు",
+    "RICE":"వరి",
+    "SOYBEAN":"సోయాబీన్",    
+    "is a": "ఒక",
+    "LOW": "తక్కువ",
+    "MODERATE": "మధ్యస్థం",
+    "HIGH": "ఎక్కువ",
+    "water intensive crop": "నీటి అవసరం పంట",
+    "This will consume": "దీనికి",
+    "units of irrigation": "వ్యవసాయ సాగు కావాలి",
+    "Kharif": "ఖరిఫ్",
+    "Rabi": "రబి",
+    "Select a Crop for": "పంటని ఎంచుకోండి",
+    "rainfall.":"",
+    "with": "",
+    "Sufficient": "సాధారణ వర్షపాతం",
+    "Insufficient": "అల్ప వర్షపాతం",
+    "Fertilizer": "ఎరువులు",
+    "Do you want to apply fertilizer?": "ఎరువులు వాడతారా",
+    "Yes": "అవును",
+    "No": "కాదు",
+    "Biochar": "బయోచార్",
+    "Do you want to apply biochar this season?": "బయోచార్ వాడతారా",
+    "Fertilizer application": "ఎరువులు వాడకం",
+    "Biochar application": "బయోచార్ వాడకం",
+    "Selected options": "మీరు ఎంచుకున్నవి",
+
+    ".................................... profile ................" : "....................................................",
+    "Reward Points": "రివార్డు పాయింట్స్",
+    "Soil Organic Carbon": "కర్బనశాతం",
+    "Completed Rooms": "ఆడిన ఆటలు",
+    "Logout": "లాగౌట్",
+    "Profile": "ప్రొఫైల్",
+    "Save": "సేవ్",
+    "Cancel": "కేన్సిల్",
+    "Edit Profile": "ప్రొఫైల్ మార్చండి",
+    "Select age": "వయస్సు",
+    "Gender:": "లింగము",
+    "Male": "మగ",
+    "Female": "ఆడ",
+    "Select state": "రాష్త్రము",
+
+    ".................................... admin ................" : "....................................................",
+
+    "Game title": "ఆట పేరు",
+    "Start date": "తేది",
+    "Start time": "సమయం",
+    "Game type:": "ఆట ",
+    "Public": "పబ్లిక్",
+    "Private": "ప్రైవేట్",
+    "Number of levels": "మొత్తం రౌండ్లు",
+    "Game year": "సంవత్సరం",
+    "Maximum players": "గరిష్ట ఆటగాళ్ళు",
+    "Minimum players": "కనిష్ట ఆటగాళ్ళు",
+    "Max Round time": "ఒక్కో రౌండు గడువు",
+    "Opening irrigations for each player": "మొదటిసారి సాగు",
+    "Minutes": "నిమిషాలు",
+    "Add Crop Form": "పంట ఫారం",
+    "crop name": "పంట పేరు",
+    "Irrigations consumed per season": "పంటకి కావాల్సిన సాగు",
+    "Season type": "పంట కాలం",
+    "Sufficient Rainfall": "సాధారణ వర్షపాతం",    
+    "None": "ఏమి లేదు",
+    "fertilizer": "ఎరువులు",
+    "biochar": "బయోచార్",
+    "both": "రెండు",
+    "yield kg/ha": "దిగుబడి",
+    "Carbon Credits": "కర్బన్ పాయింట్స్",
+    "profit ₹": "లాభం",
+    "Insufficient Rainfall": "అల్ప వర్షపాతం",
+    "Submit": "సమర్పించండి",
+    ".................................... stats ................" : "....................................................",
+
+
+    
+    "No players played in the level":"0 ఆటగాళ్ళు",
+    "Top player":"విజేతల జాబితా",
+    "Level wise result":"రౌండు వారి ఫలితాలు",
+    "About game":"ఆట వివరాలు",
+    "No players played in the game":"0 ఆటగాళ్ళు",
+    "Winner":"విజేత",
+    "Profit":"లాభం",    
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    ".................................... xxx ................" : "....................................................",
+
+    ".................................... shared ................" : "....................................................",
+    
+
+
+
+
+
+    "Selected crops for the game":"ఆట లోని పంటలు",
+    "Joined player Ids":"ఆటగాళ్ళ ఐడిలు",
+    "Invited player Ids":"ఆహ్వానితుల ఐడిలు",
+    "Event Id":"ఆట ఐడి",
+    "Start date & time":"ఆట తేది, సమయం",
+    "Game type":"ఆట",    
+    "Minimum number of players":"గరిష్ట ఆటగాళ్ళు",
+    "Maximum number of players":"కనిష్ట ఆటగాళ్ళు",    
+    "Max round time":"ఒక్కో రౌండు గడువు",    
+    "Number of rounds":"మొత్తం రౌండ్లు",
+    "Minimum irrigation threshold":"కనిష్ట సాగు",
+    "Starting irrigations per player":"మొదటిసారి సాగు",
+    "Start Time": "ఆట మొదలు సమయం",
+    "End Time":"ఆట ముగియు సమయం",
+    "About Game":"ఆట వివరాలు",
+    "Share to invite player":"",
+    "Invite Player":"",
+    "Stats":"గణాంకాలు",
+    "Edit":"సవరించు",
+    "Delete":"తొలగించు",
+    "Players":"ఆటగాళ్ళు",
+    
+    "Share to Invite":"ఆహ్వానించండి",
+    "Whats App":"వాట్సప్",
+    "Start on:":"ఆట మొదలు సమయం",
+    "Irrigations utilised":"ఉపయోగించిన సాగులు",
+    "Available irrigations":"మిగిలిన సాగులు",
+    "":"",
+    "":"",
+    "":""
+}
