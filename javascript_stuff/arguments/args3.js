@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 /*
     run this in command line...
     
@@ -7,14 +9,22 @@
 
 'use strict';
 
-process.stdin.resume();
+
+
+
+// process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
 let inputString = '';
 let currentLine = 0;
 
+
+// stdin ===> inputStream... 
+    // node args3.js ==============================> nothing happens
+    // cat input3.txt | node args3.js =============> inputStream gets data
 process.stdin.on('data', inputStdin => {
     inputString += inputStdin;
+    console.log(inputString);
 });
 
 process.stdin.on('end', _ => {
@@ -39,6 +49,7 @@ function main() {
     foo(x);
     foo(line2);
 }
+
 function foo(x) {
     process.stdout.write("hello: ");   // without auto '\n' (newline)
     console.log(x);  // with auto '\n' (newline)
