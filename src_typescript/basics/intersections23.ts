@@ -35,7 +35,7 @@ let lion: Animal = {
 let cow: Animal = {
     species: 'taurus',
     withBackbone: true,
-    // foodType: 'herbivore'                 ERROR:       Type '"herbivore"' is not assignable to type '"veg" | "nonVeg"'
+    // foodType: 'herbivore',                 // ERROR:       Type '"herbivore"' is not assignable to type '"veg" | "nonVeg"'
     foodType: 'veg',
     domesticated: true
 }

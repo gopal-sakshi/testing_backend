@@ -8,12 +8,12 @@ console.log(student22);
 var student23 = { id: 11, name: "someName"}
 console.log(student23);
 
-var student24 = {id:number; name:string}            // this throws error...
+// var student24 = {id:number; name:string}            // this throws error...
 var student25 : { id: number, name: string }        // this doesnt throw error... LOOK INTO IT CAREFULLY
                                                         // but question is if we have to use ; (or) ,
                                                         // just see student25 & student22
 
-let name23 = "gopal"
+// let name23 = "gopal"
 // even though name23 variable is in this file "declareObjects23"
     // it throws that name23 is also in generateJSwithTSerror23.ts
     // lets try using name23 within a function.. and see if it throws error

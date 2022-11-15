@@ -8,10 +8,12 @@
     "noImplicitAny": false,
     "skipLibCheck": true,
     "baseUrl": "./",
-    "outDir": "./compiledJS/",    
+    "outDir": "./dist_compiledJS/",    
   },
-  "exclude": [
-    "typescript_next",
-    "typescript_stuff"
+  "exclude": [    
+    "src_typescript/excludedTS"
+  ],
+  "include": [
+    "src_typescript"
   ]
 }

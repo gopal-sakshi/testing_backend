@@ -16,9 +16,9 @@ interface Contractor {
     name:string
 }
  
-type Person = Employee | Visitor | Contractor
+type Person23 = Employee | Visitor | Contractor
  
-function AllowRestrictedArea(per:Person): boolean {
+function AllowRestrictedArea(per:Person23): boolean {
  
  
     //console.log(per.employeecode) //Property 'employeecode' does not exist on type 'Person'.

@@ -1,0 +1,1 @@
+TypeScript in small projects is almost useless
