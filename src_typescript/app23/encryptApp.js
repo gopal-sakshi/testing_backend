@@ -1,6 +1,9 @@
-import encrypt23 from "gopal612-tslib23";
-var encryptedResult = encrypt23('Hello doctor');
-console.log(encryptedResult);
+// import encrypt23 from "gopal612-tslib23";
+// var encryptedResult = encrypt23('Hello doctor');
+// console.log(encryptedResult);
+
+var someSome = require('gopal612-tslib23');
+console.log(someSome);
 
 // APPROACH I
 // var encrypt24 = require("../library/encryptLocalCopy1");
