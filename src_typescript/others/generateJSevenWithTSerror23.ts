@@ -10,7 +10,7 @@
 
 let name23:string = "gopal";
 console.log(name23.length)
-name23 = 22;                    // we are assigning number.... to a variable specifically we said would be a string
+// name23 = 22;                    // we are assigning number.... to a variable specifically we said would be a string
                                     // ERROR:       Type 'number' is not assignable to type 'string'.ts(2322)
 
 

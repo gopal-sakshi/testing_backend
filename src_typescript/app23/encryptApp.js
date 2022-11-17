@@ -21,5 +21,3 @@ console.log(someSome);
 // var res2 = decrypt25(res1);
 // console.log(res1);
 // console.log(res2);
-
-// https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/
