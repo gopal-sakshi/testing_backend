@@ -1,10 +1,12 @@
 var nodemailer = require('nodemailer');
-
+console.log(process.argv[2]);
+// how to run this =========> node email1.js @#@#@#       // 3rd thingy is your password
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'pedabicar@gmail.com',
-    pass: '**********'
+    // pass: `${process.argv[2]}`,
+    pass: `Nssssaaa`        // even this did not work
   }
 });
 
