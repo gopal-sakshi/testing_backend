@@ -3,8 +3,8 @@ var fs = require('fs');
 /*
     run this in command line...
     
-    (A) cat input3.txt | node args3.js                  ---------> prints in console
-    (B) cat input3.txt | node args3.js > output3.txt    ---------> prints in new file
+    (A) cat input3.txt | node 3.js                  ---------> prints in console
+    (B) cat input3.txt | node 3.js > output3.txt    ---------> prints in new file
 */
 
 'use strict';
@@ -20,8 +20,8 @@ let currentLine = 0;
 
 
 // stdin ===> inputStream... 
-    // node args3.js ==============================> nothing happens
-    // cat input3.txt | node args3.js =============> inputStream gets data
+    // node 3.js ==============================> nothing happens
+    // cat input3.txt | node 3.js =============> inputStream gets data
 process.stdin.on('data', inputStdin => {
     inputString += inputStdin;
     console.log(inputString);

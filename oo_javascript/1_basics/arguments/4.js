@@ -21,6 +21,4 @@ readline.question(`peru cheppara bhai`, name => {
     - and waits for the user input. 
     - It calls the callback function once enter is pressed... close the readline interface in callback function
 
-
-
 */

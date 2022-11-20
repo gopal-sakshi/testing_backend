@@ -1,11 +1,15 @@
 
+// NODE_ENV=production favouriteClub=RealMadrid node 1.js
+// favouriteClub=RealMadrid node 1.js
+
+
 console.log(process.env);
 console.log(process.env.NODE_ENV)
 
 
 /*
 
-    // use this command to run this line -------->      NODE_ENV=production favouriteClub=RealMadrid node args1.js
+    // use this command to run this line -------->      NODE_ENV=production favouriteClub=RealMadrid node 1.js
 
         NODE_ENV:                           'production',
         favouriteClub:                      'RealMadrid',                   // passed as command line argument

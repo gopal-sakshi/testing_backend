@@ -20,3 +20,13 @@ arr34.reduce((prev, curr, currIndex) => {
     console.log('PREV ',prev, 'cur ',curr, 'index = ',currIndex);
     return 'some dummy'
 })
+
+
+
+// reduce_vs_map_filter
+    // reduce ==========> finally, we get single element
+    //          =====> [1,2,3,4,5] ------> 15
+    // map =======> you iterate the array elements... for each array element you return an element you want
+    //          ====> [1,2,3,4,5] -----> [1,4,9,16,25]
+    // filter ====> you only want odd numbers in the array
+    //          ====> [1,2,3,4,5] -----> [1,3,5]
