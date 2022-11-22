@@ -7,7 +7,7 @@ function outerFunction(outer_arg1, outer_arg2) {
         console.log("%o ", variable23, '<-------- **CHECK THIS VALUE IS RETAINED**');    // accessing outer's    local_variables
     };
     function anotherInnerFunction() {
-        console.log('__Inside another Inner Function');
+        // console.log('__Inside another Inner Function');
         return '__jing chak';
     }
     return innerFunction;

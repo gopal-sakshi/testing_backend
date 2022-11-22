@@ -1,5 +1,5 @@
 class Person {}
-class Employee extends person {}
+class Employee extends Person {}
 class Developer extends Employee {}
 const tom = new Developer();
 

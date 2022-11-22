@@ -17,13 +17,19 @@ const callOnce24 = (fn) => {
 };
 
 const gopFunc = () => console.log('some function by gopal');
+/***********************************************************************************************************************/
 const myFnCallOnce = callOnce23(gopFunc);
 
+// APPROACH I  ============> this is plain WRONG =====> we are invoking gopFunc 3 times... because it is gopFunc() & not gopFunc      
+                                                        // notice the parantheses
+                        // bcoz gopFunc() doesnt return anything... its, effectively 
+                        // callOnce23(undefined) called 3 times
+// callOnce23(gopFunc());
+// callOnce23(gopFunc());
+// callOnce23(gopFunc());      // it got printed 3 times...
+// console.log('so much to learNNNNNNNNNNNNNN')
 
-callOnce23(gopFunc());
-callOnce23(gopFunc());
-callOnce23(gopFunc());      // it got printed 3 times...
-console.log('so much to learNNNNNNNNNNNNNN')
+// APPROACH II =============> correct way
 myFnCallOnce();
 myFnCallOnce();
 myFnCallOnce();             // it got printed ONLY ONCe

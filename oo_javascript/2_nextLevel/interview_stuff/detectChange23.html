@@ -1,36 +1,24 @@
-<!-- 
-    plain old javascript...
-    no framework nothing...
-    meaning ==> we didnt use angular, react, vue (or) stuff
--->
-
+<!-- plain old javascript... no framework nothing... meaning ==> we didnt use angular, react, vue (or) stuff -->
 <html>
 <div id="dataDiv"></div>
-<!-- <button id="btn" (click)="handler()"> ClickMe </button> -->
 <button id="btn"> ClickMe </button>
 <script>
   let count = 0;
-
   detectChange();                     // initial rendering
-
   function renderHTML() {
     document.getElementById('dataDiv').innerText = count;
   }
-
   function detectChange() {
     const currentValue = document.getElementById('dataDiv').innerText;
     if (currentValue !== count) {
       renderHTML();
     }
   }
-
   //  update data inside button click event handler
-  document.getElementById('btn').addEventListener('click', () => {
-    // update count
-    count ++;
-    // call detectChange manually
-    detectChange();
+  document.getElementById('btn').addEventListener('click', () => {    
+    count++;                        // update count    
+    detectChange();                 // call detectChange manually
   });
-
 </script>
+
 </html>

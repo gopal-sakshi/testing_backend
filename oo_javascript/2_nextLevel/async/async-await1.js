@@ -15,8 +15,14 @@ function first() {
 
 async function f() {
     console.log(1);
-    let r = await first().then(m => console.log('message is ',m)).catch(rejected => console.log(rejected)).finally(() => 'promise over');
-    console.log("response of await is "+r);
+    
+    // dont use 'then' after await first() ====> instead, use just await... result automatically comes in r
+    // let r1 = await first().then(m => m).catch(rejected => console.log(rejected)).finally(() => 'promise over');
+    // console.log("response of await is "+r1); 
+
+    let r2 = await first();
+    console.log("response of await is "+r2);        // response of await is 34 ===> got printed after ====> console.log('b)
+                                                        // WHY IS THAT
 }
 
 console.log('a');

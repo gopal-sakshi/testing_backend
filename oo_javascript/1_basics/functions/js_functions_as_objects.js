@@ -15,7 +15,7 @@
 function jingChak(name) {
     console.log(this.arguments);
     console.log(this.caller);
-    console.log('name is ',name);
+    console.log('name is',name);
     return name + ' ' +name;
 }
 var obj23 = {

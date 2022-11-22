@@ -1,3 +1,5 @@
+var async = require('async');
+
 async.parallel([
     function (callback) {
         setTimeout(function () {

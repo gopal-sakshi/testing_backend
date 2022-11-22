@@ -4,7 +4,7 @@ const r = (() => {
     return n + m;
 })();
 console.log(r);
-console.log(n);
+// console.log(n);              // Throws Reference Error
 
 
 /*

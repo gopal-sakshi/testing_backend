@@ -28,7 +28,9 @@ function declaration ===> hoisted @ top
 function expression ====> not hoisted @ top
 IIFE ===> function_declaration vs function_expression
 variadic function
-
+let_vs_var (Javascript)
+    let ===> can reassign... cant 
+    var ===> 
 
 # imports
 something about circular dependency

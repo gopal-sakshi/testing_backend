@@ -15,3 +15,14 @@ console.log(res); // 15
 })(5,9)         // enclosing the function declaration in curved brackets ---> 
                     // creates a new scope... necessary for Immediately invoke the function
 /*********************************************************************************************************************/
+
+
+// see modular.js file
+// var bindObject = { name44: 'kotha_kotha_vishayalu', subject44: 'javascript' };
+// function addThisViaBind(num1) {
+//     // console.log(num1);
+//     console.log(`name44 is `, this.name44);
+//     return `${num1} ${this.name44}`
+// }(bindObject);
+
+// console.log(addThisViaBind(23));
