@@ -11,4 +11,25 @@
 // If you want to initialize with a certain value, these are good to knows...
 // Array.from('abcde'), Array.from('x'.repeat(5))
 // or Array.from({length: 5}, (v, i) => i)   // gives [0, 1, 2, 3, 4]
+
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+
 // ----------------------------------------------------------------------------
+
+var arr11 = Array.from('abcde');
+console.log(arr11);                                                         // [ 'a', 'b', 'c', 'd', 'e' ]
+var arr12 = Array.from('x'.repeat(5));
+console.log(arr12);                                                         // [ 'x', 'x', 'x', 'x', 'x' ]
+var arr13 = Array.from({length: 5}, (v, i) => i);  
+console.log(arr13);                                                         // [ 0, 1, 2, 3, 4 ]
+var arr14 = Array.from({length: 6}, (v, i) => i*i)   
+console.log(arr14);                                                         // [ 0, 1, 4, 9, 16, 25 ]
+var arr15 = Array.from({length: 6}, (v,i) => v)   
+console.log(arr15)
+
+
+const range23 = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
+console.log(range23(0,5,1));
+console.log(range23(0,10,1.5));

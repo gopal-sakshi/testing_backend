@@ -4,6 +4,6 @@ var obj33 = {
     name: 'gopal',
     club: 'RMA'
 }
-console.log(typeof str33);
-console.log(typeof str34);
-console.log(typeof obj33);
+console.log(typeof str33);              // O/P = string
+console.log(typeof str34);              // O/P = object
+console.log(typeof obj33);              // O/P = object

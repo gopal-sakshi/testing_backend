@@ -14,5 +14,5 @@ console.log(doc23_join);
     - DEFAULT separator (if no separator is specified) ---------> comma (,)
     - Any separator can be specified
         (' and ')
-    - join() method returns an array as a string.
+    - join() method returns STRING
 */

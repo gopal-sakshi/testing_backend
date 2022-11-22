@@ -13,5 +13,6 @@ var num21 = 12;
 var num22 = 15;
 const addNum33 = (a,b) => parseInt(a)+parseInt(b);
 
-var str4 = `sum of numbers is ${addNum33(`${num21}`,`${num22}`)}`;
+// var str4 = `sum of numbers is ${addNum33(`${num21}`,`${num22}`)}`;
+var str4 = `sum of numbers is ${addNum33(num21,num22)}`;                    // even this worked... no need of extra ` `
 console.log(str4);

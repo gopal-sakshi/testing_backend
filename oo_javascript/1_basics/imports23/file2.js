@@ -1,4 +1,3 @@
-const os = require('os');
 const file1 = require('./file1');
 
 var file2_Obj = {};

@@ -3,13 +3,10 @@ var cantUseAsConstructor = (Title,Price) => {
     return { Title:Title, Price: Price }
 }
 
-// APPROACH II 
-let newReturnForm1 = (title, price) => ({
-    title: title,
-    price : price
-});
+// APPROACH II      // without return statement... just use () parentheses
+let newReturnForm1 = (title, price) => ({ title: title, price : price });
 
-// APPROACH III
+// APPROACH III     // with return statement
 let newReturnForm2 = (title, price) => {
     return {title:title, price:price}
 }

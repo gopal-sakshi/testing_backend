@@ -11,20 +11,17 @@ console.log(keys23);
 console.log(typeof keys23);
 // It seems keys23 ---> type of iterator object.. iterator object will have next() method
 // console.log(keys23.next());
-
-var values23 = maps23.keys();
-console.log(values23);
-console.log(typeof values23);
-
+console.log('*****************************************************************************************');
 var entries23 = maps23.entries();
 console.log(entries23);
 console.log(typeof entries23);
-
+console.log('*****************************************************************************************');
 for(const [key, value] of maps23) {    
     console.log(key);       // here key = 123, 124, 125 (only keys are considered)
     console.log(value);
 }
-
+console.log('*****************************************************************************************');
 for(const key of maps23) {    
     console.log(key);       // here key = 1st entry (both key & value together)
 }
+console.log('*****************************************************************************************');

@@ -2,7 +2,7 @@ var emptyArray1 = [];
 
 // APPROACH I       ------> WRONG WAY
 if (emptyArray1) {                      
-    console.log('not empty array ', emptyArray1);
+    console.log('not empty array ', emptyArray1);               // not empty array  []
 } else {
     console.log('even though empty array, if doesnt mean array is NULL')
 }

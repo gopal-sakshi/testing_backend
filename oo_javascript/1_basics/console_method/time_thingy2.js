@@ -1,7 +1,8 @@
 const jingChak = async function() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve('hammayya');
+            // resolve('hammayya');
+            reject('phattuuuu');
         }, 4000);
     })
 };
@@ -14,7 +15,9 @@ const jingChak = async function() {
 // APPROACH II ----------> we wrap await inside a IIFE async function
 (async function idiot23() {
     console.log('hello');
+    console.time('label23'); 
     const result23 = await jingChak();
+    console.timeEnd('label23');
     console.log(result23);
 })();
 

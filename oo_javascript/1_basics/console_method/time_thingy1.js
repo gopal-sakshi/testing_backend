@@ -1,7 +1,7 @@
 console.time('label23');
-for(i=0;i<=1000000000;i++) {
+for(i=1;i<=1000000000;i++) {
     if(i%999999937 == 0) {
-        console.log(i);
+        console.log(`largest prime within 1 billion == ${i}`);
     }
 }
 console.timeEnd('label23');

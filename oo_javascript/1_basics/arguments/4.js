@@ -3,7 +3,7 @@ const readline = require('readline').createInterface({
     output: process.stdout,
 });
 
-readline.question(`peru cheppara bhai`, name => {
+readline.question(`peru cheppara bhai\n`, name => {
     console.log(`Hi ${name}!`);
     readline.close();
 });

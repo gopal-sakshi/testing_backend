@@ -7,9 +7,9 @@ var obj23 = {                               // this obj23 uses reserved words as
 
 console.log(obj23);
 console.log(obj23.class);
-// const {class} = obj23;                   // destructuring object with reserved words ---> throws ERROR
+// const { class } = obj23;                   // destructuring object with reserved words ---> throws ERROR
 // console.log(class);
-const {not_reserved_word} = obj23;
+const { not_reserved_word } = obj23;
 console.log(not_reserved_word);
 
 /*
