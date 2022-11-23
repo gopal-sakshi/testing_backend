@@ -8,10 +8,18 @@ var objOriginal = {
 }
 
 /*
-    APPROACH I --------------> spread operator.... this is also shallow copy
-*/
-var objAssign = {...objOriginal};
+    APPROACH I --------------> Object.assign(); but this is shallow copy
+    - objOriginal -------> an object in heap memory.
+    - objAssign ---> another object in heap memory.
+    - both objOriginal & objAssign ====> two different memory locations
+    - BUT... both objOriginal & objAssign ----> share same property 'info'
+        technically, 'info' is another object in heap memory... there is only one such 'info object'
+        Both objOriginal.info & objAssign.info ------> point to the same thing...88
 
+
+*/
+var objAssign = {};
+Object.assign(objAssign, objOriginal);
 console.log(objAssign);
 console.log('----------------- after changes --------------------------');
 objOriginal.name = 'Real Madrid';

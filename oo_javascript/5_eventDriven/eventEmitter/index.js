@@ -2,12 +2,12 @@ const TicketManager = require('./__ticketManager');
 const EmailService = require('./__emailService');
 const DatabaseService = require('./__dbService');
 
-const ticketManager = new TicketManager(3);                    // total 11 tickets available
+const ticketManager = new TicketManager(3);                    // total 3 tickets available
 const emailService = new EmailService();
 const databaseService = new DatabaseService();
 
 
-ticketManager.on("buy", (email, price, timestamp) => {
+ticketManager.on("buyEventeyyyy", (email, price, timestamp) => {
     emailService.send(email);
     databaseService.save(email, price, timestamp);
 });
@@ -19,6 +19,11 @@ ticketManager.on("error", (error) => {
 });
 
 ticketManager.buy("test1@email.com", 10);
+    // ticketManager ===> like an Object...  
+        // ticketManager Object will listen for these events =====> buyEventeyyyy, error
+        // buy() method is called on ticketManager Object
+        // it emits an event ---> buyEventeyyyy
+        // bcoz ticketManager listens to 'buyEventeyyyy' event, the corresponding callback gets triggered
 ticketManager.buy("test2@email.com", 10);
 ticketManager.buy("test3@email.com", 10);
 ticketManager.buy("test4@email.com", 10);

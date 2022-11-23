@@ -1,4 +1,4 @@
-var obj12 = {
+var objOriginal = {
     name: 'real madrid',
     players: ['alaba', 'kroos', 'modric'],    
     clTitles: 14,
@@ -12,10 +12,10 @@ var obj12 = {
     - NodeJs ---> only after 17.0.0         earlier node versions doesnt support structuredClone()
 
 */
-var objAssign = structuredClone(obj12);
+var objAssign = structuredClone(objOriginal);
 
-obj12.name = 'Real Madrid';
-obj12.info.nicknames = obj12.info.nicknames.concat('Los Merengues')
+objOriginal.name = 'Real Madrid';
+objOriginal.info.nicknames = objOriginal.info.nicknames.concat('Los Merengues')
 objAssign.players = ['Benz'];
-console.log(obj12);
-console.log(objAssign);     // notice how modifications in 'obj12' ----> NOT reflected in 'objAssign'
+console.log(objOriginal);
+console.log(objAssign);     // notice how modifications in 'objOriginal' ----> NOT reflected in 'objAssign'

@@ -11,3 +11,13 @@ var blah23 = Object.keys(playerIds).includes('id26');
 var blah24 = playerIds['id2'];
 console.log(blah23);
 console.log(blah24);
+/***********************************************************************************************/
+
+var obj23 = { 
+    name: "sakshi",
+    age: 33,
+    country: "India"
+}
+var blah = Object.keys(obj23).length
+console.log(blah);
+/**********************************************************************************************/

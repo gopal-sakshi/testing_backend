@@ -7,7 +7,7 @@ class CustomEventEmitter extends EventEmitter23 {
     }
 
     buyTicket(name, price) {
-        console.log('ticket brought by ', name);
+        console.log('ticket brought by ---> ', name);
         this.emit('buyTkt', name, price);
     }
     
@@ -16,8 +16,8 @@ class CustomEventEmitter extends EventEmitter23 {
 const custEE = new CustomEventEmitter();
 
 custEE.on('buyTkt', () => {
-    console.log('buyTkt listener added');
+    console.log('buyTkt listener addedeyeyeyeyey');
 });
 
 custEE.buyTicket('gopal', 23);
-
+/*************************************************************************************************************/
