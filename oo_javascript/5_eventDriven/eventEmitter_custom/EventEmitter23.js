@@ -7,31 +7,28 @@ class EventEmitter23 {
     addListener(eventName, fn) {
         this.listeners[eventName] = this.listeners[eventName] || [];
         this.listeners[eventName].push(fn);
-        console.log(this.listeners);
+        return 'cbFn added as listener';
     }
 
-    on(eventName, fn) {
-        console.log('on ==> ', eventName);
+    on(eventName, fn) {        
         return this.addListener(eventName, fn);
     }
 
+    emit(eventName, ...args) {
+        for (var cbFnItem of this.listeners[eventName]) {
+            cbFnItem(null, ...args);                  // this.listeners[eventName] ======> array of callback functions that we store...
+                                                    // whenever emit() is called, we trigger each callback function...
+        }        
+    }
+
+    getListeners() { return this.listeners; }
+    listenerCount(eventName) { let fns = this.listeners[eventName] || []; return fns.length; }
+
+    /********************** yet to be implemented *************************/
+    rawListeners(eventName) {}
     removeListener(eventName, fn) {}
     off(eventName, fn) {}    
     once(eventName, fn) {}    
-    emit(eventName, ...args) { 
-        console.log('this is emitted ===> ', eventName);
-        console.log(this.listeners[eventName][0]);
-        this.listeners[eventName][0]();
-    }
-    listenerCount(eventName) {
-        let fns = this.listeners[eventName] || [];
-        return fns.length;
-    }    
-    rawListeners(eventName) {}
-
-    getListeners() {
-        console.log(this.listeners);
-    }
 }
 
 module.exports = EventEmitter23;
