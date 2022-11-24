@@ -19,7 +19,7 @@ console.log(output23);
 
 
 // 2nd param = 
-    // 
+    // replacer function
 
 // 3rd param = 
     // to insert white space into the output JSON string for readability purposes. 

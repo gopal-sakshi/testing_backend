@@ -80,3 +80,8 @@ substring(2,5) vs slice(2,5)
     startIndex > stopIndex; or 
     startIndex > length of string
 - one returns undefined, one automatically swaps start/stop... truncates startIndex to max length of string & stuff
+
+
+# json thingy
+- use for of            // use it safely for arrays, strings... for Objects ---> use Object.entries
+- dont use for in
