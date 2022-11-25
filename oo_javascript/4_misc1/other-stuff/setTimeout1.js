@@ -1,4 +1,4 @@
-var fn23 = (param1, param2) => {console.log(param1*param2); return 'vIkRaM'};
+var fn23 = (param1, param2) => { console.log(param1*param2); return 'vIkRaM' };
 var fn24 = (param1, param2) => { console.log(`${param1} scored ${param2} goals for RM`); return 'vIkRaM'};
 /****************************************************************************************************** */
 setTimeout(fn23.bind(null, 3,4), 500);
