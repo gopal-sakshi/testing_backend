@@ -16,17 +16,16 @@
 
 
 var myString = "I am immutable";
+console.log(myString);                      // O/P ====> I am immutable
 myString[2] = 'c';
-console.log(myString);
+console.log(myString);                      // O/P is still ====> I am immutable....
 
 var num1 = 4;
 num1++;
 console.log(num1);
 
 
-var x = {
-    foo: 'bar'
-};
+var x = { foo: 'bar' };
 var  y = x;
 console.log(y.foo); 
 x.foo = 'Something else';

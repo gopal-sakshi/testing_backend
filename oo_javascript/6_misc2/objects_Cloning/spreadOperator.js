@@ -14,7 +14,7 @@ console.log(person1 === person) // false
 console.log(person) // { name: 'Jim', age: 19 }
 console.log(person1) // { name: 'Jim', age: 34 }
     
-    
+/**************************************************************************************************/
 // APPROACH 2 --------> using spread operator
 
 const person2 = {

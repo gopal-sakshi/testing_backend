@@ -1,7 +1,5 @@
 // deleting object properties
 
-
-
 const x = {
     foo: 'boo',
     far: 'bar',
@@ -15,6 +13,7 @@ console.log(everythingElse1);
 
 const key = 'far';
 // we want to remove "far" property
-const { [key]: value, ...everythingElse2} = x;
+// const { [key]: value, ...everythingElse2} = x;
+const { 'far': value, ...everythingElse2} = x;
 console.log(everythingElse2); 
 
