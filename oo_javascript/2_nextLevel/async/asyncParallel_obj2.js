@@ -1,24 +1,24 @@
 var async = require('async');
 
 /***************************************************************************************************/
-function doStuff1() {
+function doStuff1(cb) {
     setTimeout(() => {
         // console.log("do stuff1");
-        return 3;
+        cb(null, 3);
     }, 1000);
 }
 
-function doStuff2() {
+function doStuff2(cb) {
     setTimeout(() => {
         // console.log("do stuff2");
-        return 9;
+        cb(null, 9);
     }, 2000);
 }
 
-function doStuff3() {
+function doStuff3(cb) {
     setTimeout(() => {
         // console.log("do stuff3");
-        return 27;
+        cb(null, 27);
     }, 3000);
 }
 /***************************************************************************************************/
@@ -28,13 +28,13 @@ function test24() {
 
     var p1 = async.parallel({
 
-            // // APPROACH I ---------> not working
-            // num1: doStuff1, num2: doStuff2, num3: doStuff3
+            // APPROACH I ---------> not working
+            num1: (cb) => doStuff1(cb), num2: (cb23) => doStuff2(cb23), num3: cb33 => doStuff3(cb33)
 
-            // APPROACH II --------> working
-            num1: function (callback) { setTimeout(function () { callback(null, 1); }, 200); },
-            num2: (callback) => { setTimeout(function () { callback(null, 22); }, 200); },
-            num3: function gasolineFn (callback) { setTimeout(function () { callback(null, 31); }, 200); },
+            // // APPROACH II --------> working
+            // num1: function (callback) { setTimeout(function () { callback(null, 1); }, 200); },
+            // num2: (callback) => { setTimeout(function () { callback(null, 22); }, 200); },
+            // num3: function gasolineFn (callback) { setTimeout(function () { callback(null, 31); }, 200); },
 
         }, function (err, results) { console.log(results) });
     // p1.then(res => {console.log(`parallelly resolved ==>`,res)});

@@ -1,5 +1,5 @@
 function first() {
-    // a promise that alway resolves
+    // a promise that always resolves
     return new Promise( (resolve, reject) => {
         console.log(223);
         resolve(34);
