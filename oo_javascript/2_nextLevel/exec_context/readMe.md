@@ -7,3 +7,6 @@ JavaScript is being run at many places
     In Node.js -------------------> use global instead. 
     In Web Workers ---------------> only self is available.
 
+# Steps
+- creation
+- execution
