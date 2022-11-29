@@ -1,3 +1,10 @@
+var someFunction = async function(req, res) {    
+    return new Promise((resolve, reject) => {
+        if(req>res) { setTimeout(() => { resolve('hittu'); },2000) } 
+        else { reject ('phattu'); }
+    });
+}
+
 async function doStuff() {
 
     // Which approach is preferred
@@ -39,19 +46,25 @@ async function doStuff() {
     // }
 }
 
-var someFunction = async function(req, res) {    
-    return new Promise((resolve, reject) => {
-        if(req>res) {
-            setTimeout(()=>{
-                resolve('hittu');
-            },2000)
-            
-        } else {
-            reject ('phattu');
-        }
-    });
-}
 var addNum = (a,b) => a+b;
+
+// Use with APPROACH I 
+var result23 = doStuff();             // Unfortunately... this throws error
+                                                // await valid only async functions
+                                                // Top level awaits can be used in browser modules. 
+                                                // When used the script tag must include the type attribute which must be set to module:
+                                                // <script src="/script.js" type="module"></script>
+console.log(result23);      // you'll get Promise<undefined> unfortunately
+
+// Use with APPROACH III
+// doStuff().then(data => {
+//     console.log(`hahaha ${data}`)
+// }).catch(err => {
+//     console.log(`error anta ${err}`)
+// });
+
+console.log(addNum(3,8));
+console.log(addNum(7,8));
 
 
 /*
@@ -76,22 +89,3 @@ var addNum = (a,b) => a+b;
         doStuff().then().catch()        // this is how end user will accept the response from doStuff() API endpoint
     (D) Plus, generally, public wont use both 'await' & 'then' ---> together... we generally use either of them
 */
-
-
-// Use with APPROACH I 
-var result23 = doStuff();             // Unfortunately... this throws error
-                                                // await valid only async functions
-                                                // Top level awaits can be used in browser modules. 
-                                                // When used the script tag must include the type attribute which must be set to module:
-                                                // <script src="/script.js" type="module"></script>
-console.log(result23);      // you'll get Promise<undefinedd> unfortunately
-
-// Use with APPROACH III
-// doStuff().then(data => {
-//     console.log(`hahaha ${data}`)
-// }).catch(err => {
-//     console.log(`error anta ${err}`)
-// });
-
-console.log(addNum(3,8));
-console.log(addNum(7,8));
