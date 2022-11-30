@@ -1,9 +1,9 @@
-new Promise((resolveOuter) => {
-    resolveOuter(
-      new Promise((resolveInner) => {
-        setTimeout(resolveInner, 1000);
-      })
-    );
+new Promise((resolveOuter, rejectOuter) => {
+    if("gopal".length == 5) {
+      resolveOuter(new Promise((resolveInner) => {setTimeout(resolveInner, 1000);}));
+    } else {
+      rejectOuter('pora rei');
+    }    
 });
 
 // This promise is already resolved at the time when it's created 
