@@ -1,0 +1,6 @@
+Can we use await only with promises?
+
+Solution
+No, we can use await with promise as well as any object that implements a then function.
+
+-----------------------------------------------------------------------------------------------------------

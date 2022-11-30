@@ -1,0 +1,15 @@
+Promise.reject(1).then(res => {
+    console.log(res);
+    return 2;
+}).catch(err => {
+    return 3;
+}).then(res => {
+    console.log(res);
+}).then(res => {
+    console.log(res);
+});
+
+/******************************** */
+
+// 3
+// undefined

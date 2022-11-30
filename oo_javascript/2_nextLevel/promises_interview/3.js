@@ -26,7 +26,7 @@ function firstFunction() {
     //  IMPORTANTTTTTTTTTTTTTTTT ----> USE either myPromise1() or myPromise4() and notice the difference
 
     // myPromise1('1stFn').then(res => console.log(res));              // resolves instantly... executes as soon as the callstack is empty
-    myPromise4('1stFn').then(res => console.log(res));             // resolves only after 3 seconds
+    myPromise4('1stFn').then(res => console.log(res));             // resolves only after 3/8 seconds
     
     console.log('first23');
 }

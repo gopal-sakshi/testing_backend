@@ -1,9 +1,16 @@
 async function getData() {
-    return await Promise.resolve('I made it!');
+    
+    // APPROACH I ===============> Promise {<pending>}
+    // return await Promise.resolve('I made it!');
+
+    // APPROACH II ==============> Promise {<pending>}
+    return await new Promise ((resolve, reject) => {
+        resolve('I made it!');
+    })
 }
 
-// const data = getData();
-// console.log(data);
+const data = getData();                     // it will console ----> Promise {<pending>}        // Hence use "await getData()"      // see 2a.js
+console.log(data);
 
 /*
     A: "I made it!"
@@ -12,10 +19,3 @@ async function getData() {
     D: undefined
 
 */
-
-
-console.log('*');
-console.log('**');
-console.log('***');
-console.log('****');
-console.log('*****');

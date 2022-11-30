@@ -6,8 +6,8 @@ async function res1 () {
 (async () => { console.log('result ======> ', (await res1())); })();
 
 // APPROACH II ===============> does NOT work
-// var res2 = doStuff();
-// console.log('hello doctor ',res2);
+var res2 = doStuff();
+console.log('hello doctor ',res2);
 
 
 // APPROACH III ===============> works
@@ -32,7 +32,7 @@ function blahblah() {
 /************************************************************************************************************/
 
 // Say fn1() calls fn2() ==============> fn2() calls "async fn3()"
-    // we have await statement inside fn3(), because fn3() is await
+    // we have await statement inside fn3(), because fn3() is async
     // that await will be effective if and only if ======> fn1(), fn2() are also async functions
     // all the parent/caller functions must also be async functions
 

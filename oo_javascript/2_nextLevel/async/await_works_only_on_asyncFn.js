@@ -21,14 +21,15 @@ async function test2() {
     // // APPROACH I =========> 'await' has no effect on the type of this expression... because
     //                             // iterateThousandTimes1() does not return a promise
     //                             // (or) iterateThousandTimes1() is not an async function which by default returns a promise
+    //                             // Note: iterateThousandTimes2() & iterateThousandTimes3() ====> return a Promise, but iterateThousandTimes1() doesnt
     // const response1 = await iterateThousandTimes1();
     // console.log('res1 = ',response1); 
 
-    // APPROACH II ========> iterateThousandTimes1() returns a immediately resolved promise 
+    // APPROACH II ========> iterateThousandTimes2() returns a value (ofcourse wrapped in a promise)
     const response2 = await iterateThousandTimes2();
     console.log('res2 = ',response2); 
 
-    // APPROACH III ========> iterateThousandTimes1() returns a immediately resolved promise 
+    // APPROACH III ========> iterateThousandTimes3() returns a promise after 3 seconds
     const response3 = await iterateThousandTimes3();
     console.log('res3 = ',response3); 
     
