@@ -1,59 +1,73 @@
 What is the relationship between Node.js and V8? Can Node work without V8?
+- NodeJS is basically C++ application 
+- It uses V8 engine to execute JavaScript code. 
+- V8 engine compiles JavaScript directly into machine code before executing it. 
+- There are several other modules within NodeJS to perform different functions. 
+- Without V8 engine, NodeJS won’t work at all 
+    but NodeJS can use different JavaScript engine such as Mozilla’s Gecko engine instead of using chrome’s V8 engine.
 
-NodeJS is basically C++ application which uses V8 engine to execute JavaScript code. V8 engine compiles JavaScript directly into machine code before executing it. There are several other modules within NodeJS to perform different functions. Diagram below shows internal architecture of NodeJS. Without V8 engine, NodeJS won’t work at all but NodeJS can use different JavaScript engine such as Mozilla’s Gecko engine instead of using chrome’s V8 engine.
-
-
+-----------------------------------------------------------------------------------------------------
 How come when you declare a global variable in any Node.js file it’s not really global to all modules?
-
-We can declare global variables in NodeJS by using ‘global’ or ‘GLOBAL’ keyword or declare variable without ‘var’ keyword. I have tried accessing global variables attached to ‘global’ object eg. global.name=”Jack Reacher” in different modules in this specific version of NodeJS (v7.7.4) which works fine. Using GLOBAL.name = “Jack Reached” shows that it has been deprecated and encourages us to use ‘global’ object instead of ‘GLOBAL’.
-
+- We can declare global variables in NodeJS by using ‘global’ or ‘GLOBAL’ keyword
+    (or) declare variable without ‘var’ keyword. 
+- preferred is global... not GLOBAL
+-----------------------------------------------------------------------------------------------------
 exports_vs_module.exports
+- If we want to add properties which should be public within greetings.js 
+    we can simply create exports variable as above 
+    and add properties directly on it 
+- example
+    exports.sayHelloInEnglish = function() { console.log(“Hello”) }
+    https://www.sitepoint.com/understanding-module-exports-exports-node-js/
 
-If we want to add properties which should be public within greetings.js we can simply create exports variable as above and add properties directly on it 
-exports.sayHelloInEnglish=function() {console.log(“Hello”)}
-https://www.sitepoint.com/understanding-module-exports-exports-node-js/
-
-
+-----------------------------------------------------------------------------------------------------
 require local files without using relative paths?
-create global variable 
 
-global.__baseDir = __dirname + ‘/’; 
-- inside app.js file 
-
-require(global.__baseDir+’/model/…’)
-- use 
----------------------------------------------------------
+(A) create global variable 
+    global.__baseDir = __dirname + ‘/’;             // inside app.js file 
+    require(global.__baseDir+’/model/…’)            // use this
 
 
-People sometimes object to putting application-specific modules into node_modules because it is not obvious how to check in your internal modules without also checking in third-party modules from npm.
+(B) People sometimes object to putting application-specific modules into node_modules 
+    because it is not obvious how to check in your internal modules 
+    without also checking in third-party modules from npm.
 
-inside .gitignore
+    inside .gitignore
+        instead of this
+            node_modules    
+        use this
+            node_modules/*
+            !node_modules/foo
+            !node_modules/bar
 
-instead of this
-    node_modules    
+    you can’t unignore a subdirectory, if the parent is already ignored. 
+    So instead of ignoring node_modules, you have to ignore every directory inside node_modules 
+        with the node_modules/*
 
-use this
-    node_modules/*
-    !node_modules/foo
-    !node_modules/bar
-
-you can’t unignore a subdirectory, if the parent is already ignored. So instead of ignoring node_modules, you have to ignore every directory inside node_modules with the node_modules/*
-
-Now anywhere in your application you will be able to require('foo') or require('bar') without having a very large and fragile relative path.
-
+    Now anywhere in your application you will be able to require('foo') or require('bar') 
+    without having a very large and fragile relative path.
+-----------------------------------------------------------------------------------------------------
 Can different versions of the same package be used in the same application?
-
-Unless the changes in the packages won’t break the application, we can use different versions of the same package in the same application.
+- Unless the changes in the packages won’t break the application, 
+    we can use different versions of the same package in the same application.
 ---------------------------------------------------------------------------------------------------------
 
-
 What is the Event Loop? Is it part of V8?
+- Event loop is actually an observer of event message queue.
+- Whenever any kind of event is registered in an event message queue
+    event loop processes it 
+    and runs a callback (event handler). 
+- Event Loop is not a part of V8 engine. 
+- Under the hood NodeJS operates various operations asynchronously 
+    even though V8 engine it self executes synchronously.
+- Event loop in NodeJS is handled by LIBUV library written in C.
+- All below 3 operate asynchronously.
+    V8’s executions,
+    operating system operations (eg. read/write files, connect to database etc) 
+    event loop
+- Read this         https://nodesource.com/blog/understanding-the-nodejs-event-loop/
 
-Event loop is actually an observer of event message queue. Whenever any kind of event is registered in an event message queue, event loop processes it and runs a callback(event handler). Event Loop is not a part of V8 engine. Under the hood NodeJS operates various operations asynchronously even though V8 engine it self executes synchronously. Event loop in NodeJS is handled by LIBUV library written in C. V8’s executions, operating system operations (eg. read/write files, connect to database etc) and event loop operates asynchronously. Diagram below shows how V8 engine interacts with event loop and OS operations.
-
-https://nodesource.com/blog/understanding-the-nodejs-event-loop/
-
-
+---------------------------------------------------------------------------------------------------------
 What is the Call Stack? Is it part of V8?
 
 JavaScript is single-threaded, meaning it has a single call stack, meaning it can do one thing at a time. The call stack is basically a data structure which records where in the program we are. If we step into a function, we push something onto the stack. If we return from a function, we pop off the top of the stack.
