@@ -1,12 +1,13 @@
 const fs = require('fs');
 
+var path = '../resources/__smallObject1.json';
 
 // Option A
-const data23 = require('./__smallObject2.json');            
+const data23 = require('../resources/__smallObject2.json');            
 console.log(data23);
 
 // Option B
-let rawdata23 = fs.readFileSync('./__smallObject1.json');         
+let rawdata23 = fs.readFileSync(path);
 console.log(rawdata23);
 let student23 = JSON.parse(rawdata23);
 console.log(student23);

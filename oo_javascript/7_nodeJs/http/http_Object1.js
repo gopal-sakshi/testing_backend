@@ -3,6 +3,7 @@ var http = require("http");             // require directive to load the http mo
 
 
 http.createServer(function (request, response) {
+        // writeHead ===> to add response headers maybe
         response.writeHead(200, {'Content-Type': 'text/plain'});  
         response.end('Hello World\n');
     }).listen(8081);

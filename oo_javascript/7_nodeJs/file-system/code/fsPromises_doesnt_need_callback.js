@@ -4,10 +4,10 @@ const fs = require('fs').promises;
     // meaning, fs (promises version) ---> returns the 'data' (ie contents of the file)
     // while, fs (normal version) ---> returns void... but executes callback() function provided to it...
     // so, in summary, promises version of 'fs' doesnt even need a callback function - may be
-
+const path1 = '../resources/input13.txt'
 async function doStuff44() {
         // notice, here we use fs.promises() & not fs
-    const fileContents = /* await */ fs.readFile('fs_notes.txt', 'utf-8', function(err, data) {
+    const fileContents = await fs.readFile(path1, 'utf-8', function(err, data) {
         
         // why the control didnt come here in this block ??????????????????????????????????????????????????????????
         if(err) {
@@ -22,16 +22,18 @@ async function doStuff44() {
 
     //console.log('result is ',fileContents);
     console.log('I got printed even before callback function... contents = ', fileContents);
-    return new Promise((resolve, reject) => {
-        if(fileContents) {
-            resolve(fileContents)
-        } else {
-            reject ('pora rei');
-        }
-    })
+    // return new Promise((resolve, reject) => {
+    //     if(fileContents) {
+    //         resolve(fileContents)
+    //     } else {
+    //         reject ('pora rei');
+    //     }
+    // })               // wrapping 'fileConents' in another Promise and returning it is not at all needed
+                            // because 'fileContents' is already a resolved Promise with value = 'Hello doctor heart miss aaye'
+    return fileContents
 }
 doStuff44().then((data)=>{
-    console.log('promise resolved',data);
+    console.log('promise resolved ===> ',data);
 }).catch((error)=>{
-    console.log('promise rejected',error);
+    console.log('promise rejected ',error);
 });

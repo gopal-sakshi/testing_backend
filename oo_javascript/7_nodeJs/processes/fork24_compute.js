@@ -6,7 +6,7 @@ const longComputation = () => {
     return sum;
 };
 
-process.on('message', (msg) => {
+process.on('message', (msg23) => {    
     const sum1 = longComputation();
     const sum2 = longComputation();
     const sum3 = longComputation();
@@ -15,5 +15,5 @@ process.on('message', (msg) => {
     const sum6 = longComputation();
     const sum7 = longComputation();
     const sum8 = longComputation();
-    process.send(`${sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8}`);
+    process.send(`msg from parent = ${msg23}, ${sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8}`);
 });

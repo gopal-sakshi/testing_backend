@@ -12,5 +12,5 @@ if (cluster.isMaster) {
             // isMaster flag is false... but isWorker flag is set true...
   }
 } else {
-  require('./scaling1');
+  require('./app23');
 }

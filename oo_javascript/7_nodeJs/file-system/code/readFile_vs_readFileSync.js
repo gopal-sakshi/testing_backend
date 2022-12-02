@@ -1,6 +1,6 @@
          
 var fs = require("fs");
-var data = fs.readFileSync('readFile_vs_readFileSync_input.txt');
+var data = fs.readFileSync('../resources/readFile_vs_readFileSync_input.txt');
 
 console.log(data.toString());               //only after whole file is printed, Program Ended will be printed
 console.log("Program Ended");

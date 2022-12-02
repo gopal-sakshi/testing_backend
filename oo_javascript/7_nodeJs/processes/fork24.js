@@ -5,10 +5,10 @@ const server = http.createServer();
 
 server.on('request', (req, res) => {
   if (req.url === '/compute') {
-    const compute = fork('compute.js');
-    compute.send('start');
+    const compute = fork('fork24_compute.js');         // fork returns childProcess... the childProcessInstance has send() & on() methods
+    compute.send('starteyy');
     compute.on('message', sum => {
-      res.end(`Sum is ${sum}`);
+      res.end(`response from forked child process ==> ${sum}`);
     });
   } else if (req.url === '/quick-api') {
     res.end('fork use chesaa... quick response vachindi gaaa');
@@ -21,3 +21,4 @@ server.on('request', (req, res) => {
 });
 
 server.listen(3070);
+console.log('server listening on 3070');

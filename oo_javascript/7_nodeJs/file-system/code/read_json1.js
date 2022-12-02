@@ -2,7 +2,7 @@ const fs = require("fs");
 
 // readFile() method is asynchronous
     // meaning, NodeJS will continue to execute your JavaScript code without waiting for the read process to finish.
-fs.readFile("./__corrupt_rfq.json", "utf8", (err, response) => {
+fs.readFile("../resources/__corrupt_rfq.json", "utf8", (err, response) => {
   if (err) {
     console.error(err);
     return;

@@ -1,6 +1,6 @@
 function dec2bin(dec){
     console.log(dec >>> 0);
-    return (dec >>> 0).toString(2);
+    return (dec >>> 0).toString(2);             // toString(2)          ========> uses base-2
 }
 
 var bin1 = dec2bin(1);                  // 1
@@ -12,7 +12,6 @@ console.log(bin1);
 console.log(binMinus1);
 console.log(bin256);
 console.log(binMinus256);
-
 /*
     Unsigned right shift (>>>)
     - zero-fill right shift
