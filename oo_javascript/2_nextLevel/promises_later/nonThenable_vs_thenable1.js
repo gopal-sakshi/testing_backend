@@ -1,5 +1,6 @@
 let resolvePromise = new Promise(resolve => {
-    resolve('non-thenable-object')
+    let resolvedPromise = Promise.resolve(33);
+    resolve(resolvedPromise);                               // resolved with thenable
 })
 
 resolvePromise.then(() => {
@@ -8,10 +9,10 @@ resolvePromise.then(() => {
 
 let resolvedPromiseThen = Promise.resolve().then(res => {
     console.log('promise1')
-})
+});
 
-resolvedPromiseThen.then(() => {
-    console.log('promise2')
+resolvedPromiseThen.then(() => { 
+    console.log('promise2') 
 }).then(() => {
     console.log('promise3')
-})
+});

@@ -9,7 +9,7 @@ async function getData() {
     })
 }
 
-const data = getData();                     // it will console ----> Promise {<pending>}        // Hence use "await getData()"      // see 2a.js
+const data = getData();                     // it will console ----> Promise {<pending>}        // Hence use "await getData()"      // see getData_vs_awaitGetData2.js
 console.log(data);
 
 /*

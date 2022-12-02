@@ -17,6 +17,7 @@ const promiseA = new Promise((resolve, reject) => {
 });
 
 // At this point, "promiseA" is already settled... but .then() will only be triggered after
+    // is promiseA settled (or) resolved ????????????????????????????????????????????
     // all tasks in stackQueue are completed    ----> there are some tasks still 
         // console.log("immediate logging")
         // result23 = 0                                                     // assignment

@@ -10,13 +10,13 @@ const myPromise3 = (param1) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(`I have resolved! ${param1}`)
-        }, 5000);
+        }, 3000);
     })
 }
 const myPromise4 = (param1) => new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve(`I have resolved! ${param1}`)
-    }, 8000);
+    }, 4000);
 });
 
 
@@ -34,7 +34,7 @@ function firstFunction() {
 async function secondFunction() {
     console.log('2nd function started');
     // await console.log('full confusion', myPromise3('2ndFn'));
-    console.log('full confusion ', await myPromise3('2ndFn'));
+    console.log('full confusion ', await myPromise3('2ndFn').then(data => { console.log('then of myPromise3 ', data); return 'enti babai' }));
     console.log('second23');
 }
 
@@ -55,19 +55,20 @@ using myPromise1() in firstFunction()
     (B) functionExecContext_2ndFn
     - JS engine prints the first line of secondFunction() ----> 2nd function started
     - then, JS engine encounters await statement... 
-        pushes something (whole function may be) into micro_task_queue/call_back_queue/something
-        not sure if it pushes entire functionExecContext_2ndFn (or) just that line ???
+        pushes something (whole function may be) into micro_task_queue        
         basically, it wont execute any subsequent lines in that function
     (C) Now, JS engine returns to GEC... encounters 3rd line --> console.log('gasoline');
     - it wont start another FnExecContext... just prints console.
     (D) NOWWWWWWWWWWWw - the callstack becomes empty
-    - checks for queue (call_back_queue (or) micro_task_queue (or) something) 
+    - checks for queue (micro_task_queue ===> macro_task_queue ===> eventLoop will be idle till something enters any queue) 
         if any promises are pending
         if any I/O operations are pending
         if any network calls are pending
         if any setTimeouts are pending
-    (E) myPromise1 is pending... use myPromise4 to make myPromise3() resolve earlier
-    - myPromise3 is also pending...
-    - whichever promise is resolved first... it gets executed            
-    - then it prints 'second23' of secondFunction()         
+    (E) 
+        myPromise1 of firstFunction() is pending in micro_task_queue... 
+        myPromise3 is also pending... with await keyword
+        - whichever promise is resolved first... the associated .then() is called
+        - after myPromise3() is resolved... its corresponding .then() is called... only after it is executed --->
+            next steps of secondFunction() which are after 'await keyword' are executed
 */
