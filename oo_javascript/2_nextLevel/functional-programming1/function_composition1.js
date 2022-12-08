@@ -51,19 +51,29 @@ console.log(toSlug3('Cristiano Ronaldo'));
     // order of function execution =====> left to right
 
 const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
-
-const toSlug4 = pipe(
+const pipeMeaning = (...fns) => initialArgument => fns.reduce((returnValueFromPrevFunction, currentFunction) => currentFunction(returnValueFromPrevFunction), initialArgument);
+const pipeExplained = function(...fns) {
+    return function(initialArgument) {
+        var blah = fns.reduce((returnValueFromPrevFunction,currentFunction) => currentFunction(returnValueFromPrevFunction), initialArgument);
+        return blah;
+    }
+}
+const toSlug4 = pipeExplained(
     split(' '),
     map(toLowerCase),
     join('-'),
     encodeURIComponent
 );
+
+console.log(toSlug4('Using Pipe Explained'));
+
 /************************************************************************************************* */
 
 const trace = curry((label, x) => { console.log(`== ${ label }:  ${ x }`); return x; });
-
+const fn44 = (label, x) => { console.log(`== ${ label }:  ${ x }`); return x; };
+const traceExplained = curry(fn44);
 const toSlug5 = pipe(
-    trace('input'),
+    traceExplained('input'),
     split(' '),
     map(toLowerCase),
     trace('after map'),
