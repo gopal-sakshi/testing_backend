@@ -1,3 +1,9 @@
+# links
+https://www.freecodecamp.org/news/javascript-execution-context-and-hoisting/
+https://medium.com/@happymishra66/execution-context-in-javascript-319dd72e8e2c
+https://www.freecodecamp.org/news/execution-context-how-javascript-works-behind-the-scenes/
+
+
 # this
 JavaScript is being run at many places
 - web browser = most common type of host environment for JavaScript
