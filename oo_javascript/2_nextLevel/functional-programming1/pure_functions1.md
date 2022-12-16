@@ -22,7 +22,7 @@ A function will take the inputs and return the corresponding output
 
 Math has functions, too, and they work a lot like functions in JavaScript
 f(x) = 2x
---------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 const double = x => x * 2;
 console.log( double(5) );               SAME AS             console.log(10);
