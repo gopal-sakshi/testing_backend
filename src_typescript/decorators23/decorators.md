@@ -1,3 +1,5 @@
+https://www.digitalocean.com/community/tutorials/how-to-use-decorators-in-typescript
+
 In certain scenarios we require additional features to support 
 - annotating 
 - modifying classes and class members.
@@ -22,3 +24,8 @@ Decorator
     expression must evaluate to a function 
     that will be called at runtime with information about the decorated declaration.
 
+When you apply a decorator to a class or a class member
+you are actually calling a function that is going to receive details of what is being decorated
+and the decorator implementation will then be able to transform the code dynamically
+    adding extra functionality
+    reducing boilerplate code

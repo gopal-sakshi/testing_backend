@@ -51,7 +51,7 @@ Object.defineProperty(obj23, color23, {chusuko})
     either { value: defaultValue, writable: false }
     Or { get: function() {}, set: function(value): {} }
 
-we add a new property 'color23' to 'obj23'
+we add a <new property 'color23' to 'obj23'>
 - access it using obj23.color23
 - but all such properties are <not-enumerable>
     for (prop23 in obj23) =======> empty 

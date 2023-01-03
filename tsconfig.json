@@ -16,6 +16,6 @@
     "src_typescript/excludedTS"
   ],
   "include": [
-    "src_typescript/decorators23"
+    "src_typescript"    
   ]
 }
