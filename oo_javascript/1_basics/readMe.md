@@ -65,21 +65,23 @@ includes = case sensitive
 "Real Madrid".match(/madrid/i)          // returns true
 split('_')                                 
     returns array... left of underscore, right of underscore
-    original string unaffected
+    original string <unaffected>
 replace()                               
     returns new string... 
-    old string is unaffected
+    old string is <unaffected>
 splice(2,5,newElem)
     start from 2nd index... remove 5 elements... newElem will be inserted
-    modifies original array... returns removed/deleted Items
-substring(2,5) vs slice(2,5)
-- both are same... 
-    returns section of string between 2 & 5                      // ie 3 characters
-    original string unaffected
-- they differ in edge cases         
-    startIndex > stopIndex; or 
-    startIndex > length of string
-- one returns undefined, one automatically swaps start/stop... truncates startIndex to max length of string & stuff
+    <modifies original array>... returns removed/deleted Items
+substring(2,5)
+    see slice(2,5)
+slice(2,5)
+    both are same... 
+        returns section of string between 2 & 5                      // ie 3 characters
+        <original string unaffected>
+    they differ in edge cases         
+        startIndex > stopIndex; or 
+        startIndex > length of string
+    one returns undefined, one automatically swaps start/stop... truncates startIndex to max length of string & stuff
 
 
 # json thingy
