@@ -42,7 +42,7 @@ function createfunc(i) {
 }
 
 for (var x1 = 0; x1 < 3; x1++) {
-  funcs3[x1] = createfunc(x1);
+  funcs3[x1] = createfunc(x1);    
 }
 
 for (var x2 = 0; x2 < 3; x2++) {  

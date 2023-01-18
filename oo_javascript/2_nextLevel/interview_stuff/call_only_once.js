@@ -29,7 +29,13 @@ const myFnCallOnce = callOnce23(gopFunc);
 // callOnce23(gopFunc());      // it got printed 3 times...
 // console.log('so much to learNNNNNNNNNNNNNN')
 
-// APPROACH II =============> correct way
+// // APPROACH II =============> correct way
 myFnCallOnce();
 myFnCallOnce();
 myFnCallOnce();             // it got printed ONLY ONCe
+
+
+// // APPROACH III
+// callOnce23(gopFunc)();
+// callOnce23(gopFunc)();
+// callOnce23(gopFunc)();              // didnt work

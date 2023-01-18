@@ -26,10 +26,18 @@ var arr13 = Array.from({length: 5}, (v, i) => i);
 console.log(arr13);                                                         // [ 0, 1, 2, 3, 4 ]
 var arr14 = Array.from({length: 6}, (v, i) => i*i)   
 console.log(arr14);                                                         // [ 0, 1, 4, 9, 16, 25 ]
-var arr15 = Array.from({length: 6}, (v,i) => v)   
+var arr15 = Array.from({length: 6}, (v,i) => v);                            // [undefined, undefined, ... 6 times]   
 console.log(arr15)
-
+var arr16 = Array.from("gopal", (v,i) => v+'__');
+console.log(arr16);
 
 const range23 = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
 console.log(range23(0,5,1));
 console.log(range23(0,10,1.5));
+
+/************************************************************************************ */
+// Array.from(arrayLike, function (element, index) { /* … */ }, thisArg);
+
+    // arrayLike = "gopal",         [a,b,c]     (or) any iterable
+    // each element in iterable is passed to fn (elem, index) function
+    // supply thisArg if needed

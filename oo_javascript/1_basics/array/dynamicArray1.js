@@ -1,5 +1,6 @@
 // APPROACH I ----------->  Default Constructor
 var array1 = new Array();
+console.log(array1);
 array1.push('gopal');
 array1.push('priya');
 /**************************************************************************************** */

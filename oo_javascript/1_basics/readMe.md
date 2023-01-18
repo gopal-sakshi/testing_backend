@@ -26,7 +26,12 @@ functions are 1st class object... it has its own properties/attributes
 target property ===> only on functions/objects called using new keyword
 function declaration ===> hoisted @ top
 function expression ====> not hoisted @ top
-IIFE ===> function_declaration vs function_expression
+IIFE ===> function_declaration (enclosed in brackets) vs function_expression (not enclosed in brackets)
+JS doesnt support function overloading
+functions redefining itself
+rest params MUST always be last argument to a function
+    arguments object is not available within an arrow function
+    so, use rest params inside arrow function
 variadic function
 let_vs_var (Javascript)
     let ===> can reassign... cant 
@@ -35,6 +40,10 @@ let_vs_var (Javascript)
 # imports
 something about circular dependency
 
+
+# json
+- for in ===> Objects (only keys)
+- for of ===> cant work with Objects (but any iterable - string, Maps, arrays)
 
 # Map
 new Map[
