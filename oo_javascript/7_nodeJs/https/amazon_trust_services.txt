@@ -1,0 +1,10 @@
+Amazon Trust Services
+- is a certificate authority (CA) 
+- owned by Amazon Web Services. 
+
+
+Amazon Trust Services
+- works with the AWS Certificate Manager service 
+- to simplify certificate management 
+- ensure secure communication between a client and a server.
+
