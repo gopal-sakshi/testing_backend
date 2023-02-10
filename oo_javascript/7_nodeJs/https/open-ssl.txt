@@ -1,0 +1,13 @@
+C:\Program Files\OpenSSL-Win64
+
+Without adding PATH in you environment varibales
+- openssl.exe is only available from the directory where it resides, namely:  C:\Program Files\OpenSSL-Win64\bin
+But after adding PATH
+- openssl.exe is available from any command line
+
+
+openssl is used to find public key of a webserver/website
+
+
+openssl s_client -connect localhost:7031            //      create_https_server.js
+openssl s_client -connect localhost:7031 | openssl x509 -pubkey -noout

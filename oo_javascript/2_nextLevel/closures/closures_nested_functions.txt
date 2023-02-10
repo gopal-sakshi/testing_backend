@@ -1,0 +1,31 @@
+A nested function is a function inside another function
+- A nested function is private to containing function
+    We cannot access it anywhere outside the containing function.
+- A nested function can access the containing function’s scope
+    Lexical scope = inner function can access the parent function scope
+- We can return a Nested Function (just like we return any object, variable)
+
+Closure
+- containing function returned nested function
+    meaning, containing function finished its execution... its scope is dead
+- we store the returned value (in this case - nested function) in some variable/object... 
+- the variable/object (which holds nested function) can still access properties of containing function
+    even though it finished its execution...
+
+
+How Closure works
+- Usually, we expect JavaScript to clean up the memory when the function finishes execution
+- Cleaning up the memory will make the (any property of containing function) inaccessible to the nested function.
+- In such cases, JavaScript keeps the memory alive and attaches it to the nested function.
+- The JavaScript keeps this in memory as long as someone has reference to the increment function.
+
+
+Stuff
+- Call the containing function... store the return value in blah1
+- Call the containing function again... now store the return value in blah2
+- point is each of returned nested functions gets its own copy of the (count property of containing function)
+------------------------------------------------------------------------------------------------------------------------
+
+Returning a new object with a nested function
+- containing function has object... within this object we have a nested function
+- still this nested function can access other properties of containing function 
