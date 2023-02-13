@@ -1,15 +1,9 @@
 // APPROACH I
-var cantUseAsConstructor = (Title,Price) => {
-    return { Title:Title, Price: Price }
-}
-
+var cantUseAsConstructor = (Title,Price) => { return { Title:Title, Price: Price } }
 // APPROACH II      // without return statement... just use () parentheses
 let newReturnForm1 = (title, price) => ({ title: title, price : price });
-
 // APPROACH III     // with return statement
-let newReturnForm2 = (title, price) => {
-    return {title:title, price:price}
-}
+let newReturnForm2 = (title, price) => { return {title:title, price:price} }
 /************************************************************************ */
 
 
@@ -21,3 +15,4 @@ console.log(p2);
 
 let p3 = newReturnForm2('pencil', 5);
 console.log(p3);
+/************************************************************************ */
