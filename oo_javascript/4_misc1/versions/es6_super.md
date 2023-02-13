@@ -1,0 +1,1 @@
+super can only be used to access properties on the prototype
