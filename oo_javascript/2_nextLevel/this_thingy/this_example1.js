@@ -2,17 +2,10 @@
 const user = {
     id: 551,
     name: 'Tom',
-    getId() {
-        console.log(this);          
-        return this.id;             
-    },
+    getId() { console.log(this); return this.id; },
     credentials: {
-        id: 120,
-        username: 'tom',
-        getId() {
-            console.log(`now this ===> ${this}`);      
-            return this.id;             
-        }
+        id: 120, username: 'tom',
+        getId() { console.log(`now this ===> ${this}`); return this.id; }
     },
 };
 

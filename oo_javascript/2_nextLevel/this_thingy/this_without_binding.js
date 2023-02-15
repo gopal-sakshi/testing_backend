@@ -4,16 +4,12 @@ class Logger1 {
     printName1 (name = 'Lawrence Eagles') {
         console.log('value of this in printName1 is',this);         // value of this in printName1 is undefined
         this.print1(`Hello ${name}`);             // here, this is undefined... bcoz, we didnt bind
-    }
-  
-    print1 (text) {
-      console.log(text); 
-    }
+    }  
+    print1 (text) { console.log(text);  }
 }
   
 const logger1 = new Logger1();
 console.log(logger1);
-
 
 const { printName1 } = logger1;
 // this is ES6 destruction.... it simply means 

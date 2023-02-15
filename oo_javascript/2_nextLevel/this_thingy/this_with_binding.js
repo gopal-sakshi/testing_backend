@@ -2,23 +2,10 @@
 
 // bind this in the constructor
 class Logger2 {
-
-    constructor () {
-      this.printName2 = this.printName2.bind(this);
-    }
-    
-    printName2 (name = 'Lawrence Eagles') {
-      this.print2(`Hello ${name}`);
-    }
-  
-    print2 (text) {
-      console.log(text); 
-    }
-
-    hellodoctor98() {
-        console.log('hello doctor98');
-        return 'this is return value of hello doctor 98'
-    }
+  constructor () { this.printName2 = this.printName2.bind(this); }    
+  printName2 (name = 'Lawrence Eagles') { this.print2(`Hello ${name}`); }  
+  print2 (text) { console.log(text); }
+  hellodoctor98() { console.log('hello doctor98'); return 'this is return value of hello doctor 98'; }
 }
   
 const logger2a = new Logger2();
@@ -34,7 +21,6 @@ console.log('calling function');
 console.log(hellodoctor98());
 
 hellodoctor98();
-
 printName2();
 
 /* ****************************************************************************** */
