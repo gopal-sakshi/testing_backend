@@ -13,7 +13,9 @@ testFn2();
 var classInstance1 = new TestClass(); classInstance1.blah();
 /*********************************************************************/
 
-// SUMMARY
+// SUMMARY    
+    // "this" only points to "object"; 
+    // if function is invoked from another function (or) class, "this" simply points to global object
 
 // Only when a function (say fn22) is invoked using object
     // then, 'this' inside of function fn22 ===> will point to that object
