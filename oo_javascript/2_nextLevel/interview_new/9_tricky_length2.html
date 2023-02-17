@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <script>
+            var length = 4;
+            function callback() { console.log(this.length); }
+            const object = { 
+                length: 5,
+                method() { arguments[0](); }
+            };
+            object.method(callback, 1, 2);
+        </script>
+    </body>
+</html>
+
+<!--
+
+EXPLANATION:
+
+arguments inside method()
+- is like an array-like object
+    { 
+        0: callback, 
+        1: 1, 
+        2: 2, 
+        length: 3 
+    }
+- arguments[0]() 
+    it is like a method invocation of callback on arguments object,
+    see 0_method_invocation.js
+
+-->
