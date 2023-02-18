@@ -16,3 +16,6 @@ innerFunc();
 // In other words, innerFunc remembers (or closes over) the 'variable a' from its lexical scope.
 // In other words, innerFunc is a closure because it closes over the 'variable a' from its lexical scope.
 
+
+
+// https://medium.com/@matthew.holman/js-interview-what-is-this-4daaf797dd4
