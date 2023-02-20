@@ -41,3 +41,10 @@ console.log(range23(0,10,1.5));
     // arrayLike = "gopal",         [a,b,c]     (or) any iterable
     // each element in iterable is passed to fn (elem, index) function
     // supply thisArg if needed
+
+
+/***************************************************/
+
+const length = 3;
+const filledArray1 = Array(length).fill({ value: 0 });
+const filledArray2 = Array(length).fill(0);

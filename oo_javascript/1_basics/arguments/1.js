@@ -6,6 +6,18 @@
 console.log(process.env);
 console.log(process.env.NODE_ENV)
 
+// process.env, however, is not available in a browser environment
+// we use bundlers (webpack) for exposing envi variables in UI/frontEnd
+    // built-in plugin EnvironmentPlugin in webpack
+
+        // const { EnvironmentPlugin } = require('webpack');
+        // plugins: [            
+        //     new EnvironmentPlugin({
+        //         NODE_ENV: 'development'
+        //     })
+        // ]
+
+
 
 /*
 

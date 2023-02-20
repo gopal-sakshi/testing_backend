@@ -1,0 +1,71 @@
+import.meta 
+- object available inside of an ES module
+- host can write any useful information into it
+- import.meta.jingchak23 = 'some info23'
+-----------------------------------------------------------------
+
+import jsonObject from "./file.json" assert { type: "json" };
+
+assert { type: "json" } is an import assertion 
+indicating the module should be parsed and imported as JSON.
+
+JSON modules work in Node.js version >=17.1
+In a browser environment, the JSON modules are available starting Chrome 91.
+
+
+-----------------------------------------------------------------
+
+typescript function overloading
+- 3 overload signatures
+- ONLY 1 implementation signature
+- Only the overload signatures are callable
+    implementation signatures are not directly callable. Only the overload signatures are callable.
+- implementation signature type should be generic enough
+
+
+typescript method overloading
+- 
+
+-----------------------------------------------------------------
+
+dense array = whether the array has items at each index:
+-----------------------------------------------------------------
+
+
+unknown vs any (typescript)
+
+Promise.race() catches the first settled (either fulfilled or rejected) promise
+Promise.any() the first to fulfill
+    Even if some promises get rejected, these rejections are ignored.
+    If all promises in the input array are rejected ===> Promise.any() rejects with an aggregate error
+    first 3 promises are rejected... Promise.any() ignores those 3 promises... if 4th promise is fulfilled ===> Promise.any returns 4th promise
+Promise.allSettled()
+    runs promises in parallel
+    aggregates the settled statuses (either fulfilled or rejected) into a result array.
+    will wait for all input promises to complete, regardless of whether or not one promise got rejected
+    anyway, it will return the final result of every promise
+Promise.all()
+    accepts an array of promises
+    If all promises are resolved successfully ===> array of success results
+    But if at least one promise rejects =====> then Promise.all rejects right away (without waiting for other promises to resolve)
+-----------------------------------------------------------------
+
+dynamic Import a module
+- const { funcA } = await import('./bigModuleA.js');            // dont import big module willy-nilly 
+                                                                // only import on demand & keep the bundle size minimum
+
+-----------------------------------------------------------------
+Enabling ECMAScript modules in Node.js
+- ECMAScript module ====> uses import/export instead of require()
+- use .mjs extension        (OR)
+- module's nearest parent folder has { "type": "module" } in package.json
+- 
+
+Inside the ECMAScript module scope, these CommonJS specific variables are not available
+    require()
+    exports
+    module.exports
+    __dirname
+    __filename
+
+-----------------------------------------------------------------
