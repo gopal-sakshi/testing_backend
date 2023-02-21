@@ -1,4 +1,17 @@
-// fetch API ====> API to perform web requests
-    // we get a response object... but we have to manually extract json object everytime
+fetch API ====> API to perform web requests
+    we get a response object... but we have to manually extract json object everytime
+    we can use axios ===> but its just increases bundle size
 
-// we can use axios ===> but its just increases bundle size
+
+response.json()             returns a promise resolved to a JSON object
+response.text()             returns a promise resolved to raw text
+response.formData()         returns a promise resolved to FormData
+response.blob()             returns a promise resolved to a Blob (a file-like object of raw data)
+response.arrayBuffer()()    returns a promise resolved to an ArryBuffer (raw generic binary data)
+
+
+fetch() doesn't throw an error when the server returns a bad HTTP status
+    client errors (400–499)
+    server errors (500–599)
+So, use response.ok property
+    set to true only if the response has status 200-299

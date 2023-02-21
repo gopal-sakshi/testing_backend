@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My Website</title>
+    <style>
+        #message {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Load games</button>
+    <div id="message">Click to load the games.</div>
+    <script>
+        async function loadGames() {
+            const response = await fetch('/games');         // fetch() timeouts at 300 seconds in Chrome            
+            const games = await response.json();
+            return games;
+        }
+        document.querySelector('button').addEventListener('click', async function () {
+            document.getElementById('message').innerText = 'Loading games...';
+            const games = await loadGames();
+            document.getElementById('message').innerText = 'Games have been loaded.';
+            console.log(games);
+        });
+    </script>
+</body>
+</html>

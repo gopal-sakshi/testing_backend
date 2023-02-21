@@ -1,0 +1,28 @@
+Hash Tables
+- data structures
+- allow you to create a list of paired values.
+- retrieve a certain value by using the key for that value
+- A Hash Table transforms a key into an integer index using a hash function
+- Uses =====> fast search, insertion, delete operations
+
+-----------------------------------------------------------------------------------
+
+Why not use Objects
+- JS's Object type ====> special kind of Hash Table
+- properties are added to the Object 
+    obj23.newProp1 = 'someValue23'
+- Problems
+    Keys you input may conflict & overwrite default properties inherited from the class.
+    size of the Hash Table is not tracked... 
+        we need to manually count how many properties are inherited... how many are defined by programmer
+-----------------------------------------------------------------------------------
+
+Why not use Maps
+- Map allows you to store key-value pairs inside the data structure
+- we MUST use the set() & get() methods 
+    to define & to retrieve new key-value pairs respectively
+------------------------------------------------------------------------------------ 
+
+JS has two hash-table type thingies - Object, Map
+- But, interviewers still ask to write your own Hash Table implementation
+

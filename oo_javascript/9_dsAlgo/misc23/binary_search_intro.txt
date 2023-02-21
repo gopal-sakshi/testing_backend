@@ -1,0 +1,17 @@
+Binary Search
+- compares the target value to the middle element of the array. 
+- If they are not equal
+    the half in which the target cannot lie is eliminated
+    and the search continues on the remaining half
+- Binary search runs in logarithmic time    O(logn)             // n = number of elements in array
+- Binary search is faster than linear search except for small arrays.
+- However, the array must be sorted first to be able to apply binary search
+
+
+Hash Tables
+- specialized data structures designed for fast searching
+- efficient that binary search
+- But binary search solves wide range of problems
+    finding the next-smallest element in the array relative to target
+    finding the next-largest element in the array relative to target                    // if target is absent from array
+

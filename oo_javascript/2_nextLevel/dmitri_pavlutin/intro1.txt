@@ -69,3 +69,35 @@ Inside the ECMAScript module scope, these CommonJS specific variables are not av
     __filename
 
 -----------------------------------------------------------------
+Using an arrow function as a method isn't recommended
+
+const world = {
+    who: 'World',
+    greet: () => { return `Hello, ${this.who}!`;}
+};
+world.greet();                  // => 'Hello, undefined!'           this inside of the arrow function equals this of the outer scope
+
+-----------------------------------------------------------------
+null represents a missing object
+while undefined represents an uninitialized state.
+
+let myVariable1;
+myVariable1;                    // undefined
+myVariable2;                    // null         coz, there is no mention of myVariable2 in this scope
+
+
+null === undefined;                                     // false
+null == undefined;                                      // true. For loose equality operator == null & undefined are equal
+
+-----------------------------------------------------------------
+"this" value inside of an arrow function ====> always equals to "this" from the outer function.
+
+The arrow function resolves arguments lexically.
+
+Arrow function
+- can be asynchronous                       async () => { }
+- can not be used as constructor
+- can not be used as generator function
+- not recommended to use as method (object.invokeArrow23)
+-----------------------------------------------------------------
+
