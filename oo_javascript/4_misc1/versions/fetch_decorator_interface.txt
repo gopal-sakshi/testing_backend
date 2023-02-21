@@ -1,0 +1,4 @@
+// fetch API ====> API to perform web requests
+    // we get a response object... but we have to manually extract json object everytime
+
+// we can use axios ===> but its just increases bundle size
