@@ -1,0 +1,70 @@
+Hashing
+- design a system for storing employee records with phone numbers (as keys)
+- we want these functionalities
+    insert, search, delete
+
+We can use following data structures
+- Arrays                                                arr[0] = { 0000011111, info1 };         arr[1] = {  0000011112, info2 };
+- linked lists                                          node1 --> node2 --> node3 ---> null
+- binary search tree                            
+- direct access table                                   arr[0000011111] = info1;            arr[0000011112] = info2
+    
+
+arrays & linked lists
+- insertion is O(1); but search is complex
+- we need to search in a linear fashion, which can be costly in practice.
+- If we use arrays and keep the data sorted, then a phone number can be searched in O(Logn) time using Binary Search, 
+    but insert & delete operations become costly as we have to maintain sorted order. 
+
+
+balanced binary search tree
+- we get moderate search, insert, delete times. 
+- All of these operations can be guaranteed to be in O(Logn) time. 
+
+
+Direct Access Table
+- we make a big array & use phone numbers as index in the array
+- The array entry stores pointer to records corresponding to phone number
+- Time complexity wise this solution is the best among all =====> we can do all operations in O(1) time
+- But
+    while creating array... we have to create very big array   arr[0000000000] ===> arr[9999999999]
+    integer in programming language may not hold 10 digits... we need float, but array index can only be integer
+---------------------------------------------------------------------------------------------------------
+
+Hashing
+- the only solution that can be used in almost all such situations (insert, search ,delete) 
+- performs extremely well compared to above data structures like Array, Linked List, Balanced BST, Direct Access Table 
+---------------------------------------------------------------------------------------------------------
+
+Basic operations
+- HashTable                     to create a new hash table.
+- Delete                        to delete a particular key-value pair from the hash table.
+- Get                           to search a key inside the hash table & return the value that is associated with that key.
+- Put                           to insert a new key-value pair inside the hash table.
+- DeleteHashTable               to delete the hash table
+
+
+Hash Function
+- A function that converts a given big phone number to a small practical integer value. 
+- That mapped integer value is used as an index in hash table.
+- Good hash function should have following properties:
+    Efficiently computable. 
+    Should uniformly distribute the keys (Each table position equally likely for each)
+    Should minimize collisions.
+    Should have a low load factor (number of items in table divided by size of the table)
+
+Collision Handling
+- A situation where a newly inserted key maps to an already occupied slot in hash table is called collision
+- It must be handled using some collision handling technique
+- Chaining
+    make each cell of hash table point to a linked list of records that have same hash function value.
+---------------------------------------------------------------------------------------------------------
+
+Some Hash functions
+
+Division Method
+    h(K) = K mod M                      // K = Key; M = prime number to ensure numbers are evenly distributed
+Mid Square Method
+    
+Folding Method.
+Multiplication Method.
