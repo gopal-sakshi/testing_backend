@@ -1,0 +1,11 @@
+ESM Syntax
+
+import { strict as assert } from 'node:assert';
+import assert from 'node:assert/strict';
+
+-------------------------------------------------------------------------------------------------
+CJS Syntax
+
+const assert = require('node:assert').strict;
+const assert = require('node:assert/strict');
+
