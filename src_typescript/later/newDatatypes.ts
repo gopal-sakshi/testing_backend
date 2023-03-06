@@ -1,20 +1,17 @@
-
-var bigInt23:BigInt = BigInt(987654321)              // using BigInt() constructor
-
-var bigInt24:BigInt = 123456789n
-        // for this to work, I needed to change target property in compilerOptions in tsconfig.json
-        // BigInt is enabled in node_modules/typescript/lib/lib.es2020.bigint.d.ts, 
-                // it is part of es2020
-                // it is not part of esnext, es2016
-
-
-
+var bigInt23:BigInt = BigInt(987654321);                // using BigInt() constructor
+var bigInt24:BigInt = 123456789n;                       // tsconfig.json; "target": "es2020"
 // console.log(bigInt23 + bigInt24);
 
+let undefined23:undefined;                      // undefined is also a datatype in typescript
+let num24:number | undefined;
+num24 = undefined23;
+console.log(num24);
+num24 = 5
+console.log(num24);
 
-let num23:number = 10;
-let undefined23:undefined;                                  // undefined is also a datatype in typescript
-let num24:number | undefined;    
-// num23 = undefined23;                                 // ERROR ===> Type 'undefined' is not assignable to type 'number'
-num24 = undefined23;                                    // This will not throw error... coz num24 can accept either
-console.log(num23);
+// tsc newDatatypes.ts ====> BigInt literals are not available when targeting lower than ES2020
+// So, use this ========>               tsc newDatatypes.ts --target es2020
+/*********************************************************************************/
+
+// new dataType "never" ====> indicates the values that will never occur.
+function throwError(errorMsg: string): never {  throw new Error(errorMsg); } 

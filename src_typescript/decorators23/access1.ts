@@ -5,13 +5,9 @@ const enumerable = (value: boolean) => {
 }
 
 class Person57 {
-    firstName: string = "Jon"
-    lastName: string = "Doe"
-  
-    @enumerable(true)
-    get fullName () {
-      return `${this.firstName} ${this.lastName}`;
-    }
+    firstName: string = "Jon";
+    lastName: string = "Doe";  
+    @enumerable(true) get fullName () { return `${this.firstName} ${this.lastName}`; }
 }
 
 const p57 = new Person57();

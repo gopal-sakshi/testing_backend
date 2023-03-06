@@ -1,28 +1,13 @@
-/*********************** Anonymous OBJECT ***************8*/
-function greet1(person: { name: string; age: number }) {
-    return "Hello " + person.name;
-}
-
+/*********************** Anonymous OBJECT ****************/
+function greet1(person: { name: string; age: number }) { return "Hello " + person.name; }
 
 /******************* INTERFACE  ******************/
-interface Person2 {
-    name: string;
-    age: number;
-}
-
-function greet2(person: Person2) {
-    return "Hello " + person.name;
-}
+interface Person2 { name: string; age: number; }
+function greet2(person: Person2) { return "Hello " + person.name; }
 
 /******************************** TYPE ALIAS ****************/
-type Person3 = {
-    name: string;
-    age: number;
-};
-
-function greet3(person: Person3) {
-    return "Hello " + person.name;
-}
+type Person3 = { name: string; age: number; };
+function greet3(person: Person3) { return "Hello " + person.name; }
 
 /************************************************************ 
 

@@ -4,15 +4,14 @@ function padLeft2(padding: number | string, input: string) {
     // return "_".repeat(padding) + input;
 
     // APPROACH II 
-    if (typeof padding === "number") {
-        return "_".repeat(padding) + input;
-    }
-    return padding + input;
+    if (typeof padding === "number") { return "_".repeat(padding) + input; }
+    else { return (padding + input).toUpperCase(); }    
 }
 
-var result = padLeft2(4, "gopal");              // O/P ===> ____gopal
-var result = padLeft2("3", "gopal");            // O/P ===> 3gopal
-console.log(result);
+var result1 = padLeft2(4, "gopal");              // O/P ===> ____gopal
+var result2 = padLeft2("3", "gopal");            // O/P ===> 3GOPAL
+console.log(result1);
+console.log(result2);
 
 /*
     hover over padding... 
