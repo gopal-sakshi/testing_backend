@@ -1,0 +1,95 @@
+stateful webservices (example ---> FTP server)
+- When a user logs in to a traditional FTP server, they are engaging in an active connection with the server. 
+- Each change to the state of the user, such as active directory, is stored on the server as a client state. 
+- Each change made to the server is registered as a change of state, 
+    and when the user disconnects, their state is further changed to disconnected.
+- FTP is stateful for a very good reason
+    it replicates changes on both the client side & server side 
+    while delivering increased security due to the nature of the requested access
+
+
+Problems with stateful services
+- a lot of incomplete sessions & transactions.
+- In a stateful system where the state is determined by the client
+    how long is the system supposed to leave this connection open? 
+    How do we verify if the client has crashed or disconnected? 
+    How do we track the actions of the user while maintaining the ability to document changes and roll back when necessary?
+- Doing a POST issuance in a stateless manner means 
+    that you do not have to wait for server synchronization to ensure the process has been properly completed, 
+    as you would with FTP or other stateful services. 
+    You receive a confirmation, but this confirmation is simply an affirmative response, rather than a mutual shared state.
+
+
+Stateless
+- By stateless it means that the server does not store any state about the client session on the server side.
+    server can maintain other states (shopping carts, etc)
+    BUT NOT -----> client's current application/session state.
+- The client session is stored on the client.
+    When the client makes an HTTP request, it includes all the information necessary for the server to fulfill that request. 
+    The server never relies on information from previous requests. 
+    If some information was important, the client would have to send it again in subsequent request. 
+- The load of session management is amortized across all the clients
+    the clients store their session state 
+    the servers can service many more clients in a stateless fashion.
+- Every time a request is sent, should the client should send its userName/password to authenticate
+    - there are Techniques for handling stateless authentication. 
+        Google JWT
+- https://stackoverflow.com/questions/3105296/if-rest-applications-are-supposed-to-be-stateless-how-do-you-manage-sessions
+
+Benfits with stateless services
+- Statelessness also brings new features. 
+- It’s easier to distribute a stateless application across load-balanced servers. 
+- A stateless application is also easy to cache.
+
+
+
+
+REST vs HTTP
+- REST is the way HTTP should be used.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+HTTP 
+- is a protocol used for communication
+- usually used to communicate with internet resources (or) any application with a web browser client.
+
+-----------------------------------------------------------------------------------------------------------------------------
+REST 
+- the main concept you are using while designing the application is the Resource: 
+- for each action you want to perform you need to define a resource on which you usually do only CRUD operation,
+    - for that its very convenient to use 4 verbs used in HTTP protocol against the 4 CRUD operations 
+    - GET for Read, POST is for CREATE, PUT is for UPDATE, DELETE is for DELETE
+- that's unlike the older concept of RPC (Remote Procedure Call), in which you have a set of actions you want to perform as a result of the user's call.
+
+if you think for example on how to describe a facebook like on a post, 
+- with RPC
+    you might create services called AddLikeToPost and RemoveLikeFromPost,
+    and manage it along with all your other services related to FB posts, 
+    thus you won't need to create special object for Like. 
+- with REST
+    you will have a Like object which will be managed separately with Delete & Create functions.
+    It also means it will describe a separate entity in your db.
+    that might look like a small difference, but working like that would usually yield a much simpler code & a much simpler application.
+    with that design, most of the app's logic is obvious from the object's structure (model), 
+        unlike RPC with which you would usually have to explicitly add a lot more logic.
+
+
+designing RESTful application is usually a lot harder because it requires you to describe complicated things in a simple manner.
+describing all functionalities using only CRUD functions is tricky, 
+    but after doing that your life would be a lot simpler 
+    and you will find that you write a lot shorter methods.
+
+
+One more restraint REST architecture present is 
+- not to use a session context when communicating with client (stateless), 
+- meaning all the information needed to understand who is the client & what he wants is passed with the web message.
+- each call to a function is self descriptive, there is no previous conversation with the client which can be referenced in the message. 
+- Therefor a client could not tell you "give me the next page"
+    since you don't have a session to store what is the previous page and what kind of page you want,
+    the client would have to say "my name is Yuval, get me page 2 of a specific post in a specific forum".
+    This means a bit more data would have to transfer in the communication, 
+    but think of the difference between finding a bug reported from 
+        the "get me the next page" function 
+        (in oppose to) "get me page 2 of question id 2190836 in stack overflow".
+- Of course there is a lot more to it, but to my humble opinion these are the main concepts in a teaspoon.
+-----------------------------------------------------------------------------------------------------------------------------
