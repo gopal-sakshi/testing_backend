@@ -39,6 +39,7 @@ Promise.any() the first to fulfill
     Even if some promises get rejected, these rejections are ignored.
     If all promises in the input array are rejected ===> Promise.any() rejects with an aggregate error
     first 3 promises are rejected... Promise.any() ignores those 3 promises... if 4th promise is fulfilled ===> Promise.any returns 4th promise
+    5th, 6th promises are ignored
 Promise.allSettled()
     runs promises in parallel
     aggregates the settled statuses (either fulfilled or rejected) into a result array.
