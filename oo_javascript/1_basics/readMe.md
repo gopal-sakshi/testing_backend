@@ -78,7 +78,7 @@ split('_')
 replace()                               
     returns new string... 
     old string is <unaffected>
-splice(2,5,newElem)
+`splice(2,5,newElem)`
     start from 2nd index... remove 5 elements... newElem will be inserted
     <modifies original array>... returns removed/deleted Items
 substring(2,5)

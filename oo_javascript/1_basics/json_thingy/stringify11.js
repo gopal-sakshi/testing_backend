@@ -1,8 +1,6 @@
 const replacer23 = (key, value) => {
-    if (typeof(value) == "string") {
-        return undefined;
-      }
-      return value;
+    if (typeof(value) == "string") { return undefined; }
+    return value;
 }
 
 var str23 = {

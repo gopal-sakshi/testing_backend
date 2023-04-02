@@ -20,9 +20,7 @@ const getCircularReplacer = () => {
     return (key, value) => {
         console.log(`${key}_${value}`);
       if (typeof value === "object" && value !== null) {
-        if (seen.has(value)) {
-          return;
-        }
+        if (seen.has(value)) { return; }
         seen.add(value);
         console.log(seen);
       }
