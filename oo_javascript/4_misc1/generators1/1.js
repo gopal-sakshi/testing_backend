@@ -11,3 +11,5 @@ console.log(gen.next());                    // expected output: 20
 console.log(gen.next());
 console.log(gen.next());
 console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());

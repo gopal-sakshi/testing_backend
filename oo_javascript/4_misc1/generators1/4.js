@@ -8,8 +8,6 @@ function* laptoptGenerator() {
     return 'asus';
 }
 
-// most important method of the generator object is next(), which is used to start/resume the execution of the generator
-
 var gen23 = laptoptGenerator();
 console.log(gen23.next());
 console.log(gen23.next());

@@ -7,6 +7,11 @@ function readFileThunk(filename, options) {
     }
 }
 
+function writeFileThunk(str, data23) {
+    return function(callback) {
+        fs.writeFile(`./copy1_${Date.now()}.txt`, data23, callback);
+    }
+}
 
 function asyncFlowWithThunks(generatorFunction) {
     function callback(err) {

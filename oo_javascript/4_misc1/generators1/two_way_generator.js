@@ -2,7 +2,7 @@ function* twoWayGenerator() {
     var what23 = yield '__';
     console.log('Hello ' + what23);
     yield 'unko yield undi le';
-    // return 'blah'
+    return 'blah'
 }
 var twoWay = twoWayGenerator();
 console.log(twoWay.next());
