@@ -9,6 +9,7 @@ promise.then(res => {
     console.log("then2: ", res);
 }).catch(err => {
     console.log("catch: ", err);
+    return 'jingChak';
 }).then(res => {
     console.log("then3: ", res);
 });

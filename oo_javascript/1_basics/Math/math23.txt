@@ -1,5 +1,0 @@
-
-this file just exists to learn about
-- paths
-- relative paths & stuff
-- see fsPaths1.js in file-system folder

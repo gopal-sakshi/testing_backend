@@ -3,7 +3,7 @@ createAudioFileAsync(audioSettings, successCallback, failureCallback);
 
 <!-- attach your callbacks --> 
 createAudioFileAsync(audioSettings).then(successCallback, failureCallback);
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 `Advantages`
 - Chaining
@@ -17,11 +17,9 @@ createAudioFileAsync(audioSettings).then(successCallback, failureCallback);
     It's possible to chain after a failure, ie a catch, which is useful to accomplish new actions even after an action failed in the chain
 
 
-
-
 `Terminology`
 - floating promise ==> previous handler started a promise but did not return it, there's no way to track its settlement anymore
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 
 a Promise can be in one of these 3 states
@@ -50,7 +48,7 @@ Promises have two possible mutually exclusive fates:
     or a non-promise value ======> in which case it is fulfilled with that value.
 // https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md
 
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 Promise.prototype.then()
 Promise.prototype.catch()
@@ -59,3 +57,4 @@ Promise.prototype.finally()
 - all three methods return promises
 - so, they can be chained
 
+--------------------------------------------------------------------------------------------------------------

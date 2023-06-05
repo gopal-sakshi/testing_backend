@@ -9,10 +9,10 @@ function promiseAll(promises) {
         for (let i = 0; i < promises.length; i++) {
             const promise = promises[i];
             promise.then((res) => {
-                    result[i] = res;
-                    if (count === promises.length) { resolve(result); }
-                    count++;
-                }).catch((e) => { reject(e); });
+                result[i] = res;
+                if (count === promises.length) { resolve(result); }
+                count++;
+            }).catch((e) => { reject(e); });
         }
     });
 }
