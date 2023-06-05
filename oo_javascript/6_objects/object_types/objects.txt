@@ -30,21 +30,18 @@ Object Methods
 - JS allows us to store the function in a variable and use it later.
 - When we assign a function to a property, we call that property a method.
 
-
-property name must follow JS identifier rules... otherwise, use square-brackets while declaring/accessing them
-
-
-2 ways to access the property
-- Dot notation
-    works only if the property names follow the JavaScript rules for identifiers.   
-- bracket notation
-
-JS allows us to add or remove Property to an already existing object anytime
-remove a property using the delete statement.
+Object properties
+- property name must follow JS identifier rules... 
+    otherwise, use square-brackets while declaring/accessing them
+- 2 ways to access the property
+    Dot notation = works only if the property names follow the JavaScript rules for identifiers.   
+    bracket notation
+- JS allows us to add or remove Property to an already existing object anytime
+    remove a property using the delete statement.
 
 
 Everything is Object in JavaScript
-- Javascript has 7 primitive data types string, number, bigint, boolean, undefined, symbol, and null. 
+- Javascript has 7 primitive data types string, number, bigint, boolean, undefined, symbol, null. 
 - Everything else is an object. For example Dates, Functions, arrays are all Objects.
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -67,14 +64,4 @@ Trying to access and property that does not exist returns undefined
 
 addProperty() takes any object and adds the property passed in its argument.
 - addProperty(obj, key, value) 
-
-
-
-
-
-
-
-
-
-
-
+------------------------------------------------------------------------------------------

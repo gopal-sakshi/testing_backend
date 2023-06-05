@@ -5,6 +5,13 @@
 //     Properties in the target object are overwritten by properties in the sources if they have the same key. 
 //     Later sources’ properties overwrite earlier ones.
 
+var src1 = { name: 'Benz', details: { position: 'Striker' } };
+var dest1 = Object.assign({}, src1);
 
-var obj = Object.assign(obj, src1,src2);
-var obj = Object.assign({}, src1,src2);
+console.log(dest1);
+
+src1.name = 'BB';
+src1.details.position = 'CF';           // now dest1 properties will also change
+
+console.log(src1);
+console.log(dest1);

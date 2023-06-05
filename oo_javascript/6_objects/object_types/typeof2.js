@@ -1,3 +1,5 @@
+// READ THIS: https://stackoverflow.com/questions/38740610/object-getprototypeof-vs-prototype
+
 console.log(funcArrow);
 console.log(funcDecl);             // testing function hoisting
 // console.log(c);             // const got error... var didnt get error... look into it

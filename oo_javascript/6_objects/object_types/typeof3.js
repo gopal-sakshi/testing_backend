@@ -27,13 +27,4 @@ console.log(typeof greet);                                              // funct
 console.log(typeof greet());                                            // string, coz greet() returns a string
 /*****************************************************************************************/
 
-// for some reason, typeof null ====> evaluates to object
-// thats why, check for not null also...
-const missingObject = null;
-console.log(typeof missingObject);                                  // object
-console.log(missingObject == null);
-/*****************************************************************************************/
 
-// var someThing = 44;
-console.log(someThing);             // throws ReferenceError, if you comment out above line
-console.log(typeof someThing);      // if someThing is not defined, then you get undefined error, instead of ReferenceError
