@@ -9,7 +9,7 @@ Object.defineProperty(data23, 'newProp143', {
     // writable: true,
     get: function () {
         console.log('Getter called');
-        return this.value;
+        return value54;
     },
     set: function (value) {
         console.log('Setter called');
@@ -20,5 +20,5 @@ Object.defineProperty(data23, 'newProp143', {
 console.log(data23.newProp143);
 data23.newProp143 = 'real madrid'; 
 console.log('--------------------- X22 --------------------------');
-const someValue = data23.newProp143; 
+console.log(data23.newProp143); 
 console.log('--------------------- X23 --------------------------');

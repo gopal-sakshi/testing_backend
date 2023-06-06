@@ -7,11 +7,15 @@ var objOriginal = {
     info: { year:1902, president: 'perez', nicknames: ['Los Blancos', 'Galacticos'] }
 }
 
-var objAssign = objOriginal;
+/*
+    APPROACH I --------------> spread operator.... this is also shallow copy
+*/
+var objAssign = {...objOriginal};
+
 console.log(objAssign);
 console.log('----------------- after changes --------------------------');
 objOriginal.name = 'Real Madrid';
 objOriginal.info.nicknames = objOriginal.info.nicknames.concat('Los Merengues')
-objAssign.players = ['Benz'];
+objOriginal.players[2] = 'Benz';
 console.log(objOriginal);
-console.log(objAssign); 
+console.log(objAssign);     // notice how modifications in 'objOriginal' ----> reflected in 'objAssign'

@@ -14,7 +14,7 @@ var objOriginal = {
     - both objOriginal & objAssign ====> two different memory locations
     - BUT... both objOriginal & objAssign ----> share same property 'info'
         technically, 'info' is another object in heap memory... there is only one such 'info object'
-        Both objOriginal.info & objAssign.info ------> point to the same thing...88
+        Both objOriginal.info & objAssign.info ------> point to the same thing...
 
 
 */
@@ -27,3 +27,6 @@ objOriginal.info.nicknames = objOriginal.info.nicknames.concat('Los Merengues')
 objAssign.players = ['Benz'];
 console.log(objOriginal);
 console.log(objAssign);     // notice how modifications in 'objOriginal' ----> reflected in 'objAssign'
+
+
+console.log(objOriginal.info === objAssign.info)

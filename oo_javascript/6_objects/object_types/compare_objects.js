@@ -1,5 +1,7 @@
 var aa = { name: 'aa', age: 12, nested23: { city: 'Madrid', country: 'Spain' }} 
-var aa_copy = { name: 'aa', age: 12, nested23: { city: 'Madrid', country: 'Spain' }}        // two objects get created in heap memory
+var aa_copy = { name: 'aa', age: 12, nested23: { city: 'Madrid', country: 'Spain' }}        
+// two objects get created in heap memory at different locations
+
 var c = aa;                 // shallow copy... both c && aa pointing to same object
 
 console.log(aa == aa_copy);

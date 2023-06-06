@@ -13,11 +13,11 @@ var params = {
 }
 
 // APPROACH I ---------> destructure & take only some individual properties
-const {reportType, offset = 10, limit = 3000, appName:storeName ,someObject} = {...params};
-console.log(reportType);                // undefined, coz there is no reportType property in params
-console.log(offset);                    // 10, evenThough offset property is not there, we provided a default value
+const {reportType, offset = 10, limit = 3000, appName:storeName, someObject} = {...params};
+console.log(reportType);        // undefined, coz there is no reportType property in params
+console.log(offset);            // 10, evenThough offset property is not there, we provided a default value
 console.log(limit);
-console.log(storeName);                 // 'INPUTS', evenThough storeName is property is not there... we assign 'appName of params' to storeName
+console.log(storeName);         // we assign 'appName of params' to storeName
 console.log(someObject);
 
 // APPROACH II --------> destructure whole object (basically shallow copy)
