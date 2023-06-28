@@ -1,0 +1,16 @@
+improved readability & maintainability of your code. 
+code is self-explanatory
+- Lodash’s functional programming approach ====> write code that is more declarative & less imperative. 
+- ie instead of telling the computer how to do something step-by-step, 
+- you describe what you want it to do. 
+
+
+
+const users = [
+    { first: 'John', last: 'Doe'},
+    { first: 'Jane', last: 'Smith'},
+    { first: 'Jim', last: 'Johnson'},
+];
+
+const sortedUsers = _.sortBy(users, 'last');
+console.log(sortedUsers);
