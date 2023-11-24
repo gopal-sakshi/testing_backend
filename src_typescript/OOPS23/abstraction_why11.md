@@ -4,6 +4,8 @@ Why abstraction is necessary
     and feel confident that the dependency would work with our code.
 - 
 
+https://khalilstemmler.com/blogs/typescript/abstract-class/
+
 ---------------------------------------------------------------------------------------------
 ---> write the code for an OS that made USB ports work
 
