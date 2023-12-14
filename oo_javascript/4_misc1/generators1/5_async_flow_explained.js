@@ -1,5 +1,7 @@
 var fs = require('fs');
 var path = require('path');
+// console.log(' ===========> ', path.join('', 'generators1' , '5_async_flow_explained.js'));
+// console.log(' ===========> ', __dirname);
 const gen1 = function* (callback) {
     // var fileName = path.basename(__filename);
     var fileName = path.basename('5_input.txt');
@@ -21,5 +23,5 @@ function asyncFlow(generatorFunction) {
     generator.next();
 }
 /*****************************************************************************************/
-asyncFlow(gen1);
+// asyncFlow(gen1);
 /*****************************************************************************************/

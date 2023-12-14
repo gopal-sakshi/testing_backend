@@ -1,7 +1,9 @@
-var knightPosition = process.argv[2];
-var xAxis = knightPosition.substring(0,1).charCodeAt(0) - 96;
-var yAxis = parseInt(knightPosition.substring(1,2));
-if(xAxis > 8 || xAxis < 0 || yAxis > 8 || yAxis < 0) {console.log('wrong input, exiting'); process.exit(1)}
+var knightPosition = process.argv[2];                                               // node chess_knight23.js a1
+var xAxis = knightPosition?.substring(0,1).charCodeAt(0) - 96;
+var yAxis = parseInt(knightPosition?.substring(1,2));
+if(xAxis > 8 || xAxis < 0 || yAxis > 8 || yAxis < 0 || !xAxis || !yAxis) {
+    console.log('wrong input, exiting'); process.exit(1)
+}
 // console.log(xAxis, '_', yAxis);             // 74
 
 // find all possible knight moves

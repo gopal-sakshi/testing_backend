@@ -57,3 +57,6 @@
     but in node, we are stuck with common.js modules
 - 
 --------------------------------------------------------------------------------------
+
+https://www.reddit.com/r/node/comments/10x8giq/would_you_want_to_bundle_your_node_backend_code/
+https://dev.to/midnqp/bundling-nodejs-into-single-executable-binary-l3g

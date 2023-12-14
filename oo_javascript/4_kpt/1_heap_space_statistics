@@ -1,0 +1,58 @@
+[
+    {
+        space_name: 'read_only_space',
+        space_size: 0,
+        space_used_size: 0,
+        space_available_size: 0,
+        physical_space_size: 0
+    },
+    {
+        space_name: 'old_space',
+        space_size: 4116480,
+        space_used_size: 4042824,
+        space_available_size: 80,
+        physical_space_size: 4194304
+    },
+    {
+        space_name: 'code_space',
+        space_size: 471040,
+        space_used_size: 434368,
+        space_available_size: 0,
+        physical_space_size: 499712
+    },
+    {
+        space_name: 'map_space',
+        space_size: 532480,
+        space_used_size: 515576,
+        space_available_size: 56,
+        physical_space_size: 786432
+    },
+    {
+        space_name: 'large_object_space',
+        space_size: 0,
+        space_used_size: 0,
+        space_available_size: 0,
+        physical_space_size: 0
+    },
+    {
+        space_name: 'code_large_object_space',
+        space_size: 0,
+        space_used_size: 0,
+        space_available_size: 0,
+        physical_space_size: 0
+    },
+    {
+        space_name: 'new_large_object_space',
+        space_size: 0,
+        space_used_size: 0,
+        space_available_size: 1030976,
+        physical_space_size: 0
+    },
+    {
+        space_name: 'new_space',
+        space_size: 1048576,
+        space_used_size: 460768,
+        space_available_size: 570208,
+        physical_space_size: 532480
+    }
+]

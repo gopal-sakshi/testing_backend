@@ -1,0 +1,1 @@
+https://www.reaktor.com/articles/javascript-performance-fundamentals-make-bluebird-fast
