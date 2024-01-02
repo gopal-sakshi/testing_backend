@@ -94,6 +94,6 @@ slice(2,5)
 
 
 # json thingy
-- use for of            // use it safely for arrays, strings, Objects... 
+- for of            // use it safely for arrays, strings, Objects... 
                             for Objects ---> use Object.entries
-- dont use for in
+- for in

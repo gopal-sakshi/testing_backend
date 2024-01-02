@@ -1,0 +1,114 @@
+{
+    "hi": {
+        "name": "hi",
+        "translatedQrs": [
+            {
+                "name": "",
+                "type": "",
+                "integrations": {
+                    "acl": {
+                        "id": "వ్యక్తి",
+                        "title": "వ్యక్తి",
+                        "button": "kaveri",
+                        "isList": true,
+                        "isEnabled": true,
+                        "description": "",
+                        "sectionTitle": "riversList"
+                    }
+                },
+                "resultComment": "",
+                "isForIntegrations": true
+            },
+            {
+                "name": "",
+                "type": "",
+                "integrations": {
+                    "acl": {
+                        "id": "గోదావరి",
+                        "title": "గోదావరి",
+                        "button": "godavari",
+                        "isList": true,
+                        "isEnabled": true,
+                        "description": "",
+                        "sectionTitle": ""
+                    }
+                },
+                "resultComment": "",
+                "isForIntegrations": true
+            },
+            {
+                "name": "",
+                "type": "",
+                "integrations": {
+                    "acl": {
+                        "id": "కృష్ణ",
+                        "title": "కృష్ణ",
+                        "button": "godavari",
+                        "isList": true,
+                        "isEnabled": true,
+                        "description": "",
+                        "sectionTitle": ""
+                    }
+                },
+                "resultComment": "",
+                "isForIntegrations": true
+            }
+        ]
+    },
+    "te": {
+        "name": "te",
+        "translatedQrs": [
+            {
+                "name": "",
+                "type": "",
+                "integrations": {
+                    "acl": {
+                        "id": "వ్యక్తి",
+                        "title": "వ్యక్తి",
+                        "button": "kaveri",
+                        "isList": true,
+                        "isEnabled": true,
+                        "description": "",
+                        "sectionTitle": "riversList"
+                    }
+                },
+                "resultComment": "",
+                "isForIntegrations": true
+            },
+            {
+                "name": "",
+                "type": "",
+                "integrations": {
+                    "acl": {
+                        "id": "గోదావరి",
+                        "title": "గోదావరి",
+                        "button": "godavari",
+                        "isList": true,
+                        "isEnabled": true,
+                        "description": "",
+                        "sectionTitle": ""
+                    }
+                },
+                "resultComment": "",
+                "isForIntegrations": true
+            },
+            {
+                "name": "",
+                "type": "",
+                "integrations": {
+                    "acl": {
+                        "id": "కృష్ణ",
+                        "title": "కృష్ణ",
+                        "button": "godavari",
+                        "isList": true,
+                        "isEnabled": true,
+                        "description": "",
+                        "sectionTitle": ""
+                    }
+                },
+                "resultComment": "",
+                "isForIntegrations": true
+            }
+        ]
+    }
+}
