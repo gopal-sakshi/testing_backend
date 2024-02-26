@@ -1,0 +1,83 @@
+[
+    {
+        "industryExp": {
+            "1-2": "1",
+            "3-5": "2",
+            "6-9": "3",
+            ">10": "4"
+        }
+    },
+    {
+        "mentorExp": {
+            "1-2": "1",
+            "3-5": "2",
+            "6-9": "3",
+            ">10": "4"
+        }
+    },
+    {
+        "background": {
+            "Limited": "1",
+            "involved in startup": "2",
+            "started & co-founded": "3",
+            "started multiple startups": "4"
+        }
+    },
+    {
+        "commitment": {
+            "upto 5hrs every month": "1",
+            "6-10 hrs every month": "2",
+            "11-20 hrs every month": "3",
+            "More than 20hrs every month": "4"
+        }
+    },
+    {
+        "online": {
+            "Limited (<500 followers linkedin)": "1",
+            "Some (501-2000 followers linkedin)": "2",
+            "Active (2001-5000 followers linkedin)": "3",
+            "Strong (>5001 followers linkedin)": "4"
+        }
+    },
+    {
+        "publications": {
+            "Npne": "1",
+            "Less than 10": "2",
+            "11-20": "3",
+            "Mpre than 20": "4"
+        }
+    },
+    {
+        "description": {
+            "Academic Professional": "1",
+            "Incubator & Accelerator": "2",
+            "Entrepreneur": "3",
+            "Corporate": "4",
+            "Independent": "5",
+            "Investor": "6"
+        }
+    },
+    {
+        "startupStages":{
+            "Idea Stage": "1",
+            "MVP Stage": "2",
+            "Product Market Fit Stage": "3",
+            "Growth Stage": "4",
+            "Expansion Stage": "5"
+        }
+    },
+    {
+        "startupCount":{ 
+            "1-5": "1",
+            "6-10": "3",
+            "11-20": "5",
+            ">20": "10"
+        }
+    },
+    {
+        "internationalExposure": {
+            "Yes": "5",
+            "No": "0"
+        }
+    }
+]

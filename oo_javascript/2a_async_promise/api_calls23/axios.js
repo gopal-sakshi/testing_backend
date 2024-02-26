@@ -109,6 +109,10 @@ async function makeWikiCall() {
     // console.log(await fetchUserNames());
     // console.log(await fetchJokes());
     // console.log(await makeAxiosGetCall());
-    // console.log(await makeAxiosPostCall());
-    console.log(await makeWikiCall());
+    console.log(await makeAxiosPostCall());
+    // console.log(await makeWikiCall());
 })();
+
+
+// this sets headers globally
+// axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('access_token')}`;

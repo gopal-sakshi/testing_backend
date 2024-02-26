@@ -1,0 +1,21 @@
+{
+    "step2": {
+        "Please Provide your brief Bio in less than 200 words.": "An IT professional ",
+        "Overall Years of experience": "",
+        "Mentorship Experience": "",
+        "Mentorship commitment level": "",
+        "What describes you the best?": "",
+        "Please specify the startup stages you can mentor.": "",
+        "Please specify the number of startups you have mentored to date?": "",
+        "Do you have any international exposure?": "Yes"
+    },
+    "step3": {
+        "undefined": "Virtual mentoring",
+        "Associated with any Incubator/Startup Agency": "Yes",
+        "Any specialized functional area of mentoring? (Sector Specific) ": "IT Services, AI, Enterprises Software, IoT, Social Impact"
+    },
+    "step4": {
+        "Please upload your high-resolution profile picture.": {},
+        "Do you consent your profile visibility and promotion by MSH to its Portal?": "Yes, I agree"
+    }
+}

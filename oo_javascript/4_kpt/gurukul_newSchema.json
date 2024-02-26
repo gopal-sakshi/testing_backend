@@ -1,0 +1,63 @@
+[
+    {
+        "name": "industryExp",
+        "options": {
+            "1-10": "8",
+            "11-20": "9",
+            ">21": "10"
+        }
+    },
+    {
+        "name": "mentorExp",
+        "options": {
+            "1-2": "1",
+            "3-5": "2",
+            "6-9": "3",
+            ">10": "4"
+        }
+    },
+    {
+        "name": "background",
+        "options": {
+            "Limited": "1",
+            "involved in startup": "2",
+            "started & co-founded": "3",
+            "started multiple startups": "4"
+        }
+    },
+    {
+        "name": "football",
+        "options": {
+            "RMA": "14",
+            "Milan": "7",
+            "Bayern": "6",
+            "Barca": "5"
+        }
+    },
+    {
+        "name": "startupStages",
+        "options": {
+            "Idea Stage": "1",
+            "MVP Stage": "2",
+            "Product Market Fit Stage": "3",
+            "Growth Stage": "4",
+            "Expansion Stage": "5"
+        }
+    },
+    {
+        "name": "startupCount",
+        "options": { 
+            "1-5": "1",
+            "6-10": "3",
+            "11-20": "5",
+            ">20": "10"
+        }
+    },
+    {
+        "name": "internationalExposure",
+        "options": {
+            "Yes": "5",
+            "No": "0"
+        }
+    }
+]

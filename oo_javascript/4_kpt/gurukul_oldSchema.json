@@ -1,0 +1,93 @@
+[
+    {
+        "name": "industryExp",
+        "options": {
+            "1-2": "1",
+            "3-5": "2",
+            "6-9": "3",
+            ">10": "4"
+        }
+    },
+    {
+        "name": "mentorExp",
+        "options": {
+            "1-2": "1",
+            "3-5": "2",
+            "6-9": "3",
+            ">10": "4"
+        }
+    },
+    {
+        "name": "background",
+        "options": {
+            "Limited": "1",
+            "involved in startup": "2",
+            "started & co-founded": "3",
+            "started multiple startups": "4"
+        }
+    },
+    {
+        "name": "commitment",
+        "options": {
+            "upto 5hrs every month": "1",
+            "6-10 hrs every month": "2",
+            "11-20 hrs every month": "3",
+            "More than 20hrs every month": "4"
+        }
+    },
+    {
+        "name": "online",
+        "options": {
+            "Limited (<500 followers linkedin)": "1",
+            "Some (501-2000 followers linkedin)": "2",
+            "Active (2001-5000 followers linkedin)": "3",
+            "Strong (>5001 followers linkedin)": "4"
+        }
+    },
+    {
+        "name": "publications",
+        "options": {
+            "Npne": "1",
+            "Less than 10": "2",
+            "11-20": "3",
+            "Mpre than 20": "4"
+        }
+    },
+    {
+        "name": "description",
+        "options": {
+            "Academic Professional": "1",
+            "Incubator & Accelerator": "2",
+            "Entrepreneur": "3",
+            "Corporate": "4",
+            "Independent": "5",
+            "Investor": "6"
+        }
+    },
+    {
+        "name": "startupStages",
+        "options": {
+            "Idea Stage": "1",
+            "MVP Stage": "2",
+            "Product Market Fit Stage": "3",
+            "Growth Stage": "4",
+            "Expansion Stage": "5"
+        }
+    },
+    {
+        "name": "startupCount",
+        "options": { 
+            "1-5": "1",
+            "6-10": "3",
+            "11-20": "5",
+            ">20": "10"
+        }
+    },
+    {
+        "name": "internationalExposure",
+        "options": {
+            "Yes": "5",
+            "No": "0"
+        }
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "Overall Years of experience": {
+            "3-5yrs": "1",
+            "1-2 yrs": "2",
+            "6-9 yrs": "3",
+            ">10 yrs": "4"
+        }
+    },
+    {
+        "Mentorship Experience": {
+            "1-2 yrs": "1",
+            "3-5 yrs": "2",
+            "6-9 yrs": "3",
+            ">10 yrs": "4"
+        }
+    },
+    {
+        "Mentorship commitment level": {
+            "6-10 Hrs every month": "3",
+            "11-20 Hrs every month": "1",
+            "upto 5 Hrs every month": "2",
+            "more than 20 Hrs every month": "4"
+        }
+    },
+    {
+        "What describes you the best?": {
+            "Investor": "3",
+            "Corporate": "6",
+            "enterprenuer": "4",
+            "Academic professional": "2",
+            "Incubator/Accelerator/CoE": "1",
+            "Startup Supporting Company(Legal office, Accounting, Marketing Agency etc.)": "5"
+        }
+    },
+    {
+        "Please specify the startup stages you can mentor.": {
+            "MVP Stage": "1",
+            "Idea Stage": "2",
+            "Growth Stage": "5",
+            "Expansion Stage": "3",
+            "Product Market Fit Stage": "4"
+        }
+    },
+    {
+        "Please specify the number of startups you have mentored to date?": {
+            ">50": "5",
+            "1-10": "10",
+            "11-25": "1",
+            "25-50": "3"
+        }
+    },
+    {
+        "Do you have any international exposure?": {
+            "No": "0",
+            "Yes": "15"
+        }
+    }
+]
