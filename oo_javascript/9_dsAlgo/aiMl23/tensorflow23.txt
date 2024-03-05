@@ -1,0 +1,14 @@
+Hi, looks like you are running TensorFlow.js in Node.js. 
+To speed things up dramatically, install our node backend, visit https://github.com/tensorflow/tfjs-node for more details.
+
+
+there are two things
+    https://github.com/tensorflow/tfjs-node     DEPRECATED
+    https://github.com/tensorflow/tfjs          USE THIS
+
+But if we are using CPU & not GPU
+- then use tfjs-node thingy ???
+
+
+https://github.com/tensorflow/tfjs/issues/7512
+https://www.tensorflow.org/js/guide/nodejs
