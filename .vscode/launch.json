@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "launch_prog23",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/oo_javascript/7_nodeJs/diagnostics11/debugger23.js"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "port": 13332,
+            "name": "attach_prog23"
+        }
+    ]
+}
