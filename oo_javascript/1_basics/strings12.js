@@ -14,3 +14,7 @@ slice
 
 
 */
+
+let str = "sdfsdfsdfds:chatId";
+
+console.log(str.replace(":chatId", '_____'))
