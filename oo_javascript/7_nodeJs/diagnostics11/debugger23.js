@@ -16,7 +16,7 @@ var global_obj22 = {
 debugger
 let sum23 = add23(3,4);
 debugger
-console.log("sum23 ====> ", sum23);
+console.log("sum23 ====> ", sum23, process.version);
 
 let playerNames = _.get(global_obj22, 'players').map((player23) => {
     let local_var = player23.name + '__' + player23.position;

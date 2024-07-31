@@ -1,0 +1,25 @@
+JavaScript is primarily designed to run on a CPU and not on a GPU
+However, there are libraries & frameworks such as TensorFlow.js
+- which allow running ML models written in JavaScript on a GPU using WebGL. 
+- Plus, Chrome implemented a feature called WebAssembly, which allows JavaScript code to be executed at near-native speeds, 
+- taking advantage of the CPU & GPU resources of the client device. 
+
+So, while JS is not natively designed to run on a GPU, 
+there are ways to utilize the GPU resources through libraries & frameworks, or WebAssembly.
+
+==================================================================================================
+
+CPU vs GPU
+
+https://aws.amazon.com/compare/the-difference-between-gpus-cpus
+
+==================================================================================================
+
+JavaScript is primarily a language that is run on the central processing unit (CPU) of a computer, rather than a graphics processing unit (GPU). However, there are ways to utilize the power of a GPU to perform certain types of computations in JavaScript.
+
+One way to do this is by using WebGL, which is a JavaScript API for rendering interactive 3D and 2D graphics within a web browser. WebGL uses the GPU to accelerate rendering, and can be used for tasks such as image processing and machine learning.
+
+Another way is to use a JavaScript library such as TensorFlow.js, which allows you to perform machine learning operations using JavaScript. TensorFlow.js can use the GPU to accelerate certain types of computations, such as matrix operations.
+
+It's worth noting that the JavaScript code still runs on the CPU, but it can offload certain computations to the GPU to speed them up. Also, it's important to mention that not all JavaScript code can be run on a GPU, since not all operations are parallelizable and can be offloaded to a GPU to accelerate.
+==================================================================================================

@@ -8,7 +8,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/oo_javascript/7_nodeJs/diagnostics11/debugger23.js"
+            "program": "${workspaceFolder}/oo_javascript/7_nodeJs/diagnostics11/debugger23.js",
+            "runtimeExecutable": "/home/gopal/.nvm/versions/node/v12.22.12/bin/node"
         },
         {
             "type": "node",
