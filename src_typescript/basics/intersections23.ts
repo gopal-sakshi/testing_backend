@@ -16,6 +16,7 @@ type Animal = {
 let tiger:Animal = {
     species: 'tigris', 
     withBackbone: true, 
+    // foodType: 'vegan',          // ERROR: vegan is not assignable to veg/nonVeg
     foodType: 'nonVeg',      // If you comment this line, ERROR: Property 'foodType' is missing
     // domesticated: false  // this is optional... so, safely comment it
 };

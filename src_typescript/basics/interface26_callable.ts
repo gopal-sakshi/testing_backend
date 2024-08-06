@@ -28,7 +28,13 @@ interface Func1 {
 }
 
 const f1: Func1 = (v1, v2): any => {
-    return v1 + v2;
+    if(typeof v1 == 'number' && typeof v2 == 'number') {
+        return v1 + v2;
+    } else if(typeof v1 == 'string' && typeof v2 == 'string') {
+        // return v1 + '___' + v2;
+        return v1 + v2;
+    }
+    
 };
 console.log(f1("1", "2"));
 console.log(f1(1, 2));

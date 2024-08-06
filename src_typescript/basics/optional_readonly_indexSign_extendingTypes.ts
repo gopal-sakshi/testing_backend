@@ -9,10 +9,18 @@ jingChak("GopAL", 3);
 jingChak("GopAL");
 
 /*****************************************************************/
-// b) readonly
-    // it won't change any behavior at runtime,
-    // But a property marked as readonly can't be written to during type-checking.
-    // but the property's "internal nested properties" can be changed...
+/*
+    b) readonly
+    compile-time artifact, there's no protection against property assignments at runtime
+    But a property marked as readonly can't be written to during type-checking.
+    but the property's "internal nested properties" can be changed...
+
+    b1) readonly vs const
+    - const must have the value when we make the declaration; const used for variables
+    - readonly used for properties of class/interface
+
+*/
+
         
 interface Home { 
     readonly resident: { name: string; age: number }; 

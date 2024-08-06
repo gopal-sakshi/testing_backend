@@ -1,3 +1,5 @@
+// compare with "interface24_callable.ts" ===> this file crashes at runtime; while ts file throws compile time error
+
 class Person33  {
     // create a new property validator and assign someFn to this property in constructor
     constructor(validatorArg) { this.validator = validatorArg }

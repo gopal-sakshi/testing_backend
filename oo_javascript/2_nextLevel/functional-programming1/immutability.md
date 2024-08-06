@@ -1,7 +1,8 @@
 # Immutability
 - An immutable object is an object that can’t be modified after it’s created. 
 - Conversely, a mutable object is any object which can be modified after it’s created.
-- Immutability is a central concept of functional programming because without it, the data flow in your program is lossy. State history is abandoned, and strange bugs can creep into your software
+- Immutability is a central concept of functional programming because without it, the data flow in your program is lossy. 
+    State history is abandoned, and strange bugs can creep into your software
 
 
 Dont confuse const, with immutability. 
