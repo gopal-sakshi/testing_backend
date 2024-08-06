@@ -13,4 +13,5 @@ imm.myProp = "nono doesnt work. and thats good"         // error
 let mut: Mutable = imm          // you could also "hard" cast here: imm as unknown as Mutable
 mut.myProp = "there we go"      // imm.myProp value is "there we go"
 
-// https://dev.to/dhrn/series/23670
+// https://dev.to/dhrn/series/23670             100-part-series; 
+// https://dev.to/busypeoples/series/346        17 part series
