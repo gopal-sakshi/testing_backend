@@ -18,6 +18,8 @@ ticketManager.on("error", (error) => {
     console.error(`Gracefully handling our error: ${error}`);
 });
 
+
+/***********************************************************************************/
 ticketManager.buy("test1@email.com", 10);
     // ticketManager ===> like an Object...  
         // ticketManager Object will listen for these events =====> buyEventeyyyy, error
@@ -27,3 +29,4 @@ ticketManager.buy("test1@email.com", 10);
 ticketManager.buy("test2@email.com", 10);
 ticketManager.buy("test3@email.com", 10);
 ticketManager.buy("test4@email.com", 10);
+/***********************************************************************************/

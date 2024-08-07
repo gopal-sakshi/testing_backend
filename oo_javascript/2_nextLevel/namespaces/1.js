@@ -11,4 +11,4 @@ vehicle.start = () => { console.log('start the vehicle') };
 vehicle.stop = () => { console.log('stop the vehicle') };
 /******************************************************************************************/
 
-
+// https://flaviocopes.com/javascript-namespaces/

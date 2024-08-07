@@ -32,14 +32,26 @@ const readFileAsArray = function(file, cb = () => {}) {
  *      thats why our readFileAsArray() function definition must provide for empty callback thingy
  * we are calling readFileAsArray() method here.... 
  */
+
+// how to run ===================================> node promise1.js
+// USING as Promise
 readFileAsArray('promise1-numbers44.txt')
   .then(lines => {
     const numbers = lines.map(Number);
     const oddNumbers = numbers.filter(n => n%2 === 1);
-    console.log('Odd numbers count:', oddNumbers.length);
+    console.log('Odd numbers count via promise ===> :', oddNumbers.length);
   })
   .catch(console.error);
 
+
+// USING as Callback
+readFileAsArray('callback1-numbers44.txt', function(err, lines) {
+    if (err) throw err;
+    console.log(lines);
+    const numbers = lines.map(Number);
+    const oddNumbers = numbers.filter(n => n%2 === 1);
+    console.log('Odd numbers count via callback ===> :', oddNumbers.length);
+  });
 
 /*
     https://www.freecodecamp.org/news/understanding-node-js-event-driven-architecture-223292fcbc2d/

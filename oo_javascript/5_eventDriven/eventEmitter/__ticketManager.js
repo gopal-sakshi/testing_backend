@@ -24,6 +24,7 @@ class TicketManager extends EventEmitter {
         this.totalTickets = this.totalTickets + 1;
         this.emit('cancel', email);
     }
+    
     getAvailableTickets() {
         return this.totalTickets;
     }

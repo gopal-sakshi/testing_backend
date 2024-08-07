@@ -28,5 +28,4 @@ var manager = 'Ancelotti';
     // It wraps the code inside a function scope and decreases clashing with other libraries. 
     // And it’s useful for initialization tasks.
 
-
-
+/*********************************************************************************************************/

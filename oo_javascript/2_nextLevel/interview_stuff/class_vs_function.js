@@ -17,9 +17,9 @@ class Developer1 extends Person1 {
     }
 }
 /******************************
- * class keyword is really just a syntactic sugar around constructor functions. 
- * We can replace the code above with two constructor functions and link their prototypes:
- * **************************************************************** */
+    class keyword is really just a syntactic sugar around constructor functions. 
+    We can replace the code above with two constructor functions and link their prototypes:
+***************************************************************** */
 
 // Person1 ==> a class... it has a constructor() which initializes 'name' and a hello() method
 // Person2 ==> a function... it also initialises 'name'; then we add hello() function to Person2

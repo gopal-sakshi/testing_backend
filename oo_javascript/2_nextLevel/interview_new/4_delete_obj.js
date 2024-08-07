@@ -4,8 +4,8 @@ var Employee = {
 var emp1 = Object.create(Employee);
 delete emp1.company;
 // delete Employee.company;
-console.log(emp1.company);
-console.log(Employee);
+console.log(emp1, emp1.company);            // company is prototype property on emp1; not its own property
+console.log(Employee);                      // so, cant delete prototype property
 /********************************************************************************************/
 
 // Object.create() method is used to create a new object
@@ -15,22 +15,22 @@ console.log(Employee);
     // so you should delete that too.
 
 var Dog = {
-  _name: 'tommy',
-  _height: '4'
+  name: 'tommy',
+  height: '4'
 };
 
 var newDog = Object.create(Dog);
 newDog.color = 'red'; newDog.breed = 'labrador';
-console.log('newDog ===> ', newDog);
-console.log('newDog proto ====> ', Object.getPrototypeOf(newDog));
+console.log('newDog1 ===> ', newDog);
+console.log('newDog1 proto ====> ', Object.getPrototypeOf(newDog));
 delete newDog.name;                 // It deletes the property in the newDog
                                     // but still the Dog property contains the name property 
                                     // so when you console.log(newDog.name) it prints Dog.name property.
 
-console.log('newDog ===> ', newDog);
-console.log('newDog proto ====> ', Object.getPrototypeOf(newDog));
+console.log('newDog2 ===> ', newDog);
+console.log('newDog2 proto ====> ', Object.getPrototypeOf(newDog));
 
-delete Dog.name;
+delete Dog.name;            // now we are directly deleting the property on prototype itself
 
-console.log('newDog ===> ', newDog);
-console.log('newDog proto ====> ', Object.getPrototypeOf(newDog));
+console.log('newDog3 ===> ', newDog);
+console.log('newDog3 proto ====> ', Object.getPrototypeOf(newDog));

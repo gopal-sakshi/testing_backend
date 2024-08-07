@@ -26,7 +26,7 @@ A child of a prototype
 - nor is it an object with the same shape as its prototype. 
 - The child has a living reference to the prototype
     and any prototype property that doesn’t exist on the child is a one-way reference to a property of the same name on the prototype.
----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 
 
 https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
@@ -37,4 +37,6 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-d
 https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
 
 https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.khem2m91q
----------------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------------------

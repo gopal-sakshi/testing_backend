@@ -10,11 +10,11 @@ console.log(objectify('name', 'Tyler'));
 const myPropertyName = 'c'
 
 const myObject1 = {
-  a: 5,
-  b: 10,
-  [myPropertyName]: 15
+    a: 5,
+    b: 10,
+    [myPropertyName]: 15
 } 
-
+console.log("myObject1 =======> ", myObject1);
 console.log(myObject1.c);
 // ------------------------------------------------------------------------------------------
 

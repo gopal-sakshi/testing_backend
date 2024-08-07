@@ -15,9 +15,9 @@ let spf1:SetPoint = (a:number, b:number) => {
 } 
 spf1(p1.x, p1.y);
 
-let spf2:SetPoint = (a:number, b:string) => { 
-    console.log(a+b) 
-}             // string not assignable to number
+// let spf2:SetPoint = (a:number, b:string) => { 
+//     console.log(a+b) 
+// }             // string not assignable to number
 
 let spf3:SetPoint; 
 spf3 = function(l:number, m:number) { 
