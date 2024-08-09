@@ -20,3 +20,4 @@ app.get('/checkapi', async (req, res) => {
 
 
 // node --inspect=13332 oo_javascript/7_nodeJs/diagnostics11/debugger24.js
+// node --inspect-brk oo_javascript/2_nextLevel/this_summary/1_fn_invoked_from_function_object_class.js
