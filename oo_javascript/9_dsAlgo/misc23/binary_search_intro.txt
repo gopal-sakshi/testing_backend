@@ -10,7 +10,7 @@ Binary Search
 
 Hash Tables
 - specialized data structures designed for fast searching
-- efficient that binary search
+- efficient than binary search
 - But binary search solves wide range of problems
     finding the next-smallest element in the array relative to target
     finding the next-largest element in the array relative to target                    // if target is absent from array
