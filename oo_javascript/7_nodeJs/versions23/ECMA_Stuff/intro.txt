@@ -1,0 +1,12 @@
+JavaScript was invented in 1995
+- ECMAScript is the official name of the language.
+- So, JS versions mean
+    nothing but ECMA script versions
+---------------------------------------------------------------------------------------------------------------------------------
+
+Versions
+
+Earlier versions --------->     ES1, ES2, ES3, ES5 (2009), ES6 (2015)
+Later versions ---------->      ECMAScript 2016, ECMAScript 2017, ECMAScript 2018
+                                But, ECMAScript 2016 and 2017 was not called ES7 and ES8.
+---------------------------------------------------------------------------------------------------------------------------------

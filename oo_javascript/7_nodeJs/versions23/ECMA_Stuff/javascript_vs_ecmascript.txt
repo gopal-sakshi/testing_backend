@@ -1,0 +1,102 @@
+Ecma International
+- An organization that creates standards for technologies.
+- some person subbarao created QWERTY standard for keyboards
+    all keyboard manufacturers (dell, hp, zebronics) ----> manufacture their keyboards as per the standards set by subbarao
+- Ecma International is also like subbarao
+- some languages that conform to ECMA script standards are
+    ActionScript, Javascript
+
+ECMA-262
+- Ecma International gives out standards for everything
+    ECMA 261 ===> some broadband connection protocol thingy
+    ECMA 262 ===> scripting language (or) ECMAScript
+    ECMA 263 ===> call priority interruption
+
+
+A scripting language
+- A programming language designed specifically for acting on an existing entity or system
+- For a general idea of what makes a programming language a scripting language, 
+    consider the commands “walk”, “run”, “jump.” 
+    These actions require something to carry them out, perhaps a person, a dog, or a video game character. 
+    Without an actor to perform these commands, “walk”, “run”, “jump” wouldn’t make sense. 
+    This set of actions is analogous to a scripting language that focuses on manipulating an external entity.
+
+Javascript
+- A general purpose scripting language that conforms to the ECMAScript specification.
+- Javascript implements all of ECMA scripts specifications
+- but there are also non-ECMAScript language features in Javascript
+- JavaScript is a general-purpose scripting language that conforms to the ECMAScript specification. 
+- The ECMAScript specification is a blueprint for creating a scripting language. 
+    JavaScript is an implementation of that blueprint. 
+- On the whole, JavaScript implements the ECMAScript specification as described in ECMA-262. 
+
+
+A JavaScript engine
+- A program or interpreter that understands and executes JavaScript code.
+- JavaScript engines are commonly found in web browsers
+    V8 in Chrome, 
+    SpiderMonkey in Firefox,
+    Chakra in Edge
+- If we re-visit our example of the actions “walk”, “run”, “jump”
+    a JavaScript engine is the part of an “entity” that actually understands what these actions mean.
+- Two people may recognize the command “jump”, but one may react to the command faster 
+    because the person can understand and process the command faster than the other person. 
+- Similarly, two browsers can understand JavaScript code, 
+    but one runs it faster because its JavaScript engine is implemented more efficiently.
+- Even if many people speak English, some may know some words, expressions, syntax rules that others don’t, and vice versa. 
+- Browsers are the same way. 
+    Even though the JavaScript engines of browsers all understand JavaScript, 
+    some browsers have a greater understanding of the language than others. 
+    There are differences in the way browsers support the language.
+
+
+Releasing a new edition of ECMAScript does not mean that all JavaScript engines in existence suddenly have those new features. 
+- It is up to the groups or organizations who are responsible for JavaScript engines 
+    to be up-to-date about the latest ECMAScript specification, 
+    and to adopt its changes.
+- developers tend to ask questions like, 
+    What version of ECMAScript does this browser support? or 
+    Which ECMAScript features does this browser support? 
+- They want to know if Google, Mozilla, Microsoft have gotten around to updating their browsers’ JavaScript engines 
+    — for example V8, SpiderMonkey, Chakra, respectively 
+    — with the features described in the latest ECMAScript.
+- These days, there's not really such thing as 'the current version of JavaScript' 
+    the ECMAScript standards get created, and 
+    the browser vendors implement the features into their JS engines at their own pace. 
+    This pace varies wildly - as demonstrated by the very useful Kangax compatibility table.
+
+
+A JavaScript runtime
+- The environment in which the JavaScript code runs and is interpreted by a JavaScript engine.
+- The runtime provides the host objects that JavaScript can operate on and work with.
+- Applications make themselves available to JavaScript scripting by providing “host objects” at runtime. 
+    For the client side
+        the JavaScript runtime would be the web browser, 
+        where host objects like windows and HTML documents are made available for manipulation.
+        ___ The window and document objects are not actually a part of the core JavaScript language. 
+        ___ They are Web APIs, objects provided by a browser acting as JavaScript’s host environment. 
+    For the server side
+        the JavaScript runtime is Node.js. 
+        Server-related host objects such as the file system, processes, requests are provided in Node.js
+    
+
+Babel
+- A transpiler that can convert ES6 code to ES5 code.
+- Developers can use the shiny new features that come with ES6, but may be concerned with cross-browser compatibility for their web apps. 
+- At the time of the writing of this article, Edge & Internet Explorer do not fully support features from the ES6 specification.
+    Concerned developers can use Babel to convert their ES6 code to a functionally equivalent version that only use ES5 features. 
+    All of the major browsers fully support ES5, so they can run the code without any issues.
+- One of the biggest changes from ES5 is that 
+    JavaScript written based on ES6 specification is not able to be compiled directly in browsers. 
+    We need to use a transpiler called Babel.js to produce compatible JavaScript that the older browsers can read.
+    ???????????
+
+
+https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5/
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
