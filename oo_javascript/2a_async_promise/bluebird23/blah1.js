@@ -5,5 +5,5 @@ function executeMe() {
 
 module.exports = {
     executeMe: executeMe,
-    whatIsThis: whatIsThis
+    whatIsThis: "whatIsThis ==> to see module.exports Obj"
 }

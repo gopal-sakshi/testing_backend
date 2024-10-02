@@ -1,5 +1,6 @@
 /*
     node --inspect oo_javascript/7_nodeJs/diagnostics11/inspect23.js
+    memory tab ??? 
     chrome dev tools --> green dot ---> take snapshot
 */
 

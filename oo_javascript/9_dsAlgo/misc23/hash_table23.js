@@ -6,7 +6,7 @@ class HashTable {
         this.table = new Array(127);
         this.size = 0;
     }
-
+    print23() { console.log("hash entries ===> ", this.table); }
     hash(key) {
         let hash = 0;
         for (let i = 0; i < key.length; i++) { hash += key.charCodeAt(i); }
@@ -15,6 +15,7 @@ class HashTable {
 
     set(key, value) {
         const index = this.hash(key);
+        console.log("hash for key ===> ", key, index)
         this.table[index] = [key, value];
         this.size++;
     }
@@ -36,3 +37,4 @@ class HashTable {
     }
 }
 
+module.exports = HashTable

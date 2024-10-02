@@ -1,5 +1,7 @@
 function multiply(num1, num2) {
-    return num2 !== undefined ? num1 * num2 : multiply.bind(null, num1);
+    return num2 !== undefined ? 
+        num1 * num2 : 
+        multiply.bind(null, num1);
 }
 
 console.log(multiply(3,6));

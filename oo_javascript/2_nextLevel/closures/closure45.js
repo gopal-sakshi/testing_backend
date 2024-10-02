@@ -1,11 +1,14 @@
 function outerFunction() {
-    const x = Date.now();
+    const x = Date.now();       // x value doesnt change in the entire duration this node program runs
     return () => {
         console.log(x);
     }
 }
   
 const inner = outerFunction();
+inner();
+inner();
+inner();
 inner();
 // console.log(x)   Throws reference error
 
